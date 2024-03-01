@@ -11,21 +11,21 @@
 
 <script>
 export default {
-  name: "App",
+  name: 'App',
   data: () => ({
-    menuOpen: false
+    menuOpen: false,
   }),
   computed: {
     menuState() {
-      return this.$store.getters.isMenuOpen;
-    }
+      return this.$store.getters.isMenuOpen
+    },
   },
   mounted() {
     this.$aos.init({
-      offset: 100
-    });
-  }
-};
+      offset: 100,
+    })
+  },
+}
 </script>
 
 <style lang="sass"></style>

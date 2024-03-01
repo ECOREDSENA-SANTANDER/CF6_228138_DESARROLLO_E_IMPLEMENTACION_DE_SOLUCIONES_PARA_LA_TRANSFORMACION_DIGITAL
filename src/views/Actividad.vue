@@ -25,8 +25,8 @@
 
 <script>
 export default {
-  name: "Actividad"
-};
+  name: 'Actividad',
+}
 </script>
 
 <style lang="sass"></style>
