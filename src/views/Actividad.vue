@@ -10,12 +10,12 @@
             img(src="@/assets/template/falso-verdadero.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
-          h2 Nombre de la actividad
-        p.mb-4 #[b Objetivo] 
+          h2 La infraestructura y los servicios tecnológicos
+        p.mb-4 #[b Fortalecer conceptos y generalidades para la construcción de infraestructura y servicios tecnológicos, con base en los contenidos de este componente formativo.] 
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0
-              p.fw-bold.mb-0 Tipo de actividad
+              p.fw-bold.mb-0 Completar
             .col-auto
               a.boton.boton--b(:href="obtenerLink('/actividades/actividad.html')" target="_blank")
                 span Realizar
@@ -25,8 +25,8 @@
 
 <script>
 export default {
-  name: 'Actividad',
-}
+  name: "Actividad"
+};
 </script>
 
 <style lang="sass"></style>

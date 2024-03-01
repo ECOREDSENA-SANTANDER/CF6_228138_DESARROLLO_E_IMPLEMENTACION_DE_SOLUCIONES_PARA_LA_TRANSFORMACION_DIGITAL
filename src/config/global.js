@@ -1,228 +1,455 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: "Infraestructura y servicios tecnológicos",
+    descripcionCurso:
+      "Este componente formativo aborda el uso de tecnologías emergentes y la creación de productos y servicios, por parte de empresas u organizaciones, para el crecimiento de la sociedad. Con su estudio responsable, el aprendiz conocerá a profundidad, generalidades sobre tecnologías como IOT blockchain, machine learning, deep learning y los grandes desarrollos que traen: impresoras 3D, embriones artificiales, redes degenerativas, entre otras.",
+    imagenBannerPrincipal: require("@/assets/curso/portada/banner-princiapal.svg"),
+    fondoBannerPrincipal: require("@/assets/curso/portada/fondo-banner-principal.png"),
     imagenesDecorativasBanner: [
       {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+        clases: ["banner-principal-decorativo-1", "d-none", "d-lg-block"],
+        imagen: require("@/assets/curso/portada/banner-principal-decorativo-1.svg")
       },
       {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
+        clases: ["banner-principal-decorativo-2"],
+        imagen: require("@/assets/curso/portada/banner-principal-decorativo-2.svg")
+      }
+    ]
   },
   menuPrincipal: {
     menu: [
       {
-        nombreRuta: 'inicio',
-        icono: 'fas fa-home',
-        titulo: 'Volver al inicio',
+        nombreRuta: "inicio",
+        icono: "fas fa-home",
+        titulo: "Volver al inicio"
       },
       {
-        nombreRuta: 'introduccion',
-        icono: 'fas fa-info-circle',
-        titulo: 'Introducción',
-        desarrolloContenidos: true,
+        nombreRuta: "introduccion",
+        icono: "fas fa-info-circle",
+        titulo: "Introducción",
+        desarrolloContenidos: true
       },
       {
-        nombreRuta: 'tema1',
-        numero: '1',
-        titulo: 'Titulo de primer nivel',
+        nombreRuta: "tema1",
+        numero: "1",
+        titulo: "Infraestructura de hardware y software",
         desarrolloContenidos: true,
         subMenu: [
           {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
+            numero: "1.1",
+            titulo: "Tipos de software",
+            hash: "t_1_1"
           },
-        ],
+          {
+            numero: "1.2",
+            titulo: "Escalabilidad",
+            hash: "t_1_2"
+          },
+          {
+            numero: "1.3",
+            titulo: "Licenciamiento",
+            hash: "t_1_3"
+          },
+          {
+            numero: "1.4",
+            titulo: "Marcos de referencia y buenas prácticas",
+            hash: "t_1_4"
+          }
+        ]
       },
 
       {
-        nombreRuta: 'tema2',
-        numero: '2',
-        titulo: 'Titulo de primer nivel',
-        desarrolloContenidos: true,
+        nombreRuta: "tema2",
+        numero: "2",
+        titulo: "Redes de datos",
+        desarrolloContenidos: true
       },
       {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Titulo de primer nivel',
+        nombreRuta: "tema3",
+        numero: "3",
+        titulo: "Tecnologías y conceptos básicos de networking",
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: "3.1",
+            titulo: " Conceptos básicos Networking",
+            hash: "t_3_1"
+          }
+        ]
       },
+      {
+        nombreRuta: "tema4",
+        numero: "4",
+        titulo: "Arquitectura y equipos de cómputo, clientes y servidores",
+        desarrolloContenidos: true
+      },
+      {
+        nombreRuta: "tema5",
+        numero: "5",
+        titulo: "Internet de las cosas (IoT)",
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: "5.1",
+            titulo: " Aplicaciones",
+            hash: "t_5_1"
+          },
+          {
+            numero: "5.2",
+            titulo: " Desarrollos",
+            hash: "t_5_2"
+          }
+        ]
+      },
+      {
+        nombreRuta: "tema6",
+        numero: "6",
+        titulo: "Proyectos de TI",
+        desarrolloContenidos: true
+      }
     ],
     subMenu: [
       {
-        icono: 'fas fa-sitemap',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
-        desarrolloContenidos: true,
+        icono: "fas fa-sitemap",
+        titulo: "Síntesis",
+        nombreRuta: "sintesis",
+        desarrolloContenidos: true
       },
       {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
+        nombreRuta: "actividad",
+        icono: "far fa-question-circle",
+        titulo: "Actividad didáctica",
+        desarrolloContenidos: true
       },
       {
-        nombreRuta: 'glosario',
-        icono: 'fas fa-sort-alpha-down',
-        titulo: 'Glosario',
+        nombreRuta: "glosario",
+        icono: "fas fa-sort-alpha-down",
+        titulo: "Glosario"
       },
       {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
+        nombreRuta: "complementario",
+        icono: "far fa-folder-open",
+        titulo: "Material complementario"
       },
       {
-        icono: 'fas fa-book',
-        titulo: 'Referencias bibliográficas',
-        nombreRuta: 'referencias',
+        icono: "fas fa-book",
+        titulo: "Referencias bibliográficas",
+        nombreRuta: "referencias"
       },
       {
-        icono: 'fas fa-file-pdf',
-        titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        icono: "fas fa-file-pdf",
+        titulo: "Descargar PDF",
+        download: "downloads/prueba.pdf"
       },
       {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
+        icono: "fas fa-download",
+        titulo: "Descargar material",
+        download: "downloads/material.zip"
       },
       {
-        icono: 'far fa-registered',
-        titulo: 'Créditos',
-        nombreRuta: 'creditos',
-      },
-    ],
+        icono: "far fa-registered",
+        titulo: "Créditos",
+        nombreRuta: "creditos"
+      }
+    ]
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: "Cableado estructurado",
+      referencia:
+        "Joskowicz, J. (2013). Cableado Estructurado.Universidad de la República Montevideo, URUGUAY",
+      tipo: "Documento PDF",
+      link:
+        "https://iie.fing.edu.uy/ense/asign/ccu/material/docs/Cableado%20Estructurado.pdf"
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: "Conceptos básicos y componentes de una red",
+      referencia:
+        "Pérez, E. H. (2003). Tecnologías y redes de transmisión de datos. Editorial Limusa.",
+      tipo: "E-Libro",
+      link:
+        "https://books.google.es/books?id=RmYvfnMKrsgC&printsec=frontcover#v=onepage&q&f=false"
     },
+    {
+      tema: "Protocolos de comunicación",
+      referencia:
+        "Redes Informáticas - Nociones fundamentales (7ª edición) - (Protocolos, Arquitecturas, Redes inalámbricas, Virtualización, Seguridad, IPv6...) Editorial ENI",
+      tipo: "E-Libro",
+      link:
+        "https://www.ediciones-eni.com/open/mediabook.aspx?idR=9a76703d59b0fd180004f0cd38f2c537"
+    },
+    {
+      tema: "Arquitectura y equipos de cómputo, clientes y servidores",
+      referencia:
+        "Página relacionada con los proveedores de servicios en la nube. Accedida el 27 de diciembre de 2021 Public Cloud Services Comparison, comparecloud.in",
+      tipo: "Página web",
+      link: "https://comparecloud.in"
+    },
+    {
+      tema: "Tipos de contratos",
+      referencia:
+        "Ministerio de Comercio, Industria y Turismo. (2013). Decreto Número 1317 del 27 de junio de 2013. https://www.mintic.gov.co/arquitecturati/630/articles-9011_documento.pdf",
+      tipo: "PDF",
+      link:
+        "https://www.mintic.gov.co/arquitecturati/630/articles-9011_documento.pdf "
+    },
+    {
+      tema: "Contratación",
+      referencia:
+        "República de Colombia, Ministerio de tecnologías de la información y las comunicaciones.  (2012). Ley 1581 de 2012. https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=49981",
+      tipo: "PDF",
+      link:
+        "http://www.oas.org/es/sla/ddi/docs/Gu%C3%ADa%20para%20clientes%20que%20contraten%20servicios%20de%20Cloud%20Computing%20-%20AGPD.pdf"
+    },
+    {
+      tema: "Contratación",
+      referencia:
+        "República de Colombia, Ministerio de tecnologías de la información y las comunicaciones.  (2012). Ley 1581 de 2012. https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=49981",
+      tipo: "PDF",
+      link:
+        "https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=49981"
+    }
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: "Adaptador de red:",
+      significado: "dispositivo que añade funcionalidad de red a su equipo."
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: "Ancho de banda:",
+      significado:
+        "capacidad de transmisión de un dispositivo o red determinado"
     },
+    {
+      termino: "Bit (dígito binario):",
+      significado: "unidad más pequeña de información de una máquina."
+    },
+    {
+      termino: "Comunicación",
+      significado:
+        "transmisión y recepción de datos entre dos o más actores con el fin de transmitir o recibir mensajes u opiniones distintas."
+    },
+    {
+      termino: "Conmutador",
+      significado:
+        "dispositivo que es el punto central de conexión de equipos y otros dispositivos de una red, de forma que los datos puedan transmitirse a velocidad de transmisión completa."
+    },
+    {
+      termino: "Contratación",
+      significado:
+        "según la RAE, “Pacto o convenio, oral o escrito, entre partes que se obligan sobre materia o cosa determinada, y a cuyo cumplimiento pueden ser compelidas”."
+    },
+    {
+      termino: "Cloud Computing",
+      significado:
+        "computación en la nube, conocida también como servicios en la nube, consiste en el uso de una red de servidores remotos alojados en Internet para almacenar, administrar y procesar datos e información, en lugar de un servidor local o una computadora personal."
+    },
+    {
+      termino: "Criptografía",
+      significado: "arte de escribir con clave secreta o de un modo enigmático."
+    },
+    {
+      termino: "Criptomoneda",
+      significado: "son monedas digitales que se intercambian online."
+    },
+    {
+      termino: "DHCP (Protocolo de configuración dinámica de host):",
+      significado:
+        "protocolo que permite a un dispositivo de una red, conocido como servidor DHCP, asigna direcciones IP temporales a otros dispositivos de red y normalmente equipos."
+    },
+    {
+      termino: "Dirección IP",
+      significado:
+        "dirección que se utiliza para identificar un equipo o dispositivo en una red."
+    },
+    {
+      termino: "Enrutador",
+      significado:
+        "dispositivo de red que conecta redes múltiples, tales como una red local e Internet."
+    },
+    {
+      termino: "Migración",
+      significado:
+        "en tecnología, consiste en el desplazamiento del software, aplicaciones o sistemas de información de una infraestructura tecnológica a otra, por ejemplo, la migración de una aplicación de un servidor local a un servidor en la nube."
+    },
+    {
+      termino: "Proveedor",
+      significado: "sujeto o entidad que suministra un producto o servicios."
+    },
+    {
+      termino: "Red",
+      significado:
+        "serie de equipos o dispositivos conectados con el fin de compartir datos, almacenamiento y la transmisión entre usuarios."
+    },
+    {
+      termino: "TCP (Transport Control Protocol):",
+      significado:
+        "protocolo de red para la transmisión de datos que requiere la confirmación del destinatario de los datos enviados."
+    },
+    {
+      termino: "Topología",
+      significado: "distribución física de una red."
+    }
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia: "Allcode.com (2021). 10 Top Cloud Providers in 2021",
+      link: "https://allcode.com/cloud-providers/"
     },
+    {
+      referencia:
+        "Claranet.es (2021). 6 enfoques para afrontar la migración a la nube. ",
+      link:
+        ". https://www.claranet.es/blog/6-enfoques-para-afrontar-la-migracion-a-la-nube"
+    },
+    {
+      referencia: "Corona, A. E. (2004). Protocolos tcp/ip de internet.",
+      link: "https://basicamente18.wixsite.com/todored/historia"
+    },
+    {
+      referencia: "La red y todo sobre ella. ",
+      link: "https://basicamente18.wixsite.com/todored/historia"
+    },
+    {
+      referencia:
+        "Moro Vallina, M. (2013). Infraestructuras de redes de datos y sistemas de telefonía. Editorial Paraninfo.",
+      link: ""
+    },
+    {
+      referencia:
+        "Pérez, E. H. (2003). Tecnologías y redes de transmisión de datos. Editorial Limusa.",
+      link: ""
+    },
+    {
+      referencia: "RAE / Real Academia Española (2021). Contratar",
+      link: "https://dle.rae.es/contratar "
+    },
+    {
+      referencia: "SANTOS GARCÍA (2012).  Comunicación oral y escrita",
+      link:
+        "http://190.57.147.202:90/jspui/bitstream/123456789/650/1/Comunicacion_oral_y_escrita.pdf"
+    },
+    {
+      referencia:
+        "SECRETARIA GENERAL DE LA ORGANIZACIÓN DE LOS ESTADOS AMERICANOS (1992). Honduras - Proyecto de Manejo de los Recursos Naturales Renovables de la Cuenca del Embalse el Cajón - Estudio de Factibilidad. Costos y financiamiento. ",
+      link: "https://www.oas.org/dsd/publications/Unit/oea15s/ch09.htm"
+    },
+    {
+      referencia:
+        "Stallings, W., Stallings, W., Tanenbaum, A., Fall, K. R., y Stevens, W. R. (2000). Comunicaciones y Redes de Computadores, 7ª Edición. Pearson Prentice-Hall",
+      link: ""
+    }
   ],
   creditos: [
     {
-      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      titulo: "AUTORES",
       autores: [
         {
-          nombre: 'Milady Tatiana Villamil Castellanos',
-          cargo: 'Responsable del Ecosistema',
-          centro: 'Dirección General',
+          nombre: "Cesar Antonio Villamizar Núñez",
+          cargo: "Experto Temático",
+          centro: "Regional Norte de Santander - Centro CIES",
+          fecha: "Septiembre,2022"
         },
         {
-          nombre: 'Olga Constanza Bermúdez Jaimes',
-          cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-      ],
-    },
-    {
-      titulo: 'CONTENIDO INSTRUCCIONAL',
-      autores: [
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-      ],
-    },
-    {
-      titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
-      autores: [
-        {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: "Giovanna Andrea Escobar Ospina",
+          cargo: "Diseñador Instruccional",
+          centro: "Regional Norte de Santander - Centro CIES",
+          fecha: "Septiembre,2022"
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: "Fabián Leonardo Correa Díaz",
+          cargo: "Diseñador Instruccional",
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            "Regional Norte de Santander. Centro de la Industria, la Empresa y los Servicios",
+          fecha: "Septiembre,2022"
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: "Leonardo Castellanos Rodriguez",
+          cargo: "Ingeniero desarrollador Full Stack",
+          centro: "Regional Santander. San Gil"
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Actividad Didáctica',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-      ],
-    },
-    {
-      titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
-      autores: [
-        {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: "Silvia Milena Sequeda Cárdenas",
+          cargo: "Asesor metodológico y pedagógico",
+          centro: "Regional Distrito Capital. Centro de Diseño y Metrología. ",
+          fecha: "Septiembre,2022"
         },
         {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          nombre: "Rafael Neftalí Lizcano Reyes",
+          cargo: "Responsable Equipo Desarrollo Curricular",
           centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+            "Regional Santander. Centro Industrial del Diseño y la Manufactura",
+          fecha: "Septiembre,2022"
         }
-      ],
+      ]
     },
+    {
+      titulo: "CONTENIDO INSTRUCCIONAL",
+      autores: [
+        {
+          nombre: "Nombre responsable",
+          cargo: "Nombre del rol",
+          centro: "Centro de Servicios de Salud - Regional Antioquia"
+        }
+      ]
+    },
+    {
+      titulo: "DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES",
+      autores: [
+        {
+          nombre: "Nombre responsable",
+          cargo: "Diseñador de Contenidos Digitales",
+          centro: "Centro de Servicios de Salud - Regional Antioquia"
+        },
+        {
+          nombre: "Nombre responsable",
+          cargo: "Desarrollador Fullstack",
+          centro: "Centro de Servicios de Salud - Regional Antioquia"
+        },
+        {
+          nombre: "Nombre",
+          cargo: "Animador y Producción audiovisual",
+          centro: "Centro de Servicios de Salud - Regional Antioquia"
+        },
+        {
+          nombre: "Nombre",
+          cargo: "Actividad Didáctica",
+          centro: "Centro de Servicios de Salud - Regional Antioquia"
+        }
+      ]
+    },
+    {
+      titulo: "VALIDACIÓN RECURSO EDUCATIVO DIGITAL",
+      autores: [
+        {
+          nombre: "Luis Gabriel Urueta Alvarez",
+          cargo: "Validador de Recursos Educativos Digitales",
+          centro: "Centro de Servicios de Salud - Regional Antioquia"
+        },
+        {
+          nombre: "Jaime Hernan Tejada",
+          cargo: "Validador de Recursos Educativos Digitales",
+          centro: "Centro de Servicios de Salud - Regional Antioquia"
+        },
+        {
+          nombre: "Daniel Ricardo Mutis Gómez",
+          cargo: "Evaluador para contenidos inclusivos y accesibles",
+          centro: "Centro de Servicios de Salud - Regional Antioquia"
+        },
+        {
+          nombre: "Margarita Marcela Medrano",
+          cargo: "Evaluador para contenidos inclusivos y accesibles",
+          centro: "Centro de Servicios de Salud - Regional Antioquia"
+        }
+      ]
+    }
   ],
   creditosAdicionales: {
     imagenes:
       'Fotografías y vectores tomados de <a href="https://www.freepik.es/" target="_blank">www.freepik.es</a>, <a href="https://www.shutterstock.com/" target="_blank">www.shutterstock.com</a>, <a href="https://unsplash.com/" target="_blank">unsplash.com </a>y <a href="https://www.flaticon.com/" target="_blank">www.flaticon.com</a>',
     creativeCommons:
-      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>',
-  },
+      'Licencia creative commons CC BY-NC-SA<br><a href="https://creativecommons.org/licenses/by-nc-sa/2.0/" target="_blank">ver licencia</a>'
+  }
   // creditosInicio: [
   //   {
   //     titulo: 'En alianza',
@@ -244,4 +471,4 @@ export default {
   //     contenido: [require('@/assets/template/santander.jpg')],
   //   },
   // ],
-}
+};
