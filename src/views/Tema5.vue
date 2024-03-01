@@ -137,19 +137,20 @@
 
 <script>
 export default {
-  name: "Tema5",
+  name: 'Tema5',
+  components: {},
   data: () => ({
     // variables de vue
   }),
   mounted() {
     this.$nextTick(() => {
-      this.$aosRefresh();
-    });
+      this.$aosRefresh()
+    })
   },
   updated() {
-    this.$aosRefresh();
-  }
-};
+    this.$aosRefresh()
+  },
+}
 </script>
 
 <style lang="sass"></style>

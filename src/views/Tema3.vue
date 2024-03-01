@@ -61,20 +61,22 @@
 </template>
 
 <script>
+<script>
 export default {
-  name: "Tema3",
+  name: 'Tema3',
+  components: {},
   data: () => ({
     // variables de vue
   }),
   mounted() {
     this.$nextTick(() => {
-      this.$aosRefresh();
-    });
+      this.$aosRefresh()
+    })
   },
   updated() {
-    this.$aosRefresh();
-  }
-};
+    this.$aosRefresh()
+  },
+}
 </script>
 
 <style lang="sass"></style>

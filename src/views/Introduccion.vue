@@ -23,11 +23,11 @@
 
 <script>
 export default {
-  name: "Introduccion",
+  name: 'Introduccion',
   data: () => ({
     // variables de vue
-  })
-};
+  }),
+}
 </script>
 
 <style lang="sass"></style>

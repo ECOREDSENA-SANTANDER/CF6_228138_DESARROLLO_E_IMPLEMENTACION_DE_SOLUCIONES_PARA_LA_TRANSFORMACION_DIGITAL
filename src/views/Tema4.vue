@@ -80,19 +80,20 @@
 
 <script>
 export default {
-  name: "Tema3",
+  name: 'Tema4',
+  components: {},
   data: () => ({
     // variables de vue
   }),
   mounted() {
     this.$nextTick(() => {
-      this.$aosRefresh();
-    });
+      this.$aosRefresh()
+    })
   },
   updated() {
-    this.$aosRefresh();
-  }
-};
+    this.$aosRefresh()
+  },
+}
 </script>
 
 <style lang="sass"></style>
