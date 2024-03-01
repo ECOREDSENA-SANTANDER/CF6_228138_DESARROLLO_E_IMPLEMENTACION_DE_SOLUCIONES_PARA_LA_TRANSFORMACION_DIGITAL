@@ -61,7 +61,6 @@
 </template>
 
 <script>
-<script>
 export default {
   name: 'Tema3',
   components: {},
