@@ -1,1 +1,1 @@
-module.exports = "Infraestructura y servicios tecnológicos";
+module.exports = 'Infraestructura y servicios tecnológicos'

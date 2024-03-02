@@ -7,14 +7,17 @@
           span 1
         h1 Fundamentos de redes y <i>networking</i>
 
-      .bloque1.p-0
-        .bloque-texto-b.color-secundario.p4.m0(data-aos="fade-left")
-          .bloque-texto-b__texto
-            .row.justify-content-center.align-items-center.d-flex
-              .col-lg-10.col-12.mb-4.mg-lg-0
-                p Una infraestructura habitual de Tecnologías de la información (TI), está conformada por los dispositivos usuales de hardware y software: instalaciones, centros de datos, servidores, computadoras de escritorio de hardware de red y varios recursos de software de aplicaciones institucionales. <br><br>Se deben tener claras estas dos definiciones:
-              .col-lg-2.col-md-5.col-8.px-5
-                img.mb-0(alt="" src="@/assets/curso/temas/tema1/img01.svg") 
+      .topSquare02.clr--Yellow.mb-5(data-aos="fade-left")
+        .row
+          .col-lg-1.col-auto
+            figure
+              img(src="@/assets/curso/temas/tema1/img01.svg", alt="alt").img75.m-auto
+          .col-lg-11
+            p.mb-0 Una infraestructura habitual de Tecnologías de la información (TI), está conformada por los dispositivos usuales de hardware y software: instalaciones, centros de datos, servidores, computadoras de escritorio de hardware de red y varios recursos de software de aplicaciones institucionales.
+      
+      .row.justify-content-center.align-items-center(data-aos="fade-rigth")
+        .col-lg-12.col-8
+            p Se deben tener claras estas dos definiciones:
 
       .row.justify-content-center.align-items-center(data-aos="fade-rigth")
         .col-lg-12.col-8
@@ -204,16 +207,18 @@
           Separador
       #t_1_3.titulo-segundo.color-acento-contenido
         h2 1.3 Licenciamiento
-      .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
-        .bloque1.p-0
-        .bloque-texto-b.color-secundario.p4.m0(data-aos="fade-left")
-          .bloque-texto-b__texto
-            .row.justify-content-center.align-items-center.d-flex
-              .col-lg-10.col-12.mb-4.mg-lg-0
-                p Las licencias de software son un contrato entre el autor de un software informático y los usuarios que lo utilizan. En ellas se instauran las cláusulas y condiciones por cumplir para poder usar ese programa. Cada usuario que lo opera y descarga, instala, copia o lo utiliza, debe admitir esas condiciones.<br>
-              .col-lg-2.col-md-5.col-8.px-5
-                img.mb-0(alt="" src="@/assets/curso/temas/tema1/icono1.3.svg") 
-              
+      
+      .topSquare02.clr--Yellow.mb-5(data-aos="fade-left")
+        .row
+          .col-lg-1.col-auto
+            figure
+              img(src="@/assets/curso/temas/tema1/icono1.3.svg", alt="alt").img75.m-auto
+          .col-lg-11
+            p.mb-0 Las licencias de software son un contrato entre el autor de un software informático y los usuarios que lo utilizan. En ellas se instauran las cláusulas y condiciones por cumplir para poder usar ese programa. Cada usuario que lo opera y descarga, instala, copia o lo utiliza, debe admitir esas condiciones.
+      
+      .row.justify-content-center.align-items-center(data-aos="fade-rigth")
+        .col-lg-12.col-8
+            p El valor de una licencia depende de muchas variables. En función de tal valor se deberán tener en cuenta aspectos como:
          
       .fondo1.p-4.mb-0
         .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
@@ -239,7 +244,7 @@
       p Dentro de los marcos de referencias en el software, están los componentes de la arquitectura de diseño y operabilidad que maneja el mismo.<br>
 
       p En todos los proyectos de TI, se debe evaluar, direccionar y monitorear áreas como: alcance, costos, tiempo, equipo humano, compras, calidad, comunicación, manejo de los interesados, integración, entre otros.
-      row.justify-content-center.align-items-center(data-aos="fade-right")
+      .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-4.col-12
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
