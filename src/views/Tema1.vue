@@ -45,51 +45,48 @@
 
       p.mb-5 <br>Por su parte, las estructuras de software también tienen algunas características y componentes específicos, como son:
 
-
-      .row.justify-content-center(data-aos="fade-center")
-        .col-lg-2.col-8.d-flex
-          .px-lg-5.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#ffe5cf; border-radius:15px")
-            img.mb-5(style="width: 75px" alt="" src="@/assets/curso/temas/tema1/img16.svg")
+      .row.justify-content-center(data-aos="fade-left")
+        .col-lg-2.col-12.d-flex
+          .px-lg-2.py-lg-3.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#FFF1EF; border-radius:15px")
+            img.mb-5(style="width: 85px" alt="" src="@/assets/curso/temas/tema1/img16.svg")
             h4.mb-4 Corrección
             ul.lista-ul--color.mb-0
-              //li.mb-0
-              p.mb-0 Que cumpla con su objetivo.
-
-      .row.justify-content-center(data-aos="fade-center")
-        .col-lg-2.col-8.d-flex
-          .px-lg-5.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#ffe5cf; border-radius:15px")
-            img.mb-5(style="width: 75px" alt="" src="@/assets/curso/temas/tema1/img17.svg")
-            h4.mb-4 Usabilidad 
+              li.mb-0
+                p.mb-0 Que cumpla con su objetivo.
+                .row.justify-content-center(data-aos="fade-left")
+        .col-lg-2.col-12.d-flex
+          .px-lg-2.py-lg-3.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#FFF1EF; border-radius:15px")
+            img.mb-5(style="width: 85px" alt="" src="@/assets/curso/temas/tema1/img17.svg")
+            h4.mb-4 Usabilidad
             ul.lista-ul--color.mb-0
-              //li.mb-0
-              p.mb-0 Que sea fácil de aprender.
-
-      .row.justify-content-center(data-aos="fade-center")
-        .col-lg-2.col-8.d-flex
-          .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#ffe5cf; border-radius:15px")
-            img.mb-5(style="width: 75px" alt="" src="@/assets/curso/temas/tema1/img18.svg")
+              li.mb-0
+                p.mb-0 Que sea fácil de aprender.
+                .row.justify-content-center(data-aos="fade-left")
+        .col-lg-2.col-12.d-flex
+          .px-lg-2.py-lg-3.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#FFF1EF; border-radius:15px")
+            img.mb-5(style="width: 85px" alt="" src="@/assets/curso/temas/tema1/img18.svg")
             h4.mb-4 Seguridad
             ul.lista-ul--color.mb-0
-              //li.mb-0
-              p.mb-0 Que sea resistente a ataques externos.
-
-      .row.justify-content-center(data-aos="fade-center")
-        .col-lg-2.col-8.d-flex
-          .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#ffe5cf; border-radius:15px")
-            img.mb-5(style="width: 75px" alt="" src="@/assets/curso/temas/tema1/img19.svg")
-            h4.mb-4 Flexibilidad 
+              li.mb-0
+                p.mb-0 Que sea resistente a ataques externos.
+                .row.justify-content-center(data-aos="fade-center")
+        .col-lg-2.col-12.d-flex
+          .px-lg-2.py-lg-3.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#FFF1EF; border-radius:15px")
+            img.mb-5(style="width: 85px" alt="" src="@/assets/curso/temas/tema1/img19.svg")
+            h4.mb-4 Flexibilidad
             ul.lista-ul--color.mb-0
-              //li.mb-0
-              p.mb-0 Que pueda ser reformado por los desarrolladores.
-
-      .row.justify-content-center(data-aos="fade-center")
-        .col-lg-2.col-8.d-flex
-          .px-lg-2.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#ffe5cf; border-radius:15px")
-            img.mb-5(style="width: 75px" alt="" src="@/assets/curso/temas/tema1/img20.svg")
+              li.mb-0
+                p.mb-0 Que pueda ser reformado por los desarrolladores.
+                .row.justify-content-center(data-aos="fade-center")
+        .col-lg-2.col-12.d-flex
+          .px-lg-2.py-lg-3.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#FFF1EF; border-radius:15px")
+            img.mb-5(style="width: 85px" alt="" src="@/assets/curso/temas/tema1/img20.svg")
             h4.mb-4 Portabilidad
             ul.lista-ul--color.mb-0
-              //li.mb-0
-              p.mb-0 Que pueda ser manejado en diversos equipos.
+              li.mb-0
+                p.mb-0 Que pueda ser manejado en diversos equipos.
+      
+
 
       .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
         .col-lg-10.col-12.mb-4.mg-lg-0
@@ -176,9 +173,13 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-7.col-12
           p Escalar hacia lo alto en un sistema, representa una migración de todo el sistema a un nuevo hardware que sea más potente y eficaz que el presente. Una vez se ha configurado el sistema futuro, se realizan unas validaciones y se realizan las copias de seguridad, poniéndose en funcionamiento.
-          p.mb-lg-0.mb-3 Las aplicaciones que estén trabajando bajo la arquitectura de hardware antigua, no sufren con la migración (el impacto en el código es mínimo).<br><br>En relación con la escalabilidad, es importante tener en cuenta que:
-        .col-lg-5.col-8
+          p.fondo-amarillo <br>Las aplicaciones que estén trabajando bajo la arquitectura de hardware antigua, no sufren con la migración (el impacto en el código es mínimo).<br>
+        .col-lg-5.col-12
           img.mb-0(alt="" src="@/assets/curso/temas/tema1/1.2Escalabilidad.png")
+      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+        .col-lg-12.col-12 
+          p En relación con la escalabilidad, es importante tener en cuenta que:
+       
       
       .row.justify-content-center(data-aos="fade-center")
         .col-lg-3.col-12.d-flex

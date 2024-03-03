@@ -18,7 +18,7 @@
         .video.mb-1
           iframe(width="1280" height="720" src="https://youtube.com/embed/Zx2p6cloSws" title="Infraestructura y servicios tecnológicos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Infraestructura y servicios tecnológicos
-
+        
   </template>
 
 <script>

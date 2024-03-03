@@ -158,6 +158,24 @@
       .row.justify-content-center.mb-4(data-aos="zoom-in") 
         .col-lg-2.col-auto
         p Las redes están clasificadas de diferentes maneras teniendo en cuenta el número de dispositivos conectados y la distancia entre los mismos, el tipo de conexión o la tecnología utilizada, esta clasificación se detalla a continuación:
+
+         Separador
+        #t_2_4.titulo-segundo.color-acento-contenido
+         h2 2.6 Topologías de redes
+
+         Separador
+        #t_2_4.titulo-segundo.color-acento-contenido
+         h2 2.7 Modelo TCP/IP y OSI 
+
+         Separador
+        #t_2_4.titulo-segundo.color-acento-contenido
+         h2 2.8 Tecnología Ethernet
+    
+      .mb-4.d-flex
+        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Objetivos
+          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 166px; position: absolute" data-aos="fade-left")
+
 </template>
 
 <script>

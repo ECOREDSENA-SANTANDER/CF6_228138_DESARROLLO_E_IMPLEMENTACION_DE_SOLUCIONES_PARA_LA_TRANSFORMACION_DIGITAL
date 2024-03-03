@@ -27,9 +27,11 @@
               .col-lg-10.col-12
                   p Se puede definir como un sistema de apoyo para compartir información y servicios entre usuarios, dispositivos, terminales y grupos de trabajo que pertenecen a redes comunes o independientes. A continuación, se abordan los conceptos básicos de Networking.
 
-        .row.justify-content-center.align-items-center.mb-4(data-aos="fade-center")
-        .col-lg-2.col-md-5.col-8.px-35
-          img.mb-lg-0.mb-0(src="@/assets/curso/temas/tema3/Internet.svg")
+      .mb-4.d-flex
+        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Conexión a internet
+          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 266px; position: absolute" data-aos="fade-left")
+      .row.justify-content-center.align-items-center.mb-4(data-aos="fade-center")
         .col-lg-04.col-12.mb-4-lg-0
           p <br>Dentro de los requisitos necesarios para la conexión a internet se tienen, conexión física utilizando una tarjeta adaptadora, tal como un módem o una NIC, desde un PC a una red, una conexión lógica que aplica estándares denominados protocolos, unas aplicaciones encargadas de interpretar datos y mostrar la información en un formato comprensible como los navegadores Web Google Chrome, Microsoft Edge, Firefox, entre otros.<br>
 
@@ -38,9 +40,10 @@
           img.mb-lg-0.mb-0(src="@/assets/curso/temas/tema3/ConInternet.svg")
         .col1.lg.col1.mb-lg-0
 
-        .row.justify-content-center.align-items-center.mb-4(data-aos="fade-center")
-        .col-lg-2.col-md-5.col-8.px-35
-          img.mb-lg-0.mb-0(src="@/assets/curso/temas/tema3/abanda.svg")
+      .mb-4.d-flex
+        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Ancho de banda
+          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 236px; position: absolute" data-aos="fade-left")
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-7.col-12
@@ -48,9 +51,12 @@
         .col-lg-5.col-8
           img.mb-0(alt="" src="@/assets/curso/temas/tema3/anchobanda.svg")
 
-      .row.justify-content-center.align-items-center.mb-4(data-aos="fade-center")
-        .col-lg-2.col-md-5.col-8.px-35
-          img.mb-lg-0.mb-0(src="@/assets/curso/temas/tema3/Internet.svg")
+      .mb-4.d-flex
+        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Conexión a internet
+          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 266px; position: absolute" data-aos="fade-left")
+      
+      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-04.col-12.mb-4-lg-0
           p <br>Las direcciones binarias de 32 bits usadas para acceder a Internet se llaman direcciones de Protocolo Internet (IP) La dirección IP de un dispositivo se forma por una parte de red y una de host que representa a un dispositivo específico de una red en particular. Para que el dispositivo sepa cómo está dividida la dirección IP, se utiliza un segundo número de 32 bits llamado máscara de subred, que se conforma de números unos identifican la porción de red y por números ceros que indican el host en la red. Con la ayuda de la matemática de red al realizar una operación AND booleana entre la dirección IP 10.10.23.134 y la máscara de subred 255.0.0.0 se obtiene como resultado la dirección de red de este host.<br>
 

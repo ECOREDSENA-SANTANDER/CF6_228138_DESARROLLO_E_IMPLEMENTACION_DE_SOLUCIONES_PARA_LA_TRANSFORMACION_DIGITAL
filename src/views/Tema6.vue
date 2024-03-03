@@ -14,10 +14,13 @@
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-8.col-2
           img.mb-lg-8.mb-3(alt="" src="@/assets/curso/temas/tema6/banner6.png")
+          p <br>
 
-      .row.justify-content-center.align-items-center(data-aos="fade-center")
-        .col-0lg-5.col-md-5.col.px-35
-          img.mb-lg-0.mb-0(src="@/assets/curso/temas/tema6/titulo01.svg")
+      .mb-4.d-flex
+        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Fases (Planeación, Ejecución, Verificación y Mejora) 
+          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 560px; position: absolute" data-aos="fade-left")
+      .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-04.col-12.mb-4-lg-0
          p <br>Para la buena administración de los proyectos de TI, es importante que se realice una estructuración por fases, teniendo en cuenta la planeación, ejecución, verificación y mejora de actividades del proyecto. Las actividades del proyecto son las acciones que se deben realizar para lograr los objetivos del mismo, estas deben ser planificadas y asignadas a los responsables de ejecución.<br><br>En general, las fases de un proyecto se estructuran con base al ciclo Deming o PHVA, por sus siglas en español: Planificar, Hacer, Verificar y Actuar, pero no es camisa de fuerza.
       
@@ -56,27 +59,38 @@
           p <br>Para una adecuada planeación del proyecto, se debe realizar un cronograma de actividades a ejecutar en cada fase, dicho cronograma debe ser realizado en la fase de planeación. Un ejemplo de este cronograma puede ser:
         .col-lg-8.col-2
           img.mb-lg-8.mb-3(alt="" src="@/assets/curso/temas/tema6/tabla01.svg")
+          p <br>
 
-      .row.justify-content-center.align-items-center(data-aos="fade-center")
-        .col-0lg-5.col-md-5.col.px-35
-          img.mb-lg-0.mb-0(src="@/assets/curso/temas/tema6/titulo02.svg")
+      .mb-4.d-flex
+        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Criterios para la determinación de recursos 
+          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 476px; position: absolute" data-aos="fade-left")
+      
+      .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-04.col-12.mb-4-lg-0
          p <br>Los recursos de un proyecto de TI. pueden estar agrupados en recursos humanos, económicos o financieros, tecnológicos, y de información.<br><br>En la gestión de proyectos de TI, y en especial en los proyectos de servicios en la nube, es importante la determinación de recursos necesarios, por lo que se deben considerar los siguientes criterios:<br>
         .col-lg-10.col-2
           img.mb-lg-7.mb-3(alt="" src="@/assets/curso/temas/tema6/tabla2.svg")
+          p <br>
 
-      .row.justify-content-center.align-items-center(data-aos="fade-center")
-        .col-0lg-5.col-md-5.col.px-35
-          img.mb-lg-0.mb-0(src="@/assets/curso/temas/tema6/titulo03.svg")
+      .mb-4.d-flex
+        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Criterios para la planeación de actividades 
+          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 476px; position: absolute" data-aos="fade-left")
+      
+      .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-04.col-12.mb-4-lg-0
           p <br>Dentro de los proyectos de TI se establecen las actividades que están a un nivel más bajo y las cuales se crean en función del cumplimiento de los objetivos específicos del proyecto. Para la planeación de actividades se deben considerar los siguientes criterios:<br>
         .col-lg-10.col-2
           img.mb-lg-7.mb-3(alt="" src="@/assets/curso/temas/tema6/recursos.svg")
           p <br>
 
-      .row.justify-content-center.align-items-center(data-aos="fade-center")
-        .col-lg-3.col-8
-          img.mb-0(src="@/assets/curso/temas/tema6/titulo04.svg")
+      .mb-4.d-flex
+        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Aspectos legales 
+          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 240px; position: absolute" data-aos="fade-left")
+      
+      .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-04.col-12.mb-4-lg-0
           p <br><b>En la gestión de proyectos de TI,</b> se deben tener en cuenta los aspectos legales según el contexto, para lo cual se recomienda tener claro una matriz de cumplimiento legal, en donde se pueda identificar dentro de cada proyecto que requisitos legales se deben cumplir, esto con el fin de evitar incumplimientos que puedan generar impactos adversos de tipo económico, operativo o reputacional.<br>
 
@@ -105,10 +119,14 @@
             .col-lg-3.col-8
               img.mb-0(alt="" src="@/assets/curso/temas/tema6/aspectoslegales.svg")
 
-      .row.justify-content-center.align-items-center(data-aos="fade-center")
-        .col-lg-2.col-8
+      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+        .col-lg-7.col-12
           p <br>
-          img.mb-0(src="@/assets/curso/temas/tema6/riesgos.svg")
+
+      .mb-4.d-flex
+        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Riesgos
+          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 166px; position: absolute" data-aos="fade-left")
       
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
           .col-lg-7.col-12
