@@ -16,7 +16,7 @@
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-7.col-12
-          p.mb-4 En resumen, se puede decir que IoT es la agrupación de sensores y equipos electrónicos conectados entre sí con el objetivo de calcular, recolectar y mandar datos a un servicio de almacenamiento en la nube.
+          p.fondo-amarillo En resumen, se puede decir que IoT es la agrupación de sensores y equipos electrónicos conectados entre sí con el objetivo de calcular, recolectar y mandar datos a un servicio de almacenamiento en la nube.
           p.mb-lg-0.mb-3 El IoT en la actualidad está organizado por una recolección extendida de diferentes redes y con propósitos distintos, por ejemplo, los carros modernos cuentan con una cantidad variada de redes para moderar la puesta en marcha del motor, el monitoreo de comunicación, los sistemas de seguridad, etc., de manera parecida los centros comerciales, las oficinas, los apartamentos manejan diferentes sistemas que permiten controlar la calefacción, el aire acondicionado, los sistemas de seguridad, etc., en tanto que el IoT avanza todas estas redes quedarán conectadas incorporando medidas de análisis, administración y seguridad, haciendo del IoT una herramienta todavía más poderosa.<br><br>
         .col-lg-5.col-8
           img.mb-0(alt="" src="@/assets/curso/temas/tema5/img02.png")
@@ -32,7 +32,7 @@
 
       p Entre las diferentes áreas de aplicación que tiene el mundo del IoT se destacan las siguientes:<br>
 
-      SlyderA
+      SlyderA.fondo-banner 
           .row.justify-content-center
             .col-lg-5.col-12
               br
@@ -97,36 +97,36 @@
       p En la actualidad existen muchos desarrollos que incorporan IoT en sus diferentes áreas de aplicación. <br><b>A continuación se nombran unos de los más novedosos y curiosos.</b>
       
       TabsC.color-acento-contenido(data-aos="fade-left")
-        .py-3.py-md-4(titulo="Hidrate Spark")
+        .py-3.py-md-4(titulo="Hidrate Spark").tarjeta--neutral
           .row.justify-content-center
-            .col-lg-5.col-8
+            .col-lg-3.col-8
               img.mb-lg-0.mb-3(alt="" src="@/assets/curso/temas/tema5/5.2img01.svg")
             .col-lg-6.col-12
               br
               h4.mb-4 Hidrate Spark
               p.mb-0 Se trata de un termo de agua que tiene colores metálicos muy llamativos, que informa el tiempo en que se debe tomar agua y reporta la cantidad de agua tomada según lo que se configure, este funciona por medio de un sensor que recolecta cada trago de agua y lo envía al celular por medio de bluetooth.
         
-        .py-3.py-md-4(titulo="Ability MyCite")
+        .py-3.py-md-4(titulo="Ability MyCite").tarjeta--neutral
           .row.justify-content-center
-            .col-lg-5.col-8
+            .col-lg-3.col-8
               img.mb-lg-0.mb-3(alt="" src="@/assets/curso/temas/tema5/5.2img02.svg")
             .col-lg-6.col-12
               br
               h4.mb-4 Ability MyCite
               p.mb-0 Es una pastilla inteligente que fue creada por Otsuka Pharmacutical Co y Proteus Digital utilizada para tratar a las personas que sufren de trastorno bipolar o esquizofrenia, la pastilla incluye un sensor que envía señales a una APP, el sensor es activado cuando la pastilla se disuelve con los ácidos gástricos del estómago, permitiendo así realizar un seguimiento al paciente verificando la hora de toma del medicamento y si en efecto se lo está tomando.
         
-        .py-3.py-md-4(titulo="Waymo")
+        .py-3.py-md-4(titulo="Waymo").tarjeta--neutral
           .row.justify-content-center
-            .col-lg-5.col-8
-              img.mb-lg-0.mb-3(alt="" src="@/assets/curso/temas/tema5/5.2img03.svg")
+            .col-lg-3.col-8
+              img.mb-lg-0.mb-3(alt="" src="@/assets/curso/temas/tema5/5.2img03.svg").tarjeta--neutral
             .col-lg-6.col-12
               br
               h4.mb-4 Waymo
               p.mb-0 Es el primer carro autónomo creado por Google, que permite a un automóvil conducirse autónomamente por carreteras, detecta señales de tráfico, peatones y otros carros, inicialmente el nombre del proyecto era Google self-driving car Project y luego recibió el nombre de Waymo.
         
-        .py-3.py-md-4(titulo="Google Glass")
+        .py-3.py-md-4(titulo="Google Glass").tarjeta--neutral
           .row.justify-content-center
-            .col-lg-5.col-8
+            .col-lg-3.col-8
               img.mb-lg-0.mb-3(alt="" src="@/assets/curso/temas/tema5/5.2img04.svg")
             .col-lg-6.col-12
               br

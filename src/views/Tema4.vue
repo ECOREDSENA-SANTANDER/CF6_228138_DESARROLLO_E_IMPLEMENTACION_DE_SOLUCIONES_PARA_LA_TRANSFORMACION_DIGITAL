@@ -7,22 +7,24 @@
           span 4
         h1 Arquitectura y equipos de cómputo, clientes y servidores
 
-      .bloque2.p-0.mb-5
-        .bloque-texto-b.color-secundario.p-14.mb-0(data-aos="fade-left")
+      .bloque1.p-0
+        .bloque-texto-b.color-secundario.p-4.mb-0(data-aos="fade-left")
           .bloque-texto-b__texto
             .row.justify-content-center.align-items-center.d-flex
-              .col-lg-2.col-8.px-5
-               img.mb-lg-0.mb-3(alt="" src="@/assets/curso/temas/tema4/software.svg")
-              .col-lg-10.col-12
-               p Cuando se habla de arquitectura cliente-servidor, se está haciendo referencia a un modelo de diseño de software en el que los trabajos se reparten entre los proveedores de recursos o servicios; estos son llamados servidores, y los demandantes, son llamados clientes.<br><br> un cliente realiza una o varias peticiones a otro u otros programas; el servidor es quien le da respuesta y almacena los datos que navegan en la red.
-      
-      .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right")
-        .col-lg-10.col-12
-          p Se puede identificar y analizar, en el siguiente esquema, la arquitectura cliente servidor:
-         
-      .row.justify-content-center.align-items-center.mb-4(data-aos="fade-center")
-        .col2-lg-2.col2-md-5.col2.px-25
-          img.mb-lg-0.mb-0(src="@/assets/curso/temas/tema4/figura12.svg")
+              .col-lg-10.col-12.mb-4.mg-lg-0
+                p Cuando se habla de arquitectura cliente-servidor, se está haciendo referencia a un modelo de diseño de software en el que los trabajos se reparten entre los proveedores de recursos o servicios; estos son llamados servidores, y los demandantes, son llamados clientes. <br><br>
+                p Un cliente realiza una o varias peticiones a otro u otros programas; el servidor es quien le da respuesta y almacena los datos que navegan en la red.<br><br>Se puede identificar y analizar, en el siguiente esquema, la arquitectura cliente servidor:
+              .col-lg-2.col-md-5.col-8.px-5
+                img.mb-0(alt="" src="@/assets/curso/temas/tema4/software.svg")
+    
+      .fondo1.p-8.mb-0
+        .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+          .col-lg-10.col-12.position-relative
+            ImagenInfografica.color-acento-botones.mb-5
+              template(v-slot:imagen)
+                figure
+                  img(alt="" src="@/assets/curso/temas/tema4/figura12.png")
+  
       .col-lg-04.col-12.mb-4-lg-0
         p <br>Este tipo de arquitecturas cuenta con dos componentes: por un lado, está el servidor y por otra parte el cliente o grupo de clientes; el servidor es una computadora que capaz de atender los requerimientos solicitados y devolverles la respuesta en concordancia.<br><br>Además, se debe contar con otros componentes adicionales, como:
 

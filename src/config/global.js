@@ -7,7 +7,7 @@ export default {
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
       {
-        clases: ['banner-principal-decorativo-1", "d-none", "d-lg-block'],
+        clases: ['banner-principal-decorativo-1'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
       },
       {

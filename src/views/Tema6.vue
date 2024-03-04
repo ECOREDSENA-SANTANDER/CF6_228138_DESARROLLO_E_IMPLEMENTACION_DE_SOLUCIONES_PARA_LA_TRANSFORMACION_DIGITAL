@@ -123,6 +123,8 @@
         .col-lg-7.col-12
           p <br>
 
+    .container.tarjeta--neutral.p-4.p-md-5
+
       .mb-4.d-flex
         .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Riesgos
@@ -131,11 +133,12 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
           .col-lg-7.col-12
             p.mb-4 Un riesgo se define como aquello que puede generar una situación adversa a una meta, objetivo, propósito, proyecto, proceso o empresa. Dentro de la gestión de proyectos de TI, se deben gestionar los riesgos asociados a los mismos, para ello es importante que se identifiquen las posibles amenazas que generan riesgos al proyecto de tal manera que se pueda establecer la probabilidad de ocurrencia, el impacto generado, para finalmente determinar el nivel de cada riesgo del proyecto, y así poder realizar las acciones de mitigación o tratamiento de riesgos del proyecto.
-            p.mb-lg-0.mb-3 Las organizaciones establecen o utilizan diversos métodos y escalas de valoración de riesgos según su contexto y gustos, ya que no existe una única metodología de riesgos. Se recomienda investigar sobre metodologías de riesgo, entre ellas ISO/IEC 31000, COSO, Magerit v3.<br><br>
+            p.fondo-amarilloclaro.mb-lg-0.mb-3 Las organizaciones establecen o utilizan diversos métodos y escalas de valoración de riesgos según su contexto y gustos, ya que no existe una única metodología de riesgos. Se recomienda investigar sobre metodologías de riesgo, entre ellas <b>ISO/IEC 31000, COSO, Magerit v3.</b><br><br>
             p.mb-4 En cualquier caso, para la determinación de riesgos de los proyectos de TI, se puede realizar siguiendo la siguiente fórmula:<br>
-            p.mb-4 <i>Riesgo, R = Probabilidad, P. multiplicado por el Impacto, I. = R = P x I</i>
+            p.fondo-amarillo.mb-4 <i>Riesgo, R = Probabilidad, P. multiplicado por el Impacto, I. = R = P x I</i>
           .col-lg-5.col-8
             img.mb-0(alt="" src="@/assets/curso/temas/tema6/imagenriesgos.svg")
+
 </template>
 
 <script>
