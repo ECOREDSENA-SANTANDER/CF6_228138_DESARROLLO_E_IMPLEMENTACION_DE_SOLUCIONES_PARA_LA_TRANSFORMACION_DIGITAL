@@ -12,8 +12,8 @@
           p.mb-5 <b>La gestión de proyectos de tecnologías de la información y la comunicación - TI,</b> puede ser abordado desde diversos aspectos de la gestión empresarial según el contexto, pero en cualquiera de los casos, escenarios y/o contextos, para una adecuada administración de los proyectos de TI se deben considerar los siguientes aspectos.
         
       .row.justify-content-center.align-items-center(data-aos="fade-right")
-        .col-lg-8.col-2
-          img.mb-lg-8.mb-3(alt="" src="@/assets/curso/temas/tema6/banner6.png")
+        .col-lg-8.col-12
+          img.mb-lg-8.mb-8(alt="" src="@/assets/curso/temas/tema6/banner6.png")
           p <br>
 
       .mb-4.d-flex
@@ -30,34 +30,34 @@
           .row.align-items-center.justify-content-center
             .col-lg-6.col
               p Es la primera fase o etapa donde se aborda el problema a resolver y se plantean los objetivos y alcances para solucionarlo. Asimismo, se designan las actividades para lograr los objetivos. Es esta fase también se deben considerar los recursos necesarios, humanos, económicos, tecnológicos y de información.
-            .col-lg-4.col-2
+            .col-lg-4.col-22
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema6/bannericono01.svg', alt='')
       
         .py-4.py-md-5(titulo="Hacer" :icono="require('@/assets/curso/temas/tema6/icono02.svg')")
           .row.align-items-center.justify-content-center
             .col-lg-6.col
               p En esta fase se deben poner en marcha o ejecución las actividades de gestión y técnicas que se planearon por realizar. En los proyectos de TI, son aquellas actividades de instalación, implementación y/o apropiación de tecnologías hardware y software. También, pueden involucrar la adquisición de nuevos servicios de TI, como los servicios en la nube o aplicaciones de terceros.
-            .col-lg-4.col-2
+            .col-lg-4.col-22
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema6/bannericono02.svg', alt='')
       
         .py-4.py-md-5(titulo="Verificar" :icono="require('@/assets/curso/temas/tema6/icono03.svg')")
           .row.align-items-center.justify-content-center
             .col-lg-6.col
               p En esta fase se deben poner en marcha o ejecución las actividades de gestión y técnicas que se planearon por realizar. En los proyectos de TI, son aquellas actividades de instalación, implementación y/o apropiación de tecnologías hardware y software. También, pueden involucrar la adquisición de nuevos servicios de TI, como los servicios en la nube o aplicaciones de terceros.
-            .col-lg-4.col-2
+            .col-lg-4.col-22
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema6/bannericono03.svg', alt='')
       
         .py-4.py-md-5(titulo="Actuar" :icono="require('@/assets/curso/temas/tema6/icono04.svg')")
           .row.align-items-center.justify-content-center
             .col-lg-6.col
               p En esta última fase se toman las acciones de mejora, con base en los resultados de verificación o evaluación, con el fin de demarcar las acciones correctivas para la mejora.
-            .col-lg-4.col-2
+            .col-lg-4.col-22
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema6/bannericono04.svg', alt='')
     
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-04.col-12.mb-4-lg-0
           p <br>Para una adecuada planeación del proyecto, se debe realizar un cronograma de actividades a ejecutar en cada fase, dicho cronograma debe ser realizado en la fase de planeación. Un ejemplo de este cronograma puede ser:
-        .col-lg-8.col-2
+        .col-lg-8.col-22
           img.mb-lg-8.mb-3(alt="" src="@/assets/curso/temas/tema6/tabla01.svg")
           p <br>
 
@@ -69,7 +69,7 @@
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-04.col-12.mb-4-lg-0
          p <br>Los recursos de un proyecto de TI. pueden estar agrupados en recursos humanos, económicos o financieros, tecnológicos, y de información.<br><br>En la gestión de proyectos de TI, y en especial en los proyectos de servicios en la nube, es importante la determinación de recursos necesarios, por lo que se deben considerar los siguientes criterios:<br>
-        .col-lg-10.col-2
+        .col-lg-10.col-22
           img.mb-lg-7.mb-3(alt="" src="@/assets/curso/temas/tema6/tabla2.svg")
           p <br>
 
@@ -81,7 +81,7 @@
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-04.col-12.mb-4-lg-0
           p <br>Dentro de los proyectos de TI se establecen las actividades que están a un nivel más bajo y las cuales se crean en función del cumplimiento de los objetivos específicos del proyecto. Para la planeación de actividades se deben considerar los siguientes criterios:<br>
-        .col-lg-10.col-2
+        .col-lg-10.col-22
           img.mb-lg-7.mb-3(alt="" src="@/assets/curso/temas/tema6/recursos.svg")
           p <br>
 

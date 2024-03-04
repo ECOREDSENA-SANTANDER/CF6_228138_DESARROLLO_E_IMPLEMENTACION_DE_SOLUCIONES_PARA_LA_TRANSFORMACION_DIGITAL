@@ -52,7 +52,7 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-7.col-12
           p <br>Los datos enviados por una red de computadoras, son divididos en bloques pequeños llamados paquetes, cada cual contiene información de la dirección de origen y destino, este paquete, junto con la información de dirección física, se denomina trama, también posee información que describe cómo volver a unir los paquetes en el destino. El ancho de banda determina la cantidad de paquetes que pueden transmitirse en un lapso de tiempo fijo. La unidad de medida del ancho de banda es el bit por segundo y generalmente, se indica con las siguientes unidades:
-        .col-lg-5.col-8
+        .col-lg-5.col-22
           img.mb-0(alt="" src="@/assets/curso/temas/tema3/anchobanda.svg")
 
       .mb-4.d-flex
@@ -63,7 +63,7 @@
 
     .container.tarjeta--neutral.p-4.p-md-5
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-        .col-lg-04.col-12.mb-4-lg-0
+        .col-lg-04.col-22.mb-4-lg-0
           p <br>Las direcciones binarias de 32 bits usadas para acceder a Internet se llaman direcciones de Protocolo Internet (IP) La dirección IP de un dispositivo se forma por una parte de red y una de host que representa a un dispositivo específico de una red en particular. Para que el dispositivo sepa cómo está dividida la dirección IP, se utiliza un segundo número de 32 bits llamado máscara de subred, que se conforma de números unos identifican la porción de red y por números ceros que indican el host en la red. Con la ayuda de la matemática de red al realizar una operación AND booleana entre la dirección IP 10.10.23.134 y la máscara de subred 255.0.0.0 se obtiene como resultado la dirección de red de este host.<br>
 
           .row.justify-content-center.align-items-center.mb-10(data-aos="fade-center")

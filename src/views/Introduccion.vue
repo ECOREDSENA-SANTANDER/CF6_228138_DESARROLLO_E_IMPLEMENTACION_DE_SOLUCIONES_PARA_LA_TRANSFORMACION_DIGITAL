@@ -11,7 +11,7 @@
 
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
         .col-lg-17.col-22
-          p Aquí comienza el estudio del componente formativo style.bg--sandia<b>“Infraestructura y servicios tecnológicos”;</b> en este punto, emprenda su recorrido formativo, observando con atención el vídeo que, a continuación, se muestra. ¡Adelante!
+          p Aquí comienza el estudio del componente formativo <b>“Infraestructura y servicios tecnológicos”;</b> en este punto, emprenda su recorrido formativo, observando con atención el vídeo que, a continuación, se muestra. ¡Adelante!
       figure(data-aos="fade-right")
         .video.mb-1
           iframe(width="1280" height="720" src="https://youtube.com/embed/Zx2p6cloSws" title="Infraestructura y servicios tecnológicos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

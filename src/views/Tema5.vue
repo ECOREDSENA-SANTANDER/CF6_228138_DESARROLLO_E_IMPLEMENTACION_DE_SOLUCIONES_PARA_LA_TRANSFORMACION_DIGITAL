@@ -8,7 +8,7 @@
         h1 Internet de las cosas (IoT)
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-        .col-lg-5.col-8
+        .col-lg-5.col-20
           img.mb-0(alt="" src="@/assets/curso/temas/tema5/img01.png")
         .col-lg-7.col-12
           p.mb-4 Debido a la gran importancia y progreso que ha logrado la IoT es valorada como una de las tecnologías de mayor impacto a 2025, debido a que se intuye que a una gran cantidad y variedad de objetos se les incorporará variados tipos de sensores que estarán conectados a Internet produciendo un flujo de datos muy grande, el cual debe ser tratado, almacenado y expuestos de una forma sencilla y fácil de entender (Molano, 2015).
@@ -18,7 +18,7 @@
         .col-lg-7.col-12
           p.fondo-amarillo En resumen, se puede decir que IoT es la agrupación de sensores y equipos electrónicos conectados entre sí con el objetivo de calcular, recolectar y mandar datos a un servicio de almacenamiento en la nube.
           p.mb-lg-0.mb-3 El IoT en la actualidad está organizado por una recolección extendida de diferentes redes y con propósitos distintos, por ejemplo, los carros modernos cuentan con una cantidad variada de redes para moderar la puesta en marcha del motor, el monitoreo de comunicación, los sistemas de seguridad, etc., de manera parecida los centros comerciales, las oficinas, los apartamentos manejan diferentes sistemas que permiten controlar la calefacción, el aire acondicionado, los sistemas de seguridad, etc., en tanto que el IoT avanza todas estas redes quedarán conectadas incorporando medidas de análisis, administración y seguridad, haciendo del IoT una herramienta todavía más poderosa.<br><br>
-        .col-lg-5.col-8
+        .col-lg-5.col-22
           img.mb-0(alt="" src="@/assets/curso/temas/tema5/img02.png")
         P <br><br>
 
@@ -34,7 +34,7 @@
 
       SlyderA.fondo-banner 
           .row.justify-content-center
-            .col-lg-5.col-12
+            .col-lg-5.col-10
               br
               br
               p <b>Domótica</b>. 
@@ -44,7 +44,7 @@
 
 
           .row.justify-content-center
-            .col-lg-5.col-12
+            .col-lg-5.col-10
               br
               br
               p <b>Automatización y control de procesos de producción</b>. 
@@ -53,7 +53,7 @@
               img.mb-0(alt="" src="@/assets/curso/temas/tema5/5.1img02.png") 
 
           .row.justify-content-center
-            .col-lg-5.col-12
+            .col-lg-5.col-10
               br
               br
               p <b>Transporte y logística</b>. 
@@ -62,7 +62,7 @@
               img.mb-0(alt="" src="@/assets/curso/temas/tema5/5.1img03.png")
 
           .row.justify-content-center
-            .col-lg-5.col-12
+            .col-lg-5.col-10
               br
               br
               p <b>Agricultura, ganadería y silvicultura</b>. 
@@ -71,7 +71,7 @@
               img.mb-0(alt="" src="@/assets/curso/temas/tema5/5.1img04.png")
 
           .row.justify-content-center
-            .col-lg-5.col-12
+            .col-lg-5.col-10
               br
               br
               p <b>Videovigilancia y seguridad</b>. 
@@ -80,13 +80,13 @@
               img.mb-0(alt="" src="@/assets/curso/temas/tema5/5.1img05.png")
 
           .row.justify-content-center
-            .col-lg-5.col-12
+            .col-lg-5.col-10
               br
               br
               p <b>Medicina</b>. 
               p.mb-lg-0.mb-3 Sus objetivos son detectar de una persona sus signos vitales, así como las variaciones para suministro de medicinas. Aunque la orientación es más a los humanos es posible también monitorear el estado de salud de los animales domésticos. La incorporación de IoT en el sector de la salud transformará el cuidado médico, ya que los centros de atención serán mucho más eficientes, brindando al personal de la salud datos muy importantes de los pacientes en tiempos más cortos, para poder agilizar los procesos médicos.
 
-            .col-lg-5.col-8
+            .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema5/5.1img06.png")
 
 

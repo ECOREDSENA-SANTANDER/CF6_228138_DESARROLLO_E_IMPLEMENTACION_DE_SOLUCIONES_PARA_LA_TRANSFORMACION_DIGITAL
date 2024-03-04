@@ -43,11 +43,11 @@
             p.mb-0 Una red implica que en ella intervengan varios actores que básicamente se pueden enmarcar en cuatro bien definidos que son: los dispositivos, el medio, la información y los recursos que va a utilizar o compartir para mejorar la eficiencia de los mismos.
       
       .row.justify-content-center.mb-4(data-aos="zoom-in") 
-        .col-lg-2.col-auto
+        .col-lg-2.col-22
         p Los dispositivos son aquellos elementos que se conectan a la red y están divididos en dos grandes grupos:
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-        .col-lg-10.col-10
+        .col-lg-10.col-22
           img.mb-0(alt="" src="@/assets/curso/temas/tema2/2.2.png")
 
       .row.justify-content-center.mb-4(data-aos="zoom-in") 
@@ -57,66 +57,65 @@
       TabsB.acordion__activo.mb-5(data-aos="fade-right")
         .py-4.py-md-5(titulo="Servidor" :icono="require('@/assets/curso/temas/tema2/img01.svg')")
           .row.align-items-center.justify-content-center
-            .col-lg-5.col
+            .col-lg-5.col-10
                 h4 Servidor<br>
                 p Es un computador que en la red tiene la función de proveer servicios a otros dispositivos llamados clientes. También se suele denominar con la palabra servidor a una aplicación informática o programa que realiza algunas tareas en beneficio de otras aplicaciones llamadas clientes.  Entre los servicios ofrecidos por un servidor, está el manejo de archivos y aplicaciones. Los primeros consisten en un proceso de lectura y escritura por parte de los usuarios sobre archivos almacenados en una estación de trabajo. Las aplicaciones permiten a los usuarios finales realizar tareas acordes a sus necesidades.
-            .col-lg-6.col-2
+            .col-lg-6.col-10
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img1.png', alt='')
       
         .py-4.py-md-5(titulo="Estación de trabajo" :icono="require('@/assets/curso/temas/tema2/img02.svg')")
          .row.align-items-center.justify-content-center
-            .col-lg-5.col
+            .col-lg-5.col-10
                 h4 Estación de trabajo<br>
                 p Son los nodos finales de una red de computadoras. Normalmente, las estaciones de trabajo permiten a los usuarios ejecutar aplicaciones y almacenar diferentes tipos de información. Sin embargo, una impresora conectada a la red podría verse como un nodo final de ésta y verse como una estación de trabajo, pero con prestaciones diferentes y reducidas comparadas con la de un computador.
-            .col-lg-6.col-2
+            .col-lg-6.col-10
                img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img2.png', alt='')
       
         .py-4.py-md-5(titulo="Tarjeta de conexión a la red" :icono="require('@/assets/curso/temas/tema2/img03.svg')")
          .row.align-items-center.justify-content-center
-            .col-lg-5.col
+            .col-lg-5.col-10
                 h4 Tarjeta de conexión a la red<br>
                 p Es un dispositivo que le permite a todo computador conectarse a la red informática ya sea para conexión cableada o inalámbrica. Cuando se trata de una conexión alámbrica, se habla de una tarjeta de red o NIC (Network Interface Card) por sus siglas en inglés, la cual puede ser insertada directamente en la placa madre por medio de un puerto PCI. Dicha tarjeta trae consigo un conector para cable de red. Por otro lado, las tarjetas de red inalámbricas también pueden ser conectadas a la tarjeta madre por medio del puerto PCI o de manera externa por medio de un puerto USB.
-            .col-lg-6.col-2
-              img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img3.png', alt='')
-      
+            .col-lg-6.col-10
+                img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img3.png', alt='')
         .py-4.py-md-5(titulo="Repetidores" :icono="require('@/assets/curso/temas/tema2/img04.svg')")
           .row.align-items-center.justify-content-center
-            .col-lg-5.col
+            .col-lg-5.col-10
                 h4 Repetidores<br>
                 p Se trata de un dispositivo electrónico capaz de transmitir una señal recibida de bajo nivel y re transmitirla a más alto nivel, permitiendo con esto cubrir distancias largas sin que haya degradación considerable de la señal. En los inicios de la telegrafía se utilizó para regenerar las señales telegráficas.
-            .col-lg-6.col-2
+            .col-lg-6.col-10
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img4.png', alt='')
         
         .py-4.py-md-5(titulo="Routers" :icono="require('@/assets/curso/temas/tema2/img05.svg')")
           .row.align-items-center.justify-content-center
-            .col-lg-5.col
+            .col-lg-5.col-10
                 h4 Routers<br>
                 p Es un dispositivo de red encargado de indicar la ruta más adecuada para transmitir el mensaje que ha enviado el transmisor hacia un destino determinado dentro o fuera de la red a la cual pertenecen, utilizando los protocolos adecuados.
-            .col-lg-6.col-2
+            .col-lg-6.col-10
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img5.png', alt='')
         
         .py-4.py-md-5(titulo="Switch" :icono="require('@/assets/curso/temas/tema2/img06.svg')")
           .row.align-items-center.justify-content-center
-            .col-lg-5.col
+            .col-lg-5.col-10
                 h4 Switch<br>
                 p Es un dispositivo de red que se encarga de interconectar varios segmentos de red, por medio de la dirección MAC de los dispositivos destino de las tramas de red.
-            .col-lg-6.col-2
+            .col-lg-6.col-10
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img6.png', alt='')
         
         .py-4.py-md-5(titulo="Cableado" :icono="require('@/assets/curso/temas/tema2/img07.svg')")
           .row.align-items-center.justify-content-center
-            .col-lg-5.col
+            .col-lg-5.col-10
                 h4 Cableado<br>
                 p Se trata del medio físico utilizado para la conexión de los dispositivos hacia la red en la cual solicitarán los servicios dependiendo de los requerimientos de longitud, velocidad entre otros.
-            .col-lg-6.col-2
+            .col-lg-6.col-10
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img7.png', alt='')
         
         .py-4.py-md-5(titulo="Protocolo" :icono="require('@/assets/curso/temas/tema2/img08.svg')")
           .row.align-items-center.justify-content-center
-            .col-lg-10.col
+            .col-lg-10.col-10
                 h4 Protocolo<br>
                 p Es el elemento software de la red, encargado de establecer los parámetros de comunicación entre dispositivos, habilitar mecanismos de identificación de los equipos y usuarios en la red, definir el formato de la información que circula en la red. 
-            .col-lg-8.col-2
+            .col-lg-8.col-10
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img8.png', alt='')   
 
       .row.justify-content-center.mb-4(data-aos="zoom-in")
@@ -142,11 +141,11 @@
             p.mb-0 Cuando se trata de la comunicación entre ordenadores primero se deben conocer cuáles son las normas que permiten esta comunicación, o lo que es lo mismo, qué protocolo de comunicación utilizan. Para Stallings, Tanenbaum y Stevens (2000), un protocolo de red es un grupo de reglas que establece la forma para identificarse, transmitir la información y cómo procesar los datos en la red.  Los protocolos pueden ser de tipo hardware (tarjetas de red), software (drivers), o combinación de ambos.
       
       .row.justify-content-center.mb-4(data-aos="zoom-in") 
-        .col-lg-2.col-auto
+        .col-lg-2.col-22
         p Existen diferentes protocolos, cada uno de ellos está identificado por la capa del modelo OSI en la que va a trabajar. Por nombrar algunos: 
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-        .col-lg-10.col-10
+        .col-lg-10.col-22
           img.mb-0(alt="" src="@/assets/curso/temas/tema2/2.4.png")
 
       .row.justify-content-center.mb-4(data-aos="zoom-in")

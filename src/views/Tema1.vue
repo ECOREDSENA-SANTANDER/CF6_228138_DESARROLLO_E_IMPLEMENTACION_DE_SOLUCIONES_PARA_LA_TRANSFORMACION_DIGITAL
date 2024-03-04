@@ -105,7 +105,7 @@
 
         SlyderA.fondo-banner
           .row.justify-content-center
-            .col-lg-5.col-12
+            .col-lg-5.col-10
               <br>
               <br>
               <br>
@@ -113,12 +113,12 @@
               <br>
               p <b>Grupo 1: softwares de Aplicación</b>. 
               p.mb-lg-0.mb-3 Son muchos los tipos de herramientas de software que incluyen base de cálculo, programas empresariales o de diseño sugeridos; en este se construye el software dependiendo del modelo de negocio y los requerimientos que desee el cliente.
-            .col-lg-5.col-8
+            .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img01.png")
 
 
           .row.justify-content-center
-            .col-lg-5.col-12
+            .col-lg-5.col-10
               <br>
               <br>
               <br>
@@ -126,42 +126,42 @@
               <br>
               p <b>Grupo 1: softwares de gestión</b>. 
               p.mb-lg-0.mb-3 Hacen parte del primer grupo. Son todos los relacionados con la gestión integral de la organización, como la facturación, la contabilidad o el departamento de tesorería y nómina de la entidad. Son de alta confiabilidad, agilidad y eficiencia, ahorran tiempo y evitan errores manuales y mejoran la productividad.
-            .col-lg-5.col-8
+            .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img02.png") 
 
           .row.justify-content-center
-            .col-lg-5.col-12
+            .col-lg-5.col-10
               p <br><br><br><br><br><b>softwares de programación</b>. 
               p.mb-lg-0.mb-3 Su importancia radica en que hacen posible el desarrollo de aplicaciones, por lo que su función es clave para el desarrollo de la computación y los otros programas. Dentro de este grupo están, por ejemplo, los compiladores o editores de texto.
-            .col-lg-5.col-8
+            .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img03.png")
 
           .row.justify-content-center
-            .col-lg-5.col-12
+            .col-lg-5.col-10
               p <br><br><br><br><br><b>Softwares de sistema</b>. 
               p.mb-lg-0.mb-3 En este grupo es importante que las características de hardware sean las mejores, para el óptimo funcionamiento. Ejemplo del mismo son los sistemas operativos de Windows, Linux o MAC ya que, cuando se instalan y configuran, se establece una conexión entre maquina u ordenador, realizando las tareas requeridas.
-            .col-lg-5.col-8
+            .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img04.png")
 
           .row.justify-content-center
-            .col-lg-5.col-12
+            .col-lg-5.col-10
               p <br><br><br><br><br><b>Software por tipo de licencia</b>. 
               p.mb-lg-0.mb-3 Las licencias de software son un elemento clave, puesto que establecen los términos que admiten el uso correcto del mismo. Es usual hallar dos tipos de software por licencia (software libre y software de propietario). Las cláusulas de uso de software permanecen almacenadas en el mismo, por lo que, previamente a su instalación o descarga, se deben admitir las condiciones.
-            .col-lg-5.col-8
+            .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img05.png")
 
           .row.justify-content-center
-            .col-lg-5.col-12
+            .col-lg-5.col-10
               p <br><br><br><br><br><b>Software por tipo de alojamiento</b>. 
               p.mb-lg-0.mb-3 Cuando se va a seleccionar qué tipo de software es el más conveniente para la organización o modelo de negocio, es posible también apreciar el tipo de tecnología sobre la que puede apoyarse como, por ejemplo, on premise y en la nube.
-            .col-lg-5.col-8
+            .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img06.png")
 
           .row.justify-content-center
-            .col-lg-5.col-12
+            .col-lg-5.col-10
               p <br><br><br><br><br><b>Software on premese y software en la nube</b>. 
               p.mb-lg-0.mb-3 On premise, se baja en la instalación y configuración dentro de la misma organización, trabajando dentro de la misma estructura interna de la entidad. El software en la nube, trabaja con la información alojada en la misma nube, donde su principal característica es el control y la seguridad de los datos, siendo uno de los más extendidos en los últimos años.
-            .col-lg-5.col-8
+            .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img07.png")
 
               Separador
@@ -245,7 +245,7 @@
         .col-lg-7.col-12
           p <b>Los proyectos deberán tener una relación directa con el portafolio, planes y programas definidos en la entidad y el sector.</b>
           p.mb-lg-0.mb-3 Dentro de los componentes de la ingeniería del software, el ciclo de vida del software examina las fases necesarias para validar el desarrollo del mismo y así garantizar que este desempeñe los requerimientos para la aplicación y verificación de los procedimientos de desarrollo.<br><br>Estos son algunos aspectos clave sobre los ciclos de vida del software y las buenas prácticas de software, que se debe conocer:
-        .col-lg-5.col-8
+        .col-lg-5.col-22
           img.mb-0(alt="" src="@/assets/curso/temas/tema1/marco1.4.png")
           P <br><br>         
           figure(data-aos="fade-right")
