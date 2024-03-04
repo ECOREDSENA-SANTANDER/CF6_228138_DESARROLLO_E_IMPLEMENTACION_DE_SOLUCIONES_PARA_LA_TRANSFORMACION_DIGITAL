@@ -169,11 +169,41 @@
          Separador
         #t_2_4.titulo-segundo.color-acento-contenido
          h2 2.8 Tecnología Ethernet
-    
+
+      .row.justify-content-center.align-items-center
+        .col-lg-4.col-10
+          figure
+            img(src='@/assets/curso/temas/tema2/2.8.1.png', alt='imagen decorativa') 
+        .col-lg-8.mb-3.mb-lg-0
+          p Es una serie de estándares establecidos para la implementación de redes de área local o LAN. Para Forouzan (2002), se caracteriza por ser más estable, confiable y rápida en la transmisión de datos, ya que la interferencia con otros dispositivos de la misma red es mínima. Otra ventaja que presenta esta serie de estándares es la velocidad de transmisión pues puede ser del orden de los 100 Gbit/s. Para poder implementar una red tipo Ethernet es necesario contar con una serie de dispositivos que cumplen diferentes funciones. Algunos de ellos son: enrutadores, switches, cables UTP, bridges, entre otros.
+      .row
+        .col 
+          p <br>
       .mb-4.d-flex
         .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Objetivos
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 166px; position: absolute" data-aos="fade-left")
+      .row
+        .col 
+          p Los principales objetivos de Ethernet son consistentes con los que se han convertido en los requerimientos básicos para el desarrollo y uso de redes LAN: 
+      .row.justify-content-center.align-items-center
+        .col-lg-10.col-22
+          img(src='@/assets/curso/temas/tema2/2.8.2.png', alt='imagen decorativa')  
+      
+      .row
+        .col 
+          p <br>
+      .mb-4.d-flex
+        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+          h3.col.px-4.mb-0.text-white(data-aos="fade-right") La trama de Ethernet
+          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 266px; position: absolute" data-aos="fade-left")
+      .row
+        .col-lg-8.col-22 
+          p Los dispositivos de una red Ethernet intercambian información o datos llamados paquetes Ethernet, cuyo contenido incluye la trama Ethernet o trama de datos, y a la vez se divide en otros conjuntos de datos. Los registros de datos contienen un código binario con información importante, como direcciones, datos de uso, información de control, y sumas de comprobación.<br><br>Ethernet tiene los siguientes tipos:
+          img(src='@/assets/curso/temas/tema2/2.8.4.png', alt='imagen decorativa') 
+        .col-lg-4.col-22
+          img(src='@/assets/curso/temas/tema2/2.8.3.png', alt='imagen decorativa') 
+
 
 </template>
 

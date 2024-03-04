@@ -53,42 +53,32 @@
         .col-lg-2.col-12.d-flex
           .px-lg-2.py-lg-3.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#FFF1EF; border-radius:15px")
             img.mb-5(style="width: 85px" alt="" src="@/assets/curso/temas/tema1/img16.svg")
-            h4.mb-4 Corrección
-            ul.lista-ul--color.mb-0
-              li.mb-0
-                p.mb-0 Que cumpla con su objetivo.
+            h4.mb-4.text-center Corrección
+                p.mb-0 <br>Que cumpla con su objetivo.
                 .row.justify-content-center(data-aos="fade-center")
         .col-lg-2.col-12.d-flex
           .px-lg-2.py-lg-3.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#FFF1EF; border-radius:15px")
             img.mb-5(style="width: 85px" alt="" src="@/assets/curso/temas/tema1/img17.svg")
-            h4.mb-4 Usabilidad
-            ul.lista-ul--color.mb-0
-              li.mb-0
-                p.mb-0 Que sea fácil de aprender.
+            h4.mb-4.text-center Usabilidad
+                p.mb-0 <br>Que sea fácil de aprender.
                 .row.justify-content-center(data-aos="fade-center")
         .col-lg-2.col-12.d-flex
           .px-lg-2.py-lg-3.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#FFF1EF; border-radius:15px")
             img.mb-5(style="width: 85px" alt="" src="@/assets/curso/temas/tema1/img18.svg")
-            h4.mb-4 Seguridad
-            ul.lista-ul--color.mb-0
-              li.mb-0
-                p.mb-0 Que sea resistente a ataques externos.
+            h4.mb-4.text-center Seguridad
+                p.mb-0 <br>Que sea resistente a ataques externos.
                 .row.justify-content-center(data-aos="fade-center")
         .col-lg-2.col-12.d-flex
           .px-lg-2.py-lg-3.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#FFF1EF; border-radius:15px")
             img.mb-5(style="width: 85px" alt="" src="@/assets/curso/temas/tema1/img19.svg")
-            h4.mb-4 Flexibilidad
-            ul.lista-ul--color.mb-0
-              li.mb-0
-                p.mb-0 Que pueda ser reformado por los desarrolladores.
+            h4.mb-4.text-center Flexibilidad
+                p.mb-0 <br>Que pueda ser reformado por los desarrolladores.
                 .row.justify-content-center(data-aos="fade-center")
         .col-lg-2.col-12.d-flex
           .px-lg-2.py-lg-3.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#FFF1EF; border-radius:15px")
             img.mb-5(style="width: 85px" alt="" src="@/assets/curso/temas/tema1/img20.svg")
-            h4.mb-4 Portabilidad
-            ul.lista-ul--color.mb-0
-              li.mb-0
-                p.mb-0 Que pueda ser manejado en diversos equipos.
+            h4.mb-4.text-center Portabilidad
+                p.mb-0 <br>Que pueda ser manejado en diversos equipos.
       
 
 
@@ -181,21 +171,18 @@
         .col-lg-3.col-12.d-flex
           .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#FFF1EF; border-radius:15px")
             img.mb-5(style="width: 75px" alt="" src="@/assets/curso/temas/tema1/1.2img01.svg")
-            h4.mb-4 Requerimientos técnicos
-            ul.lista-ul--color.mb-0
-             p.mb-0 Los requerimientos técnicos y de componentes que integran la máquina, aumentan frecuentemente según las características que requiera el software para su correcto y óptimo funcionamiento.
+            h4.clr--prime.mb-4.text-center Requerimientos técnicos
+             p.mb-0 <br>Los requerimientos técnicos y de componentes que integran la máquina, aumentan frecuentemente según las características que requiera el software para su correcto y óptimo funcionamiento.
         .col-lg-3.col-12.d-flex
           .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#FFF1EF; border-radius:15px")
             img.mb-5(style="width: 75px" alt="" src="@/assets/curso/temas/tema1/1.2img02.svg")
-            h4.mb-4 Compensación de necesidades 
-            ul.lista-ul--color.mb-0
-             p.mb-0 La escalabilidad en el software es el incremento de un sistema para compensar las necesidades empresariales.    
+            h4.clr--prime.mb-4.text-center Compensación de necesidades 
+             p.mb-0 <br>La escalabilidad en el software es el incremento de un sistema para compensar las necesidades empresariales.    
         .col-lg-3.col-12.d-flex
           .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3(style="background-color:#FFF1EF; border-radius:15px")
             img.mb-5(style="width: 75px" alt="" src="@/assets/curso/temas/tema1/1.2img03.svg")
-            h4.mb-4 ¿Hardware adicional o actualización?
-            ul.lista-ul--color.mb-0
-            p.mb-0 Para poder escalar un sistema de almacenamiento de información, siempre se debe agregar hardware adicional o actualizar el hardware existente, sin transformar mucho la aplicación.
+            h4.clr--prime.mb-4.text-center ¿Hardware adicional o actualización?
+            p.mb-0 <br>Para poder escalar un sistema de almacenamiento de información, siempre se debe agregar hardware adicional o actualizar el hardware existente, sin transformar mucho la aplicación.
 
     .container.tarjeta--neutral.p-4.p-md-5
       .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
