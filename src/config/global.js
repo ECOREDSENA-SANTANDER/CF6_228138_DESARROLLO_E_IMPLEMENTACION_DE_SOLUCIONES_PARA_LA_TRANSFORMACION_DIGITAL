@@ -352,24 +352,6 @@ export default {
           fecha: 'Septiembre,2022',
         },
         {
-          nombre: 'Giovanna Andrea Escobar Ospina',
-          cargo: 'Diseñador Instruccional',
-          centro: 'Regional Norte de Santander - Centro CIES',
-          fecha: 'Septiembre,2022',
-        },
-        {
-          nombre: 'Fabián Leonardo Correa Díaz',
-          cargo: 'Diseñador Instruccional',
-          centro:
-            'Regional Norte de Santander. Centro de la Industria, la Empresa y los Servicios',
-          fecha: 'Septiembre,2022',
-        },
-        {
-          nombre: 'Leonardo Castellanos Rodriguez',
-          cargo: 'Ingeniero desarrollador Full Stack',
-          centro: 'Regional Santander. San Gil',
-        },
-        {
           nombre: 'Silvia Milena Sequeda Cárdenas',
           cargo: 'Asesor metodológico y pedagógico',
           centro: 'Regional Distrito Capital. Centro de Diseño y Metrología. ',
@@ -388,9 +370,17 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Giovanna Andrea Escobar Ospina',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Norte de Santander - Centro CIES',
+          fecha: 'Septiembre,2022',
+        },
+        {
+          nombre: 'Fabián Leonardo Correa Díaz',
+          cargo: 'Diseñador Instruccional',
+          centro:
+            'Regional Norte de Santander. Centro de la Industria, la Empresa y los Servicios',
+          fecha: 'Septiembre,2022',
         },
       ],
     },
@@ -403,9 +393,9 @@ export default {
           centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: 'Leonardo Castellanos Rodriguez',
+          cargo: 'Ingeniero desarrollador Full Stack',
+          centro: 'Regional Santander. San Gil',
         },
         {
           nombre: 'Nombre',
@@ -423,24 +413,9 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Jaime Hernan Tejada',
-          cargo: 'Validador de Recursos Educativos Digitales',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
-        },
-        {
-          nombre: 'Margarita Marcela Medrano',
-          cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+          nombre: '',
+          cargo: '',
+          centro: '',
         },
       ],
     },

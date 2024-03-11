@@ -137,7 +137,7 @@
             p.mb-4 En cualquier caso, para la determinación de riesgos de los proyectos de TI, se puede realizar siguiendo la siguiente fórmula:<br>
             p.fondo-amarillo.mb-4 <i>Riesgo, R = Probabilidad, P. multiplicado por el Impacto, I. = R = P x I</i>
           .col-lg-5.col-8
-            img.mb-0(alt="" src="@/assets/curso/temas/tema6/imagenriesgos.svg")
+            img.mb-0(alt="" src="@/assets/curso/temas/tema6/imagenriesgos.png")
 
 </template>
 

@@ -8,13 +8,13 @@
         h1 Redes de datos
   
       .row.justify-content-center.mb-4(data-aos="zoom-in")
-        .col-lg-10
+        .col-lg-12
           .bg--piel.p-4.br_01.mb-4
             .row.justify-content-center.align-items-center
-              .col-lg-4
+              .col-lg-3
                 figure
                   img(src='@/assets/curso/temas/tema2/redesdedatos.png', alt='imagen decorativa') 
-              .col-lg-8.mb-3.mb-lg-0
+              .col-lg-9.mb-3.mb-lg-0
                 p Una red informática es una colección de dispositivos conectados entre sí utilizando un medio de transmisión, que comparten recursos e intercambian información. La comunicación en la red informática posee dos roles para los elementos conectados, que son el emisor y receptor, estos se asumen y alternan en diferentes instantes de tiempo.<br><br>Las redes de datos son infraestructuras creadas para transmitir información a través del intercambio de datos. Según Moro (2013) son arquitecturas específicas para este fin, cuya base principal es la conmutación de paquetes y que atienden a una clasificación exclusiva, teniendo en cuenta la distancia que es capaz de cubrir su arquitectura física y por supuesto, el tamaño que presentan.
 
       .row.justify-content-center.mb-4(data-aos="zoom-in")
@@ -54,7 +54,7 @@
         .col-lg-2.col-auto
         p El medio es la conexión que permite a dispositivos relacionarse entre sí. A su vez se define la información como la unidad que se intercambia entre dispositivos de gestión, acceso, comunicación y de usuario final como es el texto, imágenes, música, hipertexto, video, entre otros. Por otra parte, los recursos hacen referencia a todo aquello que un dispositivo pide a la red, se identifica y accede directamente. Estos recursos pueden ser archivos compartidos en otros dispositivos de la red, un documento a imprimir en una impresora compartida, un servicio a consumir, información, espacio en disco duro, tiempo de procesamiento, etc.<br><br>A continuación se definen los dispositivos y elementos más importantes en las redes de datos:
        
-      TabsB.acordion__activo.mb-5(data-aos="fade-right")
+      TabsB.activo-verde.mb-5(data-aos="fade-right")
         .py-4.py-md-5(titulo="Servidor" :icono="require('@/assets/curso/temas/tema2/img01.svg')")
           .row.align-items-center.justify-content-center
             .col-lg-5.col-10
