@@ -16,7 +16,7 @@
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-7.col-12
-          p.fondo-amarillo En resumen, se puede decir que IoT es la agrupación de sensores y equipos electrónicos conectados entre sí con el objetivo de calcular, recolectar y mandar datos a un servicio de almacenamiento en la nube.
+          p.fondo-amarillo.p-4 En resumen, se puede decir que IoT es la agrupación de sensores y equipos electrónicos conectados entre sí con el objetivo de calcular, recolectar y mandar datos a un servicio de almacenamiento en la nube.
           p.mb-lg-0.mb-3 El IoT en la actualidad está organizado por una recolección extendida de diferentes redes y con propósitos distintos, por ejemplo, los carros modernos cuentan con una cantidad variada de redes para moderar la puesta en marcha del motor, el monitoreo de comunicación, los sistemas de seguridad, etc., de manera parecida los centros comerciales, las oficinas, los apartamentos manejan diferentes sistemas que permiten controlar la calefacción, el aire acondicionado, los sistemas de seguridad, etc., en tanto que el IoT avanza todas estas redes quedarán conectadas incorporando medidas de análisis, administración y seguridad, haciendo del IoT una herramienta todavía más poderosa.<br><br>
         .col-lg-5.col-22
           img.mb-0(alt="" src="@/assets/curso/temas/tema5/img02.png")
@@ -24,68 +24,59 @@
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-7.col-12
-          img.mb-0(alt="" src="@/assets/curso/temas/tema5/contenido1.svg")
-
+          .titulo-sexto.color-acento-contenido.mb-3
+            p.mb-0 #[b Figura 13.] Internet de las cosas red de redes
+          img.mb-0.p-2(alt="" src="@/assets/curso/temas/tema5/tema5.png")
+          figcaption <b>Nota:</b> Tomado de Cisco IBSG (2011).
           Separador
       #t_5_1.titulo-segundo.color-acento-contenido
         h2 5.1 Aplicaciones
 
       p Entre las diferentes áreas de aplicación que tiene el mundo del IoT se destacan las siguientes:<br>
 
-      SlyderA.fondo-banner 
+      .row.justify-content-center.align-items-center(data-aos="fade-right")
+        .col-lg-4.col-12
+      
+        SlyderA(tipo="b").fondo-banner.p-4
           .row.justify-content-center
-            .col-lg-5.col-10
-              br
-              br
-              p <b>Domótica</b>. 
-              p.mb-lg-0.mb-3 Consiste en la sistematización de una edificación, casa, o inmueble, conectando entre sí diferentes tipos de servicios como (energía, agua, ventilación) y dispositivos como (cerrojos, electrodomésticos), optimizando la seguridad y eficiencia energética garantizando un mejor bienestar para el usuario.
+            .col-lg-6.col-10.p-2
+              h5.p-2 Domótica. 
+              p.p-2 Consiste en la sistematización de una edificación, casa, o inmueble, conectando entre sí diferentes tipos de servicios como (energía, agua, ventilación) y dispositivos como (cerrojos, electrodomésticos), optimizando la seguridad y eficiencia energética garantizando un mejor bienestar para el usuario.
             .col-lg-5.col-8
               img.mb-0(alt="" src="@/assets/curso/temas/tema5/5.1img01.png")
 
-
           .row.justify-content-center
-            .col-lg-5.col-10
-              br
-              br
-              p <b>Automatización y control de procesos de producción</b>. 
-              p.mb-lg-0.mb-3 Se emplea la tecnología de IoT para incrementar la eficiencia en la fabricación de los productos conseguidos, así como su fiabilidad y el continuo seguimiento del producto en la fábrica. 
+            .col-lg-6.col-10.p-4
+              h5.p-2 Automatización y control de procesos de producción
+              p.p-2 Se emplea la tecnología de IoT para incrementar la eficiencia en la fabricación de los productos conseguidos, así como su fiabilidad y el continuo seguimiento del producto en la fábrica. 
             .col-lg-5.col-8
               img.mb-0(alt="" src="@/assets/curso/temas/tema5/5.1img02.png") 
 
           .row.justify-content-center
-            .col-lg-5.col-10
-              br
-              br
-              p <b>Transporte y logística</b>. 
-              p.mb-lg-0.mb-3 Consiste en monitorizar medios de transporte y el proceso de envío de productos, validar estados de conservación, ubicación, evitando robos o pérdidas, logrando realizar análisis de mejores rutas o administración de tráfico. Unos ejemplos donde son utilizados son en las empresas de envíos o en las plataformas de servicios de carros o como se puede ver en la figura 5 gestión de tiempos de traslados, gestión y control de vehículos.
+            .col-lg-6.col-10.p-4
+              h5.p-2 Transporte y logística.
+              p.p-2 Consiste en monitorizar medios de transporte y el proceso de envío de productos, validar estados de conservación, ubicación, evitando robos o pérdidas, logrando realizar análisis de mejores rutas o administración de tráfico. Unos ejemplos donde son utilizados son en las empresas de envíos o en las plataformas de servicios de carros o como se puede ver en la figura 5 gestión de tiempos de traslados, gestión y control de vehículos.
             .col-lg-5.col-8
               img.mb-0(alt="" src="@/assets/curso/temas/tema5/5.1img03.png")
 
           .row.justify-content-center
-            .col-lg-5.col-10
-              br
-              br
-              p <b>Agricultura, ganadería y silvicultura</b>. 
-              p.mb-lg-0.mb-3 Al igual que en las fábricas IoT es utilizado para la automatización de trabajos primordiales con lo relacionado del agro, como por ejemplo, sistema de riego, sistema de detector de temperatura para siembra, detección de enfermedades de los animales, etc.
+            .col-lg-6.col-10.p-4
+              h5.p-2 Agricultura, ganadería y silvicultura.
+              p.p-2 Al igual que en las fábricas IoT es utilizado para la automatización de trabajos primordiales con lo relacionado del agro, como por ejemplo, sistema de riego, sistema de detector de temperatura para siembra, detección de enfermedades de los animales, etc.
             .col-lg-5.col-8
               img.mb-0(alt="" src="@/assets/curso/temas/tema5/5.1img04.png")
 
           .row.justify-content-center
-            .col-lg-5.col-10
-              br
-              br
-              p <b>Videovigilancia y seguridad</b>. 
-              p.mb-lg-0.mb-3 Consiste en la configuración y control de una variedad de equipos de seguridad tales como sensores de movimiento, alarmas inteligentes, detección de amenazas para proteger la seguridad de edificaciones, casas y así contar con una prevención cuando se presenten situaciones de riesgo.
+            .col-lg-6.col-10.p-4
+              h5.p-2 Videovigilancia y seguridad.
+              p.p-2 Consiste en la configuración y control de una variedad de equipos de seguridad tales como sensores de movimiento, alarmas inteligentes, detección de amenazas para proteger la seguridad de edificaciones, casas y así contar con una prevención cuando se presenten situaciones de riesgo.
             .col-lg-5.col-8
               img.mb-0(alt="" src="@/assets/curso/temas/tema5/5.1img05.png")
 
           .row.justify-content-center
-            .col-lg-5.col-10
-              br
-              br
-              p <b>Medicina</b>. 
-              p.mb-lg-0.mb-3 Sus objetivos son detectar de una persona sus signos vitales, así como las variaciones para suministro de medicinas. Aunque la orientación es más a los humanos es posible también monitorear el estado de salud de los animales domésticos. La incorporación de IoT en el sector de la salud transformará el cuidado médico, ya que los centros de atención serán mucho más eficientes, brindando al personal de la salud datos muy importantes de los pacientes en tiempos más cortos, para poder agilizar los procesos médicos.
-
+            .col-lg-6.col-10.p-4
+              h5.p-2 Medicina. 
+              p.p-2 Sus objetivos son detectar de una persona sus signos vitales, así como las variaciones para suministro de medicinas. Aunque la orientación es más a los humanos es posible también monitorear el estado de salud de los animales domésticos. La incorporación de IoT en el sector de la salud transformará el cuidado médico, ya que los centros de atención serán mucho más eficientes, brindando al personal de la salud datos muy importantes de los pacientes en tiempos más cortos, para poder agilizar los procesos médicos.
             .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema5/5.1img06.png")
 

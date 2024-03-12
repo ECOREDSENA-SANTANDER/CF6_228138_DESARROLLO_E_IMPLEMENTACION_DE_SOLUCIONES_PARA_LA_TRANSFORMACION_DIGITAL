@@ -54,7 +54,7 @@
         .col-lg-2.col-auto
         p El medio es la conexión que permite a dispositivos relacionarse entre sí. A su vez se define la información como la unidad que se intercambia entre dispositivos de gestión, acceso, comunicación y de usuario final como es el texto, imágenes, música, hipertexto, video, entre otros. Por otra parte, los recursos hacen referencia a todo aquello que un dispositivo pide a la red, se identifica y accede directamente. Estos recursos pueden ser archivos compartidos en otros dispositivos de la red, un documento a imprimir en una impresora compartida, un servicio a consumir, información, espacio en disco duro, tiempo de procesamiento, etc.<br><br>A continuación se definen los dispositivos y elementos más importantes en las redes de datos:
        
-      TabsB.activo-verde.mb-5(data-aos="fade-right")
+      TabsB.color-acento-botoness.mb-5(data-aos="fade-right")
         .py-4.py-md-5(titulo="Servidor" :icono="require('@/assets/curso/temas/tema2/img01.svg')")
           .row.align-items-center.justify-content-center
             .col-lg-5.col-10
@@ -116,6 +116,8 @@
                 h4 Protocolo<br>
                 p Es el elemento software de la red, encargado de establecer los parámetros de comunicación entre dispositivos, habilitar mecanismos de identificación de los equipos y usuarios en la red, definir el formato de la información que circula en la red. 
             .col-lg-8.col-10
+              .titulo-sexto.color-acento-contenido.mb-3
+                p.mb-0 #[b figura 1.] Protocolo.
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img8.png', alt='')   
 
       .row.justify-content-center.mb-4(data-aos="zoom-in")
