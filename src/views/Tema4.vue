@@ -33,47 +33,47 @@
       .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
         .col-lg-12
           .row.p-4
-            .col-lg-4
+            .col-lg-4.p-2
               .tarjeta.gris-claro.p-4.tamano-tarjeta
                 h4 Red
                 p
                 | Conjunto de dispositivos, que permiten la conexión y comunicación, mediante protocolos de transmisión de información establecidos.<br><br>
            
-            .col-lg-4
+            .col-lg-4.p-2
               .tarjeta.gris-claro.p-4.tamano-tarjeta
                 h4 Cliente
                 p
                 | Puede ser un ordenador, computador personal, o una aplicación, la cual requiere información, que se trasmite en una la red para poder funcionar.
            
-            .col-lg-4
+            .col-lg-4.p-2
               .tarjeta.gris-claro.p-4.tamano-tarjeta 
                 h4 Características del cliente
                 p
                 | Se trata de un computador con características técnicas iguales a las de los computadores usados en hogares u oficinas, por el cual las personas se conectan a internet (por medio de un cable de red o inalámbrica) en uno o varios servidores.
           
-          .row.p-4
-            .col-lg-4
+          .row.p-3
+            .col-lg-4.p-2
               .tarjeta.gris-claro.p-4.tamano-tarjeta 
                 h4 Servidores de internet, alojados en la nube
                 p
                 | Conjunto de dispositivos, que permiten la conexión y comunicación, mediante protocolos de transmisión de información establecidos.
 
-            .col-lg-4
+            .col-lg-4.p-2
               .tarjeta.gris-claro.p-4.tamano-tarjeta 
                 h4 Características del cliente
                 p
                 | Los servicios en la nube hacen referencia al uso de una gran red de servidores remotos que están conectados a internet, donde es posible administrar, almacenar y procesar datos, bases de datos, servidores y softwares.
 
-            .col-lg-4
+            .col-lg-4.p-2
               .tarjeta.gris-claro.p-4.tamano-tarjeta 
                 h4 Ventajas
                 p
                 | Las grandes ventajas de esta arquitectura cliente-servidor, son: la fácil integración de nuevas tecnologías, el crecimiento computacional de la organización no se vería afectado, se pueden integrar equipos de diferentes características técnicas y trabajar simultáneamente.
 
       .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
-        .col-lg-4
+        .col-lg-3
           .row.p-4
-            .col-lg-12
+            .col-lg-12.p-2
               .tarjeta.gris-claro.p-4.tamano-tarjeta
                 h4 Desventajas
                 p
