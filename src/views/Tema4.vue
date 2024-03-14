@@ -71,8 +71,8 @@
                 | Las grandes ventajas de esta arquitectura cliente-servidor, son: la fácil integración de nuevas tecnologías, el crecimiento computacional de la organización no se vería afectado, se pueden integrar equipos de diferentes características técnicas y trabajar simultáneamente.
 
       .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
-        .col-lg-3
-          .row.p-4
+        .col-lg-4
+          .row.p-3
             .col-lg-12.p-2
               .tarjeta.gris-claro.p-4.tamano-tarjeta
                 h4 Desventajas
