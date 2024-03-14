@@ -16,10 +16,11 @@
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Figura 14.] Aspectos contenidos en la administración de proyectos TI
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/temas/tema6/banner6.svg")
-          p <br>
+          
 
+      .row(data-aos="fade-right").p-4
       .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Fases (Planeación, Ejecución, Verificación y Mejora) 
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 560px; position: absolute" data-aos="fade-left")
       .row.justify-content-center.align-items-center(data-aos="fade-right")
@@ -140,16 +141,15 @@
                   td.text-center ...
                   td.text-center ...
          
-          p <br>
-
+      .row(data-aos="fade-right").p-4
       .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Criterios para la determinación de recursos 
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 476px; position: absolute" data-aos="fade-left")
       
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-04.col-12.mb-4-lg-0
-         p <br>Los recursos de un proyecto de TI. pueden estar agrupados en recursos humanos, económicos o financieros, tecnológicos, y de información.<br><br>En la gestión de proyectos de TI, y en especial en los proyectos de servicios en la nube, es importante la determinación de recursos necesarios, por lo que se deben considerar los siguientes criterios:<br>
+         p Los recursos de un proyecto de TI. pueden estar agrupados en recursos humanos, económicos o financieros, tecnológicos, y de información.<br><br>En la gestión de proyectos de TI, y en especial en los proyectos de servicios en la nube, es importante la determinación de recursos necesarios, por lo que se deben considerar los siguientes criterios:<br>
         .col-lg-12.col-22
         .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Tabla 2.]  Criterios en la gestión de proyectos TI
@@ -178,29 +178,76 @@
             tr
               th Otros
               td Instalaciones y equipos: Se debe considerar los recursos de instalaciones, maquinaria, dispositivos y equipos técnicos y tecnológicos que se requieren.
-
-          p <br>
-
+      
+      .row(data-aos="fade-right").p-4
       .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Criterios para la planeación de actividades 
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 476px; position: absolute" data-aos="fade-left")
       
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-04.col-12.mb-4-lg-0
-          p <br>Dentro de los proyectos de TI se establecen las actividades que están a un nivel más bajo y las cuales se crean en función del cumplimiento de los objetivos específicos del proyecto. Para la planeación de actividades se deben considerar los siguientes criterios:<br>
+          p Dentro de los proyectos de TI se establecen las actividades que están a un nivel más bajo y las cuales se crean en función del cumplimiento de los objetivos específicos del proyecto. Para la planeación de actividades se deben considerar los siguientes criterios:<br>
         .col-lg-10.col-22
           img.mb-lg-7.mb-3(alt="" src="@/assets/curso/temas/tema6/recursos.svg")
           p <br>
+    
+    .container.tarjeta--neutral.p-4.p-md-5
+      .row.justify-content-center.align-items-center(data-aos="fade-right")
+        .col-lg-4.col-6
+          img(alt="" src="@/assets/curso/temas/tema2/mujer.png")
+        .col-8
+          SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+            .tarjeta.resaltado-blanco.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/temas/tema6/1.svg' alt='AvatarTop')
+              p.text-center.p-3 Nombre de la actividad
+            .tarjeta.resaltado-blanco.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/temas/tema6/2.svg' alt='AvatarTop')
+              p.text-center Descripción de la actividad
 
+            .tarjeta.resaltado-blanco.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/temas/tema6/4.svg' alt='AvatarTop')
+              p.text-center Responsable de la realización o ejecución
+
+            .tarjeta.resaltado-blanco.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/temas/tema6/3.svg' alt='AvatarTop')
+              p.text-center Objetivo especifico relacionado
+            
+            .tarjeta.resaltado-blanco.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/temas/tema6/6.svg' alt='AvatarTop')
+              p.text-center Fecha de inicio
+
+            .tarjeta.resaltado-blanco.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/temas/tema6/5.svg' alt='AvatarTop')
+              p.text-center Fecha de finalización
+
+            .tarjeta.resaltado-blanco.p-4
+              .row.justify-content-center.mb-3
+                .col-6
+                  img(src='@/assets/curso/temas/tema6/7.svg' alt='AvatarTop')
+              p.text-center Porcentaje de avance
+    
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
       .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Aspectos legales 
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 240px; position: absolute" data-aos="fade-left")
       
+      p.p-2 #[b En la gestión de proyectos de TI,] se deben tener en cuenta los aspectos legales según el contexto, para lo cual se recomienda tener claro una matriz de cumplimiento legal, en donde se pueda identificar dentro de cada proyecto que requisitos legales se deben cumplir, esto con el fin de evitar incumplimientos que puedan generar impactos adversos de tipo económico, operativo o reputacional.
+      
       .row.justify-content-center.align-items-center(data-aos="fade-right")
-          p <br><b>En la gestión de proyectos de TI,</b> se deben tener en cuenta los aspectos legales según el contexto, para lo cual se recomienda tener claro una matriz de cumplimiento legal, en donde se pueda identificar dentro de cada proyecto que requisitos legales se deben cumplir, esto con el fin de evitar incumplimientos que puedan generar impactos adversos de tipo económico, operativo o reputacional.<br>
-      .row 
         .col-lg-7.col-7
           LineaTiempoD.color-acento-botones
             .row(numero="1" titulo="Contexto jurídico")
@@ -222,14 +269,9 @@
         .col-lg-4.col-7 
           img(alt="" src="@/assets/curso/temas/tema6/aspectoslegales.svg")
 
-      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-        .col-lg-7.col-12
-          p <br>
-
     .container.tarjeta--neutral.p-4.p-md-5
-
       .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Riesgos
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 166px; position: absolute" data-aos="fade-left")
       

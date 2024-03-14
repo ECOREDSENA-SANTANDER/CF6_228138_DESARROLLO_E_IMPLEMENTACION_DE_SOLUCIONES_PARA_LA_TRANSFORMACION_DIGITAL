@@ -14,7 +14,7 @@
           iframe(width="1280" height="720" src="https://youtube.com/embed/0mbw-CgmkEA" title="Tecnologías y conceptos básicos de <i>networking</i>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
         figcaption Video. Tecnologías y conceptos básicos de <i>networking</i>
 
-        Separador
+      Separador
       #t_1_2.titulo-segundo.color-acento-contenido
         h2 3.1  Conceptos básicos <i>Networking</i>
 
@@ -25,12 +25,12 @@
             figure
               img(src="@/assets/curso/temas/tema3/icono3.1.svg", alt="alt").img75.m-auto
           .col-lg-11
-            p.mb-0 Se puede definir como un sistema de apoyo para compartir información y servicios entre usuarios, dispositivos, terminales y grupos de trabajo que pertenecen a redes comunes o independientes. A continuación, se abordan los conceptos básicos de Networking.
+            p.mb-0.p-2 Se puede definir como un sistema de apoyo para compartir información y servicios entre usuarios, dispositivos, terminales y grupos de trabajo que pertenecen a redes comunes o independientes. A continuación, se abordan los conceptos básicos de Networking.
 
 
     .container.tarjeta--neutral.p-4.p-md-5
       .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Conexión a internet
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 266px; position: absolute" data-aos="fade-left")
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-center")
@@ -39,7 +39,7 @@
 
       
       .row.justify-content-center.align-items-center.mb-10(data-aos="fade-center")
-        .col-6.lg-4.col
+        .col-6.lg-4.col-10
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Figura 11.] Conexión a internet.
           img.mb-lg-5.mb-0(src="@/assets/curso/temas/tema3/internet.png")
@@ -47,7 +47,7 @@
 
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
       .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Ancho de banda
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 236px; position: absolute" data-aos="fade-left")
 
@@ -63,7 +63,7 @@
   
     .container.tarjeta--neutral.p-4.p-md-5
       .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Direccionamiento de equipos de red
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 416px; position: absolute" data-aos="fade-left")
 
@@ -77,9 +77,9 @@
               img.p-2(src="@/assets/curso/temas/tema3/ip.png")
           .col-lg-7.p-4
             .row.justify-content-center.align-items-center.mb-10(data-aos="fade-center").resaltado-rosado.p-2
-              .col-lg-3.col-4
+              .col-lg-3.col-3
                 img(src="@/assets/curso/temas/tema3/02.png")
-              .col-lg-9.col-6.p-4
+              .col-lg-9.p-4
                 p Dentro de los direccionamientos se tiene dos tipos básicos de direcciones IP que son IPv4 e IPv6, estos direccionamientos se pueden realizar también de dos formas básicas que son el direccionamiento estático y el direccionamiento DHCP o dinámico. Igualmente se encuentra el ICMP o Protocolo de mensajes de Control de Internet, que sirve de apoyo en el conjunto de protocolos de Internet, se utiliza por los routers, para enviar mensajes de error e información operativa que indica el éxito o el fracaso en la comunicación con otra dirección IP.
             
 </template>

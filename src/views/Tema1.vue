@@ -35,9 +35,8 @@
               .col-lg-8
                 h5.text-white.relleno-rojo.p-2 Infraestructura de <i>software</i>
                 p Una infraestructura de software se utiliza para almacenar, operar y tramitar las acciones necesarias dentro de una organización, basado en las tecnologías de la información.
-      .row
-        br
-      p.mb-5 Entre los tipos de hardware, se pueden mencionar los siguientes:
+      
+      p.p-4 Entre los tipos de hardware, se pueden mencionar los siguientes:
 
       .row.justify-content-center.align-items-center(data-aos="fade-rigth")
         .col-lg-6.col-12
@@ -56,7 +55,7 @@
           img.mb-lg-0.mb-3(alt="" src="@/assets/curso/temas/tema1/img15.svg") 
 
 
-      p.mb-5 <br>Por su parte, las estructuras de software también tienen algunas características y componentes específicos, como son:
+      p.p-4 Por su parte, las estructuras de software también tienen algunas características y componentes específicos, como son:
 
       .row.justify-content-center(data-aos="fade-center")
         .col-lg-2.col-12.d-flex
@@ -196,7 +195,7 @@
         
       .topSquare02.clr--Yellow.mb-5(data-aos="fade-left")
         .row
-          .col-lg-1.col-auto
+          .col-lg-1.col-auto.p-3
             figure
               img(src="@/assets/curso/temas/tema1/icono1.3.svg", alt="alt").img75.m-auto
           .col-lg-11
@@ -231,12 +230,12 @@
       p Dentro de los marcos de referencias en el software, están los componentes de la arquitectura de diseño y operabilidad que maneja el mismo.<br><br>En todos los proyectos de TI, se debe evaluar, direccionar y monitorear áreas como: alcance, costos, tiempo, equipo humano, compras, calidad, comunicación, manejo de los interesados, integración, entre otros.
   
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-        .col-lg-6.col-12
+        .col-lg-6.col-9
           .resaltado-rosado.row.p-3.mb-4
-            .col-lg-2
+            .col-lg-2.col-4
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/computer.png")
             .col-lg-10
-              h5.resaltado-rosado Los proyectos deberán tener una relación directa con el portafolio, planes y programas definidos en la entidad y el sector.
+              h5.resaltado-rosado.p-2 Los proyectos deberán tener una relación directa con el portafolio, planes y programas definidos en la entidad y el sector.
           p.mb-lg-0.mb-3 Dentro de los componentes de la ingeniería del software, el ciclo de vida del software examina las fases necesarias para validar el desarrollo del mismo y así garantizar que este desempeñe los requerimientos para la aplicación y verificación de los procedimientos de desarrollo.
           p Estos son algunos aspectos clave sobre los ciclos de vida del software y las buenas prácticas de software, que se debe conocer:
         .col-lg-6.col-22

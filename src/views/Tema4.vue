@@ -14,7 +14,7 @@
               .col-lg-10.col-12.mb-4.mg-lg-0
                 p Cuando se habla de arquitectura cliente-servidor, se está haciendo referencia a un modelo de diseño de software en el que los trabajos se reparten entre los proveedores de recursos o servicios; estos son llamados servidores, y los demandantes, son llamados clientes. <br><br>
                 p Un cliente realiza una o varias peticiones a otro u otros programas; el servidor es quien le da respuesta y almacena los datos que navegan en la red.<br><br>Se puede identificar y analizar, en el siguiente esquema, la arquitectura cliente servidor:
-              .col-lg-2.col-md-5.col-8.px-5
+              .col-lg-2.col-md-5.col-6.px-5
                 img.mb-0(alt="" src="@/assets/curso/temas/tema4/software.svg")
     
   
@@ -77,7 +77,7 @@
                  h5 Desventajas
                  p.mb-0 La seguridad está en riesgo, ya que, al haber y compartir tantos canales de información entre clientes y servidores, al tener pocos procesos de validación, se pueden tener puertas abiertas a ataques o amenazas de malware.
 
-        .col-lg-4.col-8
+        .col-lg-4.col-8.p-2
           img.mb-lg-0.mb-3(alt="" src="@/assets/curso/temas/tema4/cliente.png")
         
 </template>

@@ -8,10 +8,10 @@
         h1 Internet de las cosas (IoT)
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-        .col-lg-5.col-20
+        .col-lg-5.col-9.p-1
           img.mb-0(alt="" src="@/assets/curso/temas/tema5/img01.png")
-        .col-lg-7.col-12
-          p.mb-4 Debido a la gran importancia y progreso que ha logrado la IoT es valorada como una de las tecnologías de mayor impacto a 2025, debido a que se intuye que a una gran cantidad y variedad de objetos se les incorporará variados tipos de sensores que estarán conectados a Internet produciendo un flujo de datos muy grande, el cual debe ser tratado, almacenado y expuestos de una forma sencilla y fácil de entender (Molano, 2015).
+        .col-lg-7.col-12.p-2
+          p.mb-2 Debido a la gran importancia y progreso que ha logrado la IoT es valorada como una de las tecnologías de mayor impacto a 2025, debido a que se intuye que a una gran cantidad y variedad de objetos se les incorporará variados tipos de sensores que estarán conectados a Internet produciendo un flujo de datos muy grande, el cual debe ser tratado, almacenado y expuestos de una forma sencilla y fácil de entender (Molano, 2015).
           p.mb-lg-0.mb-3 El concepto de IoT (Internet de las cosas) fue presentado por primera vez en Proctor y Gamble en el año de 1999 por Kevin Ashton, describiendo que consistía en la generalización de una variedad de diferentes cosas, objetos o elementos de tipo cotidiano integrados como etiquetas de identificación por medio de radiofrecuencias (RFID), los cuales eran controlados por Internet, generando una gran cantidad de datos que necesitaban ser recolectados y almacenados, razón por la cual IoT se integra con Cloud Computing para que estos datos se alojen en Internet facilitando que estén en continua disponibilidad, para que las empresas, usuarios puedan acceder desde cualquier lugar.<br><br>
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")

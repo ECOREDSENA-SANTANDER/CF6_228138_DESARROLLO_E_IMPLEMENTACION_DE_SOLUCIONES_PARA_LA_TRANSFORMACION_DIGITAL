@@ -11,15 +11,15 @@
         .col-lg-12
           .bg--piel.p-4.br_01.mb-4
             .row.justify-content-center.align-items-center
-              .col-lg-3
+              .col-lg-3.col-9
                 figure
                   img(src='@/assets/curso/temas/tema2/redesdedatos.png', alt='imagen decorativa') 
               .col-lg-9.mb-3.mb-lg-0
-                p Una red informática es una colección de dispositivos conectados entre sí utilizando un medio de transmisión, que comparten recursos e intercambian información. La comunicación en la red informática posee dos roles para los elementos conectados, que son el emisor y receptor, estos se asumen y alternan en diferentes instantes de tiempo.<br><br>Las redes de datos son infraestructuras creadas para transmitir información a través del intercambio de datos. Según Moro (2013) son arquitecturas específicas para este fin, cuya base principal es la conmutación de paquetes y que atienden a una clasificación exclusiva, teniendo en cuenta la distancia que es capaz de cubrir su arquitectura física y por supuesto, el tamaño que presentan.
+                p.p-2 Una red informática es una colección de dispositivos conectados entre sí utilizando un medio de transmisión, que comparten recursos e intercambian información. La comunicación en la red informática posee dos roles para los elementos conectados, que son el emisor y receptor, estos se asumen y alternan en diferentes instantes de tiempo.<br><br>Las redes de datos son infraestructuras creadas para transmitir información a través del intercambio de datos. Según Moro (2013) son arquitecturas específicas para este fin, cuya base principal es la conmutación de paquetes y que atienden a una clasificación exclusiva, teniendo en cuenta la distancia que es capaz de cubrir su arquitectura física y por supuesto, el tamaño que presentan.
 
       .row.justify-content-center.mb-4(data-aos="zoom-in")
         .col-lg-10
-                Separador
+        Separador
         #t_2_1.titulo-segundo.color-acento-contenido
          h2 2.1 Historia  
 
@@ -30,7 +30,7 @@
 
       .row.justify-content-center.mb-4(data-aos="zoom-in")
         .col-lg-10
-                Separador
+        Separador
         #t_2_2.titulo-segundo.color-acento-contenido
          h2 2.2 Conceptos básicos y componentes de una red
 
@@ -120,19 +120,75 @@
                 p.mb-0 #[b figura 1.] Protocolo.
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img8.png', alt='')   
 
-      .row.justify-content-center.mb-4(data-aos="zoom-in")
-        .col-lg-10
-                Separador
-        #t_2_3.titulo-segundo.color-acento-contenido
-          h2 2.3 Medios de transmisión
-        .col-lg-12
-          p Son los caminos por los cuales viaja la información o los datos. Estos medios según como como conducen las señales se clasifican en dos tipos:           
+      Separador
+      #t_2_3.titulo-segundo.color-acento-contenido
+        h2 2.3 Medios de transmisión
+       
+      p Son los caminos por los cuales viaja la información o los datos. Estos medios según como como conducen las señales se clasifican en dos tipos:           
 
-      .row.justify-content-center.mb-4(data-aos="zoom-in")
-        .col-lg-10
-                Separador
-        #t_2_4.titulo-segundo.color-acento-contenido
-         h2 2.4 Protocolos de comunicación
+        
+      .container.tarjeta.LineaTiempoD.p-4.p-md-5.mb-5
+        .row 
+          .col-lg-10
+          SlyderE(indicadores="derecha") 
+            .row
+              .col-md-5.mb-3.mb-md-0
+                h5 <br>Medios de transmisión guiados
+                p <br>Están formados por cables que se encargan de guiar las señales de un extremo a otro. Dentro de las características de estos medios están: el tipo de conductor, velocidad máxima de transmisión, distancia máxima ofrecida entre repetidores, inmunidad ante interferencias electromagnéticas, facilidad de instalación y la compatibilidad con varias tecnologías de capa de enlace. Los medios guiados más usados para interconexión en el campo de las telecomunicaciones son: cable de par trenzado, cable coaxial y la fibra óptica
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/temas/tema2/2.3.1.png', alt='Cable par trenzado')
+                  h4.py-3 Cable par trenzado
+            .row
+              .col-md-5.mb-3.mb-md-0
+                h5 <br>Medios de transmisión guiados
+                p <br>Están formados por cables que se encargan de guiar las señales de un extremo a otro. Dentro de las características de estos medios están: el tipo de conductor, velocidad máxima de transmisión, distancia máxima ofrecida entre repetidores, inmunidad ante interferencias electromagnéticas, facilidad de instalación y la compatibilidad con varias tecnologías de capa de enlace. Los medios guiados más usados para interconexión en el campo de las telecomunicaciones son: cable de par trenzado, cable coaxial y la fibra óptica
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/temas/tema2/2.3.2.png', alt='Cable par trenzado')
+                  h4.py-3 Cable coaxial
+            .row
+              .col-md-5.mb-3.mb-md-0
+                h5 <br>Medios de transmisión guiados
+                p <br>Están formados por cables que se encargan de guiar las señales de un extremo a otro. Dentro de las características de estos medios están: el tipo de conductor, velocidad máxima de transmisión, distancia máxima ofrecida entre repetidores, inmunidad ante interferencias electromagnéticas, facilidad de instalación y la compatibilidad con varias tecnologías de capa de enlace. Los medios guiados más usados para interconexión en el campo de las telecomunicaciones son: cable de par trenzado, cable coaxial y la fibra óptica
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/temas/tema2/2.3.3.png', alt='Cable par trenzado')
+                  h4.py-3 Cable fibra óptica
+
+
+      .container.tarjeta.LineaTiempoD2.p-4.p-md-5.mb-5
+        .row 
+          .col-lg-10
+          SlyderE(indicadores="derecha") 
+            .row
+              .col-md-5.mb-3.mb-md-0
+                h5 <br>Medios de transmisión no guiados
+                p <br>Son aquellos que permiten la comunicación sin uso de cables o conductor físico, las señales electromagnéticas son radiadas a través del espacio libre y se encuentran disponibles para cualquier usuario con un dispositivo inalámbrico. Para estos medios es necesario el uso de antenas tanto para transmitir como para recibir las señales. Los medios no guiados más usados son: ondas de radio, microondas e infrarrojo.
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/temas/tema2/3.1.png', alt='Cable par trenzado')
+                  h4.py-3 Ondas de radio
+            .row
+              .col-md-5.mb-3.mb-md-0
+                h5 <br>Medios de transmisión no guiados
+                p <br>Son aquellos que permiten la comunicación sin uso de cables o conductor físico, las señales electromagnéticas son radiadas a través del espacio libre y se encuentran disponibles para cualquier usuario con un dispositivo inalámbrico. Para estos medios es necesario el uso de antenas tanto para transmitir como para recibir las señales. Los medios no guiados más usados son: ondas de radio, microondas e infrarrojo.
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/temas/tema2/3.1.2.png', alt='Cable par trenzado')
+                  h4.py-3 Microondas
+            .row
+              .col-md-5.mb-3.mb-md-0
+                h5 <br>Medios de transmisión no guiados
+                p <br>Son aquellos que permiten la comunicación sin uso de cables o conductor físico, las señales electromagnéticas son radiadas a través del espacio libre y se encuentran disponibles para cualquier usuario con un dispositivo inalámbrico. Para estos medios es necesario el uso de antenas tanto para transmitir como para recibir las señales. Los medios no guiados más usados son: ondas de radio, microondas e infrarrojo.
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/temas/tema2/3.1.3.png', alt='Cable par trenzado')
+                  h4.py-3 Infrarrojos
+      
+      Separador
+      #t_2_4.titulo-segundo.color-acento-contenido
+        h2 2.4 Protocolos de comunicación
 
       .topSquare02.clr--Yellow.mb-5(data-aos="fade-left")
         .row
@@ -146,65 +202,81 @@
         .col-lg-2.col-22
         p Existen diferentes protocolos, cada uno de ellos está identificado por la capa del modelo OSI en la que va a trabajar. Por nombrar algunos: 
 
-      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-        .col-lg-10.col-22
-          img.mb-0(alt="" src="@/assets/curso/temas/tema2/2.4.png")
+      .row.justify-content-center(data-aos="zoom-in")
+        .col-lg-8
+          .row.justify-content-center
+            .col-lg-7.resaltado-rosado.p-4 
+              ol.lista-ol
+              li 
+                | Capa 1: CGI. MIME, IEEE
+              li 
+                | Capa 2: Ethernet
+              li 
+                | Capa 3: Protocolo de internet IP
+              li 
+                | Capa 4: Protocolo de control de Transmisión TCP, UDP
+              li 
+                | Capa 5: Capa 5: NetBIOS
+              li 
+                | Capa 6: ASN.1
+              li 
+                | Capa 7: TELNET, FTP, SNMP
+            .col-lg-5.col-3.resaltado-rojo.p-4
+              img.mb-3(src="@/assets/curso/temas/tema2/prueba2.png", alt="alt")
+    
 
-      .row.justify-content-center.mb-4(data-aos="zoom-in")
-        .col-lg-10
-                Separador
-        #t_2_5.titulo-segundo.color-acento-contenido
-         h2 2.5 Clasificación de redes
+      Separador
+      #t_2_5.titulo-segundo.color-acento-contenido
+        h2 2.5 Clasificación de redes
 
-      .row.justify-content-center.mb-4(data-aos="zoom-in") 
-        .col-lg-2.col-auto
-        p Las redes están clasificadas de diferentes maneras teniendo en cuenta el número de dispositivos conectados y la distancia entre los mismos, el tipo de conexión o la tecnología utilizada, esta clasificación se detalla a continuación:
+      p Las redes están clasificadas de diferentes maneras teniendo en cuenta el número de dispositivos conectados y la distancia entre los mismos, el tipo de conexión o la tecnología utilizada, esta clasificación se detalla a continuación:
 
-         Separador
-        #t_2_4.titulo-segundo.color-acento-contenido
-         h2 2.6 Topologías de redes
+      Separador
+      #t_2_4.titulo-segundo.color-acento-contenido
+        h2 2.6 Topologías de redes
 
-         Separador
-        #t_2_4.titulo-segundo.color-acento-contenido
-         h2 2.7 Modelo TCP/IP y OSI 
+      Separador
+      #t_2_4.titulo-segundo.color-acento-contenido
+        h2 2.7 Modelo TCP/IP y OSI 
 
-         Separador
-        #t_2_4.titulo-segundo.color-acento-contenido
-         h2 2.8 Tecnología Ethernet
+      Separador
+      #t_2_4.titulo-segundo.color-acento-contenido
+        h2 2.8 Tecnología Ethernet
 
       .row.justify-content-center.align-items-center
-        .col-lg-4.col-10
+        .col-lg-4.col-8
           figure
             img(src='@/assets/curso/temas/tema2/2.8.1.png', alt='imagen decorativa') 
         .col-lg-8.mb-3.mb-lg-0
-          p Es una serie de estándares establecidos para la implementación de redes de área local o LAN. Para Forouzan (2002), se caracteriza por ser más estable, confiable y rápida en la transmisión de datos, ya que la interferencia con otros dispositivos de la misma red es mínima. Otra ventaja que presenta esta serie de estándares es la velocidad de transmisión pues puede ser del orden de los 100 Gbit/s. Para poder implementar una red tipo Ethernet es necesario contar con una serie de dispositivos que cumplen diferentes funciones. Algunos de ellos son: enrutadores, switches, cables UTP, bridges, entre otros.
-      .row
+          p.p-2 Es una serie de estándares establecidos para la implementación de redes de área local o LAN. Para Forouzan (2002), se caracteriza por ser más estable, confiable y rápida en la transmisión de datos, ya que la interferencia con otros dispositivos de la misma red es mínima. Otra ventaja que presenta esta serie de estándares es la velocidad de transmisión pues puede ser del orden de los 100 Gbit/s. Para poder implementar una red tipo Ethernet es necesario contar con una serie de dispositivos que cumplen diferentes funciones. Algunos de ellos son: enrutadores, switches, cables UTP, bridges, entre otros.
+      
+      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col 
           p <br>
       .mb-4.d-flex
         .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Objetivos
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 166px; position: absolute" data-aos="fade-left")
-      .row
-        .col 
-          p Los principales objetivos de Ethernet son consistentes con los que se han convertido en los requerimientos básicos para el desarrollo y uso de redes LAN: 
-      .row.justify-content-center.align-items-center
+      
+      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+        p Los principales objetivos de Ethernet son consistentes con los que se han convertido en los requerimientos básicos para el desarrollo y uso de redes LAN: 
+      
+      .row.justify-content-center.align-items-center.p-4
         .col-lg-10.col-22
           img(src='@/assets/curso/temas/tema2/2.8.2.png', alt='imagen decorativa')  
       
-      .row
-        .col 
-          p <br>
-      .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
-          h3.col.px-4.mb-0.text-white(data-aos="fade-right") La trama de Ethernet
-          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 266px; position: absolute" data-aos="fade-left")
-      .row
-        .col-lg-8.col-22 
+      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
+        .mb-4.d-flex
+          .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
+            h3.col.px-4.mb-0.text-white(data-aos="fade-right") La trama de Ethernet
+            img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 266px; position: absolute" data-aos="fade-left")
+      
+      .row.justify-content-center.align-items-center.mb-3(data-aos="fade-right")
+        .col-lg-8.col-12
           p Los dispositivos de una red Ethernet intercambian información o datos llamados paquetes Ethernet, cuyo contenido incluye la trama Ethernet o trama de datos, y a la vez se divide en otros conjuntos de datos. Los registros de datos contienen un código binario con información importante, como direcciones, datos de uso, información de control, y sumas de comprobación.<br><br>Ethernet tiene los siguientes tipos:
           img(src='@/assets/curso/temas/tema2/2.8.4.png', alt='imagen decorativa') 
-        .col-lg-4.col-22
-          img(src='@/assets/curso/temas/tema2/2.8.3.png', alt='imagen decorativa') 
+        .col-lg-4.col-9
+          img.m-auto(src='@/assets/curso/temas/tema2/2.8.3.png', alt='imagen decorativa') 
 
 
 </template>
