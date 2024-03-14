@@ -7,15 +7,12 @@
           span 1
         h1 Infraestructura de <i>hardware y software</i>
 
-      .bloque2.p-0(data-aos="fade-left")
-        .bloque-texto-b.color-secundario.p-4.mb-0
-          .bloque-texto-b__texto
-            .row.justify-content-center.align-items-center.d-flex
-              .col-lg-10.col-12.mb-4.mg-lg-0
-                p Una infraestructura habitual de Tecnologías de la información (TI), está conformada por los dispositivos usuales de hardware y software: instalaciones, centros de datos, servidores, computadoras de escritorio de hardware de red y varios recursos de software de aplicaciones institucionales.<br><br>
-                p Se deben tener claras estas dos definiciones:
-              .col-lg-2.col-md-5.col-8.px-5
-                img.mb-0(alt="" src="@/assets/curso/temas/tema1/subir.svg")
+      .row.justify-content-center.align-items-center(data-aos="fade-left")
+        .col-lg-9.col-12.mb-0
+          p Una infraestructura habitual de Tecnologías de la información (TI), está conformada por los dispositivos usuales de hardware y software: instalaciones, centros de datos, servidores, computadoras de escritorio de hardware de red y varios recursos de software de aplicaciones institucionales.
+          p Se deben tener claras estas dos definiciones:
+        .col-lg-2.col-8.p-3
+          img.px-3(alt="" src="@/assets/curso/temas/tema1/subir.svg")
 
       .row(data-aos="fade-left").justify-content-center.align-items-center
         .col-lg-6.p-2
@@ -39,19 +36,44 @@
       p.p-4 Entre los tipos de hardware, se pueden mencionar los siguientes:
 
       .row.justify-content-center.align-items-center(data-aos="fade-rigth")
-        .col-lg-6.col-12
-          acordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--neutral")
-            div(titulo=" Procesamiento ")
-              p.mb-0 Se encarga de ejecutar instrucciones que se dan desde el mismo software del dispositivo.
+        .col-lg-7.col-12
+          acordionA.mb-3(tipo="b" clase-tarjeta="tarjeta tarjeta--neutral")
+            div(titulo=" Procesamiento")
+              .row(data-aos="fade-rigth")
+                .col-md-9
+                  p Se encarga de ejecutar instrucciones que se dan desde el mismo software del dispositivo.
+                .col-md-2.col-3.py-2
+                  img.m.auto(src="@/assets/curso/temas/tema1/1.svg", alt="")
+            
             div(titulo="Almacenamiento")
-              p.mb-0 Se utiliza, principalmente, para almacenar datos. Todas las computadoras de escritorio, portátiles, tablets y teléfonos inteligentes tienen algún tipo de dispositivo de almacenamiento.
+              .row(data-aos="fade-rigth")
+                .col-md-9
+                  p.mb-0 Se utiliza, principalmente, para almacenar datos. Todas las computadoras de escritorio, portátiles, tablets y teléfonos inteligentes tienen algún tipo de dispositivo de almacenamiento.
+                .col-md-2.col-3.py-2
+                  img.m.auto(src="@/assets/curso/temas/tema1/2.svg", alt="")
+
             div(titulo="Periféricos de entrada")
-              p.mb-0 Captan y digitalizan los datos introducidos por el usuario o por otro dispositivo y los envían al ordenador para ser procesados. Los más conocidos son el teclado, el mouse, el escáner, la cámara web, etc.
+              .row(data-aos="fade-rigth") 
+                .col-md-9
+                  p.mb-0 Captan y digitalizan los datos introducidos por el usuario o por otro dispositivo y los envían al ordenador para ser procesados. Los más conocidos son el teclado, el mouse, el escáner, la cámara web, etc.
+                .col-md-2.col-3.py-2
+                  img.m.auto(src="@/assets/curso/temas/tema1/3.svg", alt="")
+
             div(titulo="Periféricos de salida")
-              p.mb-0 Muestran o proyectan información hacia el exterior del ordenador. Generalmente informan, alertan, comunican, proyectan o dan al usuario alguna información.
+              .row(data-aos="fade-rigth") 
+                .col-md-9
+                  p.mb-0 Muestran o proyectan información hacia el exterior del ordenador. Generalmente informan, alertan, comunican, proyectan o dan al usuario alguna información.
+                .col-md-2.col-3.py-2
+                  img.m.auto(src="@/assets/curso/temas/tema1/4.svg", alt="")
+            
             div(titulo="Periféricos de entrada y salida")
-              p.mb-0 Mandan y reciben información. Su función es almacenar permanente o virtualmente, todo aquello que se ejecute en el ordenador, para que se pueda utilizar por los mismos usuarios o por otros sistemas.
-        .col-lg-6.col-8
+             .row(data-aos="fade-rigth") 
+              .col-md-9
+                p.mb-0 Mandan y reciben información. Su función es almacenar permanente o virtualmente, todo aquello que se ejecute en el ordenador, para que se pueda utilizar por los mismos usuarios o por otros sistemas.
+              .col-md-2.col-3.py-2
+                img.m.auto(src="@/assets/curso/temas/tema1/5.svg", alt="")
+  
+        .col-lg-5.col-8
           img.mb-lg-0.mb-3(alt="" src="@/assets/curso/temas/tema1/img15.svg") 
 
 
@@ -164,28 +186,30 @@
       
       p Se concibe por escalabilidad en el hardware, a la capacidad de ajuste y contestación de un sistema con relación al rendimiento del mismo, a medida que se acrecientan de forma significativa el número de usuarios del mismo.
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-        .col-lg-6.col-12
+        .col-lg-7.col-12
           p Escalar hacia lo alto en un sistema, representa una migración de todo el sistema a un nuevo hardware que sea más potente y eficaz que el presente. Una vez se ha configurado el sistema futuro, se realizan unas validaciones y se realizan las copias de seguridad, poniéndose en funcionamiento.
-          p.fondo-amarillo.p-2 Las aplicaciones que estén trabajando bajo la arquitectura de hardware antigua, no sufren con la migración (el impacto en el código es mínimo).<br>
+          p.fondo-amarillo2.p-4 Las aplicaciones que estén trabajando bajo la arquitectura de <i>hardware</i> antigua, no sufren con la migración (el impacto en el código es mínimo).<br>
           p En relación con la escalabilidad, es importante tener en cuenta que:        
-        .col-lg-6.col-12
-          img.mb-0(alt="" src="@/assets/curso/temas/tema1/1.2Escalabilidad.png")
+        .col-lg-5.col-12
+          img.mb-0(alt="" src="@/assets/curso/temas/tema1/1.2Escalabilidad.svg")
 
       .row.justify-content-center(data-aos="fade-center")
         .col-lg-4.col-12.d-flex
-          .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3.clase1
+          .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta2.p-3.clase1
             img.mb-5.m-auto(style="width: 75px" alt="" src="@/assets/curso/temas/tema1/1.2img01.svg")
-            h4.clr--prime.mb-4.text-center Requerimientos técnicos
+            h4.mb-4.text-center Requerimientos técnicos
              p.mb-0 <br>Los requerimientos técnicos y de componentes que integran la máquina, aumentan frecuentemente según las características que requiera el software para su correcto y óptimo funcionamiento.
+        
         .col-lg-4.col-12.d-flex
-          .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3.clase1
+          .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta2.p-3.clase1
             img.mb-5.m-auto(style="width: 75px" alt="" src="@/assets/curso/temas/tema1/1.2img02.svg")
-            h4.clr--prime.mb-4.text-center Compensación de necesidades 
+            h4.mb-4.text-center Compensación de necesidades 
              p.mb-0 <br>La escalabilidad en el software es el incremento de un sistema para compensar las necesidades empresariales.    
+        
         .col-lg-4.col-12.d-flex
-          .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta1.p-3.clase1
+          .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta2.p-3.clase1
             img.mb-5.m-auto(style="width: 75px" alt="" src="@/assets/curso/temas/tema1/1.2img03.svg")
-            h4.clr--prime.mb-4.text-center ¿Hardware adicional o actualización?
+            h4.mb-4.text-center ¿Hardware adicional o actualización?
             p.mb-0 <br>Para poder escalar un sistema de almacenamiento de información, siempre se debe agregar hardware adicional o actualizar el hardware existente, sin transformar mucho la aplicación.
 
      

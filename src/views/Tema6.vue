@@ -212,25 +212,25 @@
             .tarjeta.resaltado-blanco.p-4
               .row.justify-content-center.mb-3
                 .col-6
-                  img(src='@/assets/curso/temas/tema6/4.svg' alt='AvatarTop')
+                  img(src='@/assets/curso/temas/tema6/3.svg' alt='AvatarTop')
               p.text-center Responsable de la realización o ejecución
 
             .tarjeta.resaltado-blanco.p-4
               .row.justify-content-center.mb-3
                 .col-6
-                  img(src='@/assets/curso/temas/tema6/3.svg' alt='AvatarTop')
+                  img(src='@/assets/curso/temas/tema6/4.svg' alt='AvatarTop')
               p.text-center Objetivo especifico relacionado
             
             .tarjeta.resaltado-blanco.p-4
               .row.justify-content-center.mb-3
                 .col-6
-                  img(src='@/assets/curso/temas/tema6/6.svg' alt='AvatarTop')
+                  img(src='@/assets/curso/temas/tema6/5.svg' alt='AvatarTop')
               p.text-center Fecha de inicio
 
             .tarjeta.resaltado-blanco.p-4
               .row.justify-content-center.mb-3
                 .col-6
-                  img(src='@/assets/curso/temas/tema6/5.svg' alt='AvatarTop')
+                  img(src='@/assets/curso/temas/tema6/6.svg' alt='AvatarTop')
               p.text-center Fecha de finalización
 
             .tarjeta.resaltado-blanco.p-4

@@ -254,7 +254,7 @@
         .col 
           p <br>
       .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4(style="background-color: #083142; border-radius: 25px; padding: 10px")
+        .d-flex.flex-wrap.align-items-center.pe-4.azul-fondo
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Objetivos
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 166px; position: absolute" data-aos="fade-left")
       
@@ -272,11 +272,17 @@
             img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 266px; position: absolute" data-aos="fade-left")
       
       .row.justify-content-center.align-items-center.mb-3(data-aos="fade-right")
-        .col-lg-8.col-12
-          p Los dispositivos de una red Ethernet intercambian información o datos llamados paquetes Ethernet, cuyo contenido incluye la trama Ethernet o trama de datos, y a la vez se divide en otros conjuntos de datos. Los registros de datos contienen un código binario con información importante, como direcciones, datos de uso, información de control, y sumas de comprobación.<br><br>Ethernet tiene los siguientes tipos:
-          img(src='@/assets/curso/temas/tema2/2.8.4.png', alt='imagen decorativa') 
-        .col-lg-4.col-9
-          img.m-auto(src='@/assets/curso/temas/tema2/2.8.3.png', alt='imagen decorativa') 
+        .col-lg-7.col-12  
+          p Los dispositivos de una red Ethernet intercambian información o datos llamados paquetes Ethernet, cuyo contenido incluye la trama Ethernet o trama de datos, y a la vez se divide en otros conjuntos de datos. Los registros de datos contienen un código binario con información importante, como direcciones, datos de uso, información de control, y sumas de comprobación.<br><br>Ethernet tiene los siguientes tipos: 
+           .row.justify-content-center.align-items-center.mb-3(data-aos="fade-right").rosado-curvo.p-3
+            .col-lg-2.col-4.p-2
+              img(src='@/assets/curso/temas/tema2/2.8.4.svg', alt='imagen decorativa') 
+            .col-lg-10
+              p Ethernet: 10 Base-T, velocidad 10 Mbps
+              p Fast Ethernet: 100 Base-T, velocidad 100 Mbps
+              p Gigabit Ethernet: 1000 Base-X velocidad 1000 Mbps ó 1 Gbps
+        .col-lg-5.col-9
+          img.m-auto(src='@/assets/curso/temas/tema2/2.8.3.svg', alt='imagen decorativa') 
 
 
 </template>
