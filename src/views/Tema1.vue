@@ -37,7 +37,7 @@
 
       .row.justify-content-center.align-items-center(data-aos="fade-rigth")
         .col-lg-7.col-12
-          acordionA.mb-3(tipo="b" clase-tarjeta="tarjeta tarjeta--neutral")
+          acordionA.mb-3(tipo="b" clase-tarjeta="tarjeta gris-claro")
             div(titulo=" Procesamiento")
               .row(data-aos="fade-rigth")
                 .col-md-9

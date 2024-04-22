@@ -230,17 +230,225 @@
         h2 2.5 Clasificación de redes
 
       p Las redes están clasificadas de diferentes maneras teniendo en cuenta el número de dispositivos conectados y la distancia entre los mismos, el tipo de conexión o la tecnología utilizada, esta clasificación se detalla a continuación:
+      .row.justify-content-center.align-items-center(data-aos="fade-rigth")
+        .col-lg-12.col-12
+          acordionA.mb-3(tipo="b" clase-tarjeta="tarjeta tarjeta-gris")
+            div(titulo="Por alcance")
+              .row(data-aos="fade-rigth")
+                .col-md-7
+                  ul.lista-ul--color 
+                    li 
+                      i.fas.fa-car-side.px-2
+                      | Red PAN o de área personal (Personal Area Network)
+                    li 
+                      i.fas.fa-car-side.px-2
+                      | Red LAN o de área local (Local Area Network)
+                    li 
+                      i.fas.fa-car-side.px-2
+                      | Red CAN o de área de campus (Campus Area Network)
+                    li 
+                      i.fas.fa-car-side.px-2
+                      | Red MAN o de área metropolitana (Metropolitan Área Network)
+                    li 
+                      i.fas.fa-car-side.px-2
+                      | Red WAN o de área amplia (Wide Area Network)
+                    li 
+                      i.fas.fa-car-side.px-2
+                      | Red SAN o de área de almacenamiento (Storage Area Network)
+                    li 
+                      i.fas.fa-car-side.px-2
+                      | Red VLAN o de área local virtual (Virtual LAN)
+                
+                .col-md-5.col-3.py-2
+                  img.m.auto(src="@/assets/curso/temas/tema2/acor01.png", alt="")
+            
+            div(titulo="Por tipo de conexión")
+              .row(data-aos="fade-rigth")
+                .col-md-7
+                  ul.lista-ul--color 
+                    li 
+                      i.fas.fa-car-side.px-2 
+                      | Red cableada. es aquella red en la que se conectan mediante cable computadores y otros periféricos, se intercambian archivos, y se envían datos a otros dispositivos. La siguiente figura ilustra un ejemplo de red cableada:
+                
+                .col-md-4.col-3.py-2
+                  .titulo-sexto.color-acento-contenido.mb-3
+                    p.mb-0 #[b Figura 2.] Red cableada
+                  img.m.auto(src="@/assets/curso/temas/tema2/acor02.png", alt="")
+              
+            
+                img.m.auto(src="@/assets/curso/temas/tema2/linea.svg", alt="").p-4
+                
+                .col-md-7 
+                  ul.lista-ul--color  
+                    li 
+                      i.fas.fa-car-side.px-2 
+                      | Red inalámbrica: aquella red en la cual dos o más dispositivos como computadores portátiles, agendas electrónicas, entre otros se comunican sin necesidad de una conexión por cable, con este tipo de red, los usuarios pueden estar conectados cuando se desplazan dentro de una determinada área geográfica. En la siguiente figura se observa una red de tipo inalámbrica:
+                
+                .col-md-4.col-3.py-2
+                  .titulo-sexto.color-acento-contenido.mb-3
+                    p.mb-0 #[b Figura 3.] Red inalambrica
+                  img.m.auto(src="@/assets/curso/temas/tema2/acor03.png", alt="")
 
+            div(titulo="Por relación funcional")
+              .row(data-aos="fade-rigth")
+                .col-md-7
+                  ul.lista-ul--color 
+                    li 
+                      i.fas.fa-car-side.px-2 
+                      | Es una arquitectura o relación que consiste en realizar peticiones o solicitudes a un componente de la red informática llamado servidor y que puede estar alojado en la misma red del peticionario. Este componente a su vez puede o no responder satisfactoriamente la petición y si ésta es positiva entonces se dará lugar a un servicio.
+                    img.m.auto(src="@/assets/curso/temas/tema2/linea.svg", alt="").p-2
+                    li 
+                      i.fas.fa-car-side.px-2 
+                      | Peer-to-peer que consiste en la conformación de una red de datos en la que no hay componentes dominantes o que dirijan a los demás integrantes de la malla. Es decir, cada elemento de la red tiene los mismos privilegios y restricciones que cualquier otro.
+                
+                .col-md-4.col-3.py-2
+                  img.m.auto(src="@/assets/curso/temas/tema2/acor04.png", alt="")
+            
+            div(titulo="Por tecnología")
+              .row(data-aos="fade-rigth")
+                .col-md-7
+                  ul.lista-ul--color 
+                    li 
+                      i.fas.fa-car-side.px-2 
+                      | Red Punto a Punto: es aquella donde se conectan parejas individuales de dispositivos terminales y que necesitan routers intermedios que establezcan rutas apropiadas para el envío de la información.
+                    img.m.auto(src="@/assets/curso/temas/tema2/linea.svg", alt="").p-2
+                    li 
+                      i.fas.fa-car-side.px-2 
+                      | Red Broadcast: es una red que transmite los datos por un solo canal de comunicación compartido por todos los dispositivos de la red, este mensaje o paquete se envía a todos los terminales  máquinas de la red, pero únicamente la destinataria puede procesarlo.
+                
+                .col-md-4.col-3.py-2
+                  img.m.auto(src="@/assets/curso/temas/tema2/acor05.png", alt="") 
+            
+            div(titulo="Por la direccionalidad de los datos")
+              .row(data-aos="fade-rigth")
+                .col-md-7
+                  ul.lista-ul--color 
+                    li 
+                      i.fas.fa-car-side.px-2 
+                      | Unidireccional o Simplex: consiste en la transmisión de información en un solo sentido donde el emisor no tiene retroalimentación alguna por parte del receptor. Un ejemplo de este tipo de transmisión son las emisoras radiales, donde el oyente necesita de un radio receptor, pero este aparato no permite enviar señal alguna.
+                    img.m.auto(src="@/assets/curso/temas/tema2/linea.svg", alt="").p-2
+                    li 
+                      i.fas.fa-car-side.px-2 
+                      | Half-Duplex o Bidireccional: este tipo de comunicación permite que la información se transmita en ambos sentidos, pero con la restricción de uno solo a la vez. Es decir, para que uno de los dos involucrados (emisor o receptor) pueda transmitir, el otro debe estar en silencio. También es denominado semi-duplex. Un ejemplo de este tipo de transmisión son los radios de la policía.
+                    img.m.auto(src="@/assets/curso/temas/tema2/linea.svg", alt="").p-2
+                    li 
+                      i.fas.fa-car-side.px-2 
+                      | Full-Dúplex: la transmisión es en ambos sentidos y al mismo tiempo una misma información. Un ejemplo de este tipo de transmisión son los teléfonos móviles o celulares.
+                
+                .col-md-4.col-3.py-2
+                  .titulo-sexto.color-acento-contenido.mb-3
+                    p.mb-0 #[b Figura 4.] Por la direccionalidad de los datos
+                  img.m.auto(src="@/assets/curso/temas/tema2/acor06.svg", alt="")    
+
+            div(titulo="Por tecnología")
+              .row(data-aos="fade-rigth")
+                .col-md-7
+                  ul.lista-ul--color 
+                    li 
+                      i.fas.fa-car-side.px-2 
+                      | Intranet: red privada de usuarios que solo comparte sus recursos e información con los clientes internos, es de uso educativo, comercial entre otros.
+                    img.m.auto(src="@/assets/curso/temas/tema2/linea.svg", alt="").p-2
+                    li 
+                      i.fas.fa-car-side.px-2 
+                      | Internet: red de área amplia que interconecta gran cantidad de redes de comunicación heterogéneas funcionando como una red de alcance mundial y lógica única, basada en el protocolo TCP/IP.
+                
+                .col-md-4.col-3.py-2
+                  img.m.auto(src="@/assets/curso/temas/tema2/acor07.png", alt="")                
       Separador
       #t_2_4.titulo-segundo.color-acento-contenido
         h2 2.6 Topologías de redes
+        
+      p Para la topología física, se consideran tres formas básicas para el montaje de una red:
+
+      SlyderA(tipo="b").fondo-banner2.p-4
+        .row.justify-content-center.align-items-center.p-4
+          .col-lg-6.col-10
+            h5 BUS
+            p.mb-lg-0.mb-3 Consiste en la conexión de todos los nodos de la red a un solo canal de comunicación lo que genera una serie de desventajas como degradación de la señal, sobre escalamiento entre otras.
+          .col-lg-4.col-10
+            .titulo-sexto.color-acento-contenido.mb-3
+              p.mb-0 #[b Figura 5.] Bus
+            img.mb-0(alt="" src="@/assets/curso/temas/tema2/sly1.svg")
+
+        .row.justify-content-center.align-items-center.p-4
+          .col-lg-6.col-10
+            h5 ANILLO
+            p.mb-lg-0.mb-3 Cada terminal tiene conexión con la siguiente y la primera se conecta con la última, cerrando así la conexión razón por la cual se denomina anillo. 
+          .col-lg-4.col-10
+            .titulo-sexto.color-acento-contenido.mb-3
+              p.mb-0 #[b Figura 6.] Anillo
+            img.mb-0(alt="" src="@/assets/curso/temas/tema2/sly2.svg")
+
+        .row.justify-content-center.align-items-center.p-4
+          .col-lg-6.col-10
+            h5 ESTRELLA
+            p.mb-lg-0.mb-3 Todos los dispositivos de la red se conectan con un dispositivo central llamado nodo el cual se encarga de establecer las comunicaciones entre terminales o usuarios. 
+          .col-lg-4.col-10
+            .titulo-sexto.color-acento-contenido.mb-3
+              p.mb-0 #[b Figura 7.] Estrella
+            img.mb-0(alt="" src="@/assets/curso/temas/tema2/sly3.svg")
+      
+      p.py-4 En cuanto a la topología lógica, está determinada por la forma cómo se accede a los datos y recursos de la red, para este caso tenemos:
+      
+      .row.justify-content-center(data-aos="fade-center")
+        .col-lg-4.col-12.d-flex
+          .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta2.p-3.clase1
+            img.mb-5.m-auto(style="width: 75px" alt="" src="@/assets/curso/temas/tema2/01.svg")
+            h4.clr--prime.mb-4.text-center Transmisión de tokens
+            p.mb-0.text-center Se realiza la transmisión de tokens electrónicos en forma secuencial hacia cada terminal. Los dos tipos de redes que utilizan esta topología son TokenRing y FDDI.
+        
+        .col-lg-4.col-12.d-flex
+          .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta2.p-3.clase1
+            img.mb-5.m-auto(style="width: 75px" alt="" src="@/assets/curso/temas/tema2/02.svg")
+            h4.clr--prime.mb-4.text-center Broadcast
+            p.mb-0.text-center Aquí cada dispositivo envía un mensaje hacia todos los demás integrantes de la red. Las operaciones se realizan por orden de llegada como si fuese Ethernet.   
 
       Separador
       #t_2_4.titulo-segundo.color-acento-contenido
         h2 2.7 Modelo TCP/IP y OSI 
+  
+      .row.mb-5
+        .col-lg-4.mb-5.mb-lg-0 
+          img(src='@/assets/curso/temas/tema2/2.7.png', alt='imagen decorativa') 
+        .col-lg-8.mb-5.mb-lg-0
+          h3.titulo-tercero 
+          .bloque-texto-d.color-secundario.p-4
+            .bloque-texto-d__texto.mb-2
+              i.fas.fa-quote-left
+              p.text-small Los protocolos IP (Protocolo de Internet) y TCP (Protocolo de Control de Transmisión) se originaron a principios de 1980 y fueron adoptados por la red ARPANET en 1983, integrada por cientos de computadoras de centros de investigación militar, universidades, y algunas empresas. El e-mail (electronic mail) se destacó como el servicio más utilizado, mientras que el sistema operativo más usado fue UNIX, en su versión BSD UNIX, desarrollada por la Universidad de California. A mediados de los ochenta se crea el protocolo TCP/IP con el propósito de tener un lenguaje común a todos los computadores conectados a Internet, con la unión de las redes ARPANET, CSNET y MILNET. El protocolo TCP/IP hace posible entonces, la conexión de dispositivos con marcas y tecnología diferentes por medio del establecimiento de normas y estándares. (p.4)
+              i.fas.fa-quote-right
+            .bloque-texto-d__autor 
+              .h5.mb-0 Corona (2004)
+      .row.justify-content-center(data-aos="fade-center").py-4
+        .col-lg-10
+          .row.justify-content-center(data-aos="fade-center").py-4
+            .col-lg-7
+              .titulo-sexto.color-acento-contenido.mb-3
+                p.mb-0 #[b Figura 8.]  Modelo TCP/IP y OSI
+              img(src='@/assets/curso/temas/tema2/figura8.svg', alt='imagen decorativa') 
+            .col-lg-3
+              img(src='@/assets/curso/temas/tema2/ima8.svg', alt='imagen decorativa') 
+        
+      
+      p Iniciando los años ochenta, la Organización Internacional para la Estandarización (ISO, International Standards Organization) desarrolla el modelo de referencia para interconectar sistemas abiertos (OSI, Open Systems Interconnect) para normalizar la manera de comunicarse entre dispositivos de la red. El modelo es importante por el gran paso hacia la interoperabilidad entre dispositivos de red.
+      p El modelo OSI enmarca las comunicaciones de red en siete diferentes capas así: 
+      
+      .row.justify-content-center(data-aos="fade-center").py-4
+        .col-lg-5
+          .titulo-sexto.color-acento-contenido.mb-3
+            p.mb-0 #[b Figura 9.] Comunicación de red
+          img(src='@/assets/curso/temas/tema2/comunicacion.svg', alt='imagen decorativa') 
 
+      p El modelo OSI y el TCP/IP sirven como referencia para describir el proceso de comunicación de datos. El TCP/IP es usado para la suite de protocolos TCP/IP, y el OSI se utiliza para la comunicación estándar entre equipos y aplicaciones de diferentes proveedores. Ambos modelos realizan el mismo proceso, pero el modelo TCP/IP utiliza cuatro capas en lugar de siete.
+      p En la figura siguiente se muestra una comparación entre las capas de los dos modelos.
+      
+      .row.justify-content-center(data-aos="fade-center").py-4
+        .col-lg-8
+          .titulo-sexto.color-acento-contenido.mb-3
+            p.mb-0 #[b Figura 10.] Comparación entre las capas de los dos modelos
+          img(src='@/assets/curso/temas/tema2/comparacion.svg', alt='imagen decorativa') 
       Separador
-      #t_2_4.titulo-segundo.color-acento-contenido
+       #t_2_4.titulo-segundo.color-acento-contenido
         h2 2.8 Tecnología Ethernet
 
       .row.justify-content-center.align-items-center
