@@ -39,7 +39,7 @@
 
       
       .row.justify-content-center.align-items-center.mb-10(data-aos="fade-center")
-        .col-6.lg-4.col-10
+        .col-12.col-md-10.col-lg-7
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Figura 11.] Conexión a internet.
           img.mb-lg-5.mb-0(src="@/assets/curso/temas/tema3/internet.png")

@@ -63,6 +63,43 @@ export default {
         numero: '2',
         titulo: 'Redes de datos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: ' Historia',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Conceptos básicos y componentes de una red',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Medios de transmisión',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Protocolos de comunicación',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Clasificación de redes',
+            hash: 't_2_5',
+          },
+          {
+            numero: '2.6',
+            titulo: 'Topologías de redes',
+            hash: 't_2_6',
+          },
+          {
+            numero: '2.7',
+            titulo: 'Modelo TCP/IP y OSI',
+            hash: 't_2_7',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',

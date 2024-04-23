@@ -462,7 +462,7 @@
         .col 
           p <br>
       .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4.azul-fondo
+        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Objetivos
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 166px; position: absolute" data-aos="fade-left")
       
