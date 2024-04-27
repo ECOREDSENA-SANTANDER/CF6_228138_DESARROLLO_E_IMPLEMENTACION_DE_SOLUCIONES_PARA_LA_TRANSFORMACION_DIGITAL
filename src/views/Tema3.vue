@@ -73,8 +73,13 @@
 
         .row.justify-content-center.align-items-center
           .col-lg-5.col-12.p-4
-            .row.justify-content-center.align-items-center(data-aos="fade-center").resaltado-azul
-              img.p-2(src="@/assets/curso/temas/tema3/ip.png")
+            .row.justify-content-center.align-items-center(data-aos="fade-center").resaltado-azul.p-4
+              p.text-white #[b IP      10.10.23.134]  	
+              p.text-white 00001010.00001010.00010111.10000110
+              p.text-white #[b Máscara      255.255.255.0]    	
+              p.text-white 11111111.00000000.00000000.00000000
+              p.text-white #[b Red  	   10.0.0.0]    	
+              p.text-white 00001010.00000000.00000000.00000000
           .col-lg-7.p-4
             .row.justify-content-center.align-items-center.mb-10(data-aos="fade-center").resaltado-rosado.p-2
               .col-lg-3.col-3

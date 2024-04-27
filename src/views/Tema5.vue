@@ -92,7 +92,7 @@
           .row.justify-content-center
             .col-lg-3.col-8
               img.mb-lg-0.mb-3(alt="" src="@/assets/curso/temas/tema5/5.2img01.svg")
-            .col-lg-6.col-12
+            .col-lg-6.col-12.mb-4-lg-0
               br
               h4.mb-4 Hidrate Spark
               p.mb-0 Se trata de un termo de agua que tiene colores metálicos muy llamativos, que informa el tiempo en que se debe tomar agua y reporta la cantidad de agua tomada según lo que se configure, este funciona por medio de un sensor que recolecta cada trago de agua y lo envía al celular por medio de bluetooth.

@@ -188,9 +188,21 @@
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-04.col-12.mb-4-lg-0
           p Dentro de los proyectos de TI se establecen las actividades que están a un nivel más bajo y las cuales se crean en función del cumplimiento de los objetivos específicos del proyecto. Para la planeación de actividades se deben considerar los siguientes criterios:<br>
-        .col-lg-10.col-22
-          img.mb-lg-7.mb-3(alt="" src="@/assets/curso/temas/tema6/recursos.svg")
-          p <br>
+      
+      .row.justify-content-center.align-items-center(data-aos="fade-right")
+        .col-lg-6.col-12.mb-4-lg-0.py-2
+          .tarjeta.resaltado-azul.p-4
+            img.recurso(src='@/assets/curso/temas/tema6/recurso.svg' alt='AvatarTop')
+            h5.py-3.text-white Recursos disponibles
+            p.text-white Se debe tener en cuenta los recursos que se disponen (Humanos, económicos, tecnológicos, e información), de esta manera se pueden planear la realización de las actividades de manera objetiva.
+  
+        .col-lg-6.col-12.mb-4-lg-0
+          .tarjeta.resaltado-azul.p-4
+            img.recurso(src='@/assets/curso/temas/tema6/tiempo.svg' alt='AvatarTop')
+            h5.py-3.text-white Tiempo estimado de realización
+            p.text-white Establecer con base a los recursos disponibles, especialmente los humanos, el conocimiento y el esfuerzo que se requiere para realizar la actividad el periodo de tiempo que tomaría realizar cada actividad del proyecto.
+          
+
     
     .container.tarjeta--neutral.p-4.p-md-5
       .row.justify-content-center.align-items-center(data-aos="fade-right")
@@ -202,7 +214,7 @@
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema6/1.svg' alt='AvatarTop')
-              p.text-center.p-3 Nombre de la actividad
+              p.text-center Nombre de la actividad
             .tarjeta.resaltado-blanco.p-4
               .row.justify-content-center.mb-3
                 .col-6
@@ -248,7 +260,7 @@
       p.p-2 #[b En la gestión de proyectos de TI,] se deben tener en cuenta los aspectos legales según el contexto, para lo cual se recomienda tener claro una matriz de cumplimiento legal, en donde se pueda identificar dentro de cada proyecto que requisitos legales se deben cumplir, esto con el fin de evitar incumplimientos que puedan generar impactos adversos de tipo económico, operativo o reputacional.
       
       .row.justify-content-center.align-items-center(data-aos="fade-right")
-        .col-lg-7.col-7
+        .col-lg-7.col-12.mb-4-lg-0
           LineaTiempoD.color-acento-botones
             .row(numero="1" titulo="Contexto jurídico")
               .col-md-8.mb-4.mb-md-0

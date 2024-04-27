@@ -469,9 +469,47 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         p Los principales objetivos de Ethernet son consistentes con los que se han convertido en los requerimientos básicos para el desarrollo y uso de redes LAN: 
       
-      .row.justify-content-center.align-items-center.p-4
-        .col-lg-10.col-22
-          img(src='@/assets/curso/temas/tema2/2.8.2.png', alt='imagen decorativa')  
+      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right").p-4
+        .col-lg-10.col-12.mb-4-lg-0.fondo3
+          .row.justify-content-center.align-items-center
+            .col-lg-4
+              img(src='@/assets/curso/temas/tema2/candado.svg', alt='imagen decorativa')
+            .col-lg-3
+              ul.lista-ul--color 
+                li 
+                  i.fas.fa-car-side.px-2
+                  | Simplicidad.
+                li 
+                  i.fas.fa-car-side.px-2
+                  | Bajo costo.
+                li 
+                  i.fas.fa-car-side.px-2
+                  | Compatibilidad.
+                li 
+                  i.fas.fa-car-side.px-2
+                  | Direccionamiento flexible.
+                li 
+                  i.fas.fa-car-side.px-2
+                  | Equidad.
+            
+            .col-lg-3
+              ul.lista-ul--color 
+                li 
+                  i.fas.fa-car-side.px-2
+                  | Progreso.
+                li 
+                  i.fas.fa-car-side.px-2
+                  | Bajo retardo.
+                li 
+                  i.fas.fa-car-side.px-2
+                  | Estabilidad.
+                li 
+                  i.fas.fa-car-side.px-2
+                  | Mantenimiento.
+                li 
+                  i.fas.fa-car-side.px-2
+                  | Arquitectura en capas.
+     
       
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .mb-4.d-flex

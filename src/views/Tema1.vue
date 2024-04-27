@@ -210,7 +210,7 @@
           .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta2.p-3.clase1
             img.mb-5.m-auto(style="width: 75px" alt="" src="@/assets/curso/temas/tema1/1.2img03.svg")
             h4.mb-4.text-center ¿Hardware adicional o actualización?
-            p.mb-0 <br>Para poder escalar un sistema de almacenamiento de información, siempre se debe agregar hardware adicional o actualizar el hardware existente, sin transformar mucho la aplicación.
+              p.mb-0 <br>Para poder escalar un sistema de almacenamiento de información, siempre se debe agregar hardware adicional o actualizar el hardware existente, sin transformar mucho la aplicación.
 
      
       Separador
