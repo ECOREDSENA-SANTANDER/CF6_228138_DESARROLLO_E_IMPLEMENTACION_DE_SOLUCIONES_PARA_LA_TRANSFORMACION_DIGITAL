@@ -426,7 +426,7 @@
               .titulo-sexto.color-acento-contenido.mb-3
                 p.mb-0 #[b Figura 8.]  Modelo TCP/IP y OSI
               img(src='@/assets/curso/temas/tema2/figura8.svg', alt='imagen decorativa') 
-            .col-lg-3
+            .col-lg-3.col-6
               img(src='@/assets/curso/temas/tema2/ima8.svg', alt='imagen decorativa') 
         
       

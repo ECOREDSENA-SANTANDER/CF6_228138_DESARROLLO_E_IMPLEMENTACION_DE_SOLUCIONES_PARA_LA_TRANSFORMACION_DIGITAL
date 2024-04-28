@@ -32,7 +32,7 @@
 
       .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
         .col-lg-12
-          .row.p-4
+          .row
             .col-lg-4.p-2
               .tarjeta.gris-claro.p-4.tamano-tarjeta
                 h4 Red
@@ -51,7 +51,7 @@
                 p
                 | Se trata de un computador con características técnicas iguales a las de los computadores usados en hogares u oficinas, por el cual las personas se conectan a internet (por medio de un cable de red o inalámbrica) en uno o varios servidores.
           
-          .row.p-3
+          .row
             .col-lg-4.p-2
               .tarjeta.gris-claro.p-4.tamano-tarjeta 
                 h4 Servidores de internet, alojados en la nube
@@ -72,7 +72,7 @@
 
       .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
         .col-lg-4
-          .row.p-3
+          .row
             .col-lg-12.p-2
               .tarjeta.gris-claro.p-4.tamano-tarjeta
                 h4 Desventajas
