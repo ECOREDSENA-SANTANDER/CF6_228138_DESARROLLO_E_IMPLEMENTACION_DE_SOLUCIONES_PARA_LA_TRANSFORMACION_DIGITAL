@@ -72,7 +72,7 @@
           p <br>Las direcciones binarias de 32 bits usadas para acceder a Internet se llaman direcciones de Protocolo Internet (IP) La dirección IP de un dispositivo se forma por una parte de red y una de host que representa a un dispositivo específico de una red en particular. Para que el dispositivo sepa cómo está dividida la dirección IP, se utiliza un segundo número de 32 bits llamado máscara de subred, que se conforma de números unos identifican la porción de red y por números ceros que indican el host en la red. Con la ayuda de la matemática de red al realizar una operación AND booleana entre la dirección IP 10.10.23.134 y la máscara de subred 255.0.0.0 se obtiene como resultado la dirección de red de este host.<br>
 
         .row.justify-content-center.align-items-center
-          .col-lg-5.col-12.p-4
+          .col-lg-5.p-4
             .row.justify-content-center.align-items-center(data-aos="fade-center").resaltado-azul.p-4
               p.text-white #[b IP      10.10.23.134]  	
               p.text-white 00001010.00001010.00010111.10000110
