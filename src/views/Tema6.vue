@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-botones
         .titulo-principal__numero
           span 6
-        h1 Internet de las cosas (IoT)
+        h1 Proyectos de TI
 
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg.col
@@ -14,7 +14,7 @@
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-10.col-12
           .titulo-sexto.color-acento-contenido.mb-3
-            p.mb-0 #[b Figura 14.] Aspectos contenidos en la administración de proyectos TI
+            p.mb-0 #[b Figura 17.] Aspectos contenidos en la administración de proyectos TI
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/temas/tema6/banner6.svg")
           
 
@@ -25,7 +25,7 @@
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 560px; position: absolute" data-aos="fade-left")
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-04.col-12.mb-4-lg-0
-         p <br>Para la buena administración de los proyectos de TI, es importante que se realice una estructuración por fases, teniendo en cuenta la planeación, ejecución, verificación y mejora de actividades del proyecto. Las actividades del proyecto son las acciones que se deben realizar para lograr los objetivos del mismo, estas deben ser planificadas y asignadas a los responsables de ejecución.<br><br>En general, las fases de un proyecto se estructuran con base al ciclo Deming o PHVA, por sus siglas en español: Planificar, Hacer, Verificar y Actuar, pero no es camisa de fuerza.
+         p <br>Para la buena administración de los proyectos de TI, es importante que se realice una estructuración por fases, teniendo en cuenta la planeación, ejecución, verificación y mejora de actividades del proyecto. Las actividades del proyecto son las acciones que se deben realizar para lograr los objetivos del mismo, estas deben ser planificadas y asignadas a los responsables de ejecución.<br><br>En general, las fases de un proyecto se estructuran con base al ciclo #[em Deming] o PHVA, por sus siglas en español: Planificar, Hacer, Verificar y Actuar, pero no es camisa de fuerza.
       
 
       TabsB.color-acento-contenido.mb-5(data-aos="fade-right")
@@ -41,7 +41,7 @@
           .row.align-items-center.justify-content-center
             .col-lg-6.col
               h5 Hacer
-              p En esta fase se deben poner en marcha o ejecución las actividades de gestión y técnicas que se planearon por realizar. En los proyectos de TI, son aquellas actividades de instalación, implementación y/o apropiación de tecnologías hardware y software. También, pueden involucrar la adquisición de nuevos servicios de TI, como los servicios en la nube o aplicaciones de terceros.
+              p En esta fase se deben poner en marcha o ejecución las actividades de gestión y técnicas que se planearon por realizar. En los proyectos de TI, son aquellas actividades de instalación, implementación y/o apropiación de tecnologías #[em hardware] y #[em software]. También, pueden involucrar la adquisición de nuevos servicios de TI, como los servicios en la nube o aplicaciones de terceros.
             .col-lg-4.col-22
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema6/bannericono02.svg', alt='')
       
@@ -49,7 +49,7 @@
           .row.align-items-center.justify-content-center
             .col-lg-6.col
               h5 Verificar
-              p En esta fase se deben poner en marcha o ejecución las actividades de gestión y técnicas que se planearon por realizar. En los proyectos de TI, son aquellas actividades de instalación, implementación y/o apropiación de tecnologías hardware y software. También, pueden involucrar la adquisición de nuevos servicios de TI, como los servicios en la nube o aplicaciones de terceros.
+              p En esta fase se deben poner en marcha o ejecución las actividades de gestión y técnicas que se planearon por realizar. En los proyectos de TI, son aquellas actividades de instalación, implementación y/o apropiación de tecnologías #[em hardware] y #[em software]. También, pueden involucrar la adquisición de nuevos servicios de TI, como los servicios en la nube o aplicaciones de terceros.
             .col-lg-4.col-22
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema6/bannericono03.svg', alt='')
       
@@ -166,7 +166,7 @@
               td.rosado-clarito Costos de Administración y Seguimiento: Se deben considerar los costos de personal, viáticos, maquinaria y equipo, vehículos, transporte, estudios y auditorias, materiales y suministros.<br><br>Costos Directos: Considerar Salarios, viáticos, mano de obra, materiales y suministros, transferencias, Estudios y auditorias, Consultorías, capacitación y divulgación.<br><br>Costos concurrentes: Considerar Salarios, viáticos, servicios generales, insumos y materiales, mantenimiento, capacitación y concientización.<br><br>Imprevistos: Rubros para afrontar posibles sucesos adversos.
             tr
               th Tecnólogico
-              td Aplicaciones: Se deben considerar los requisitos de aplicaciones y/o software. <br><br>
+              td Aplicaciones: Se deben considerar los requisitos de aplicaciones y/o #[em software]. <br><br>
                 |Usuarios: Según la cantidad de usuarios actual y provista se deben asignar recursos tecnológicos.<br><br>
                 |Procesamiento: Considerar la capacidad de procesamiento requerida para aplicaciones, según el uso y cantidad de usuarios concurrentes.<br><br>
                 |Memoria: Considerar la capacidad de memoria para el procesamiento requerida para aplicaciones, según el uso y cantidad de usuarios concurrentes.<br><br>
@@ -272,7 +272,7 @@
                       
             .row(numero="3" titulo="Contratación de servicios")
               .col-md-8.mb-4.mb-md-0
-                p.text-small <br>En la contratación de servivico, se deben revisar las condiciones y acuerdos de nivel de servicio con proveedores, incluyendo el soporte, de tal manera que se cumplan con los requerimientos específicos del proyecto.
+                p.text-small <br>En la contratación de servicios, se deben revisar las condiciones y acuerdos de nivel de servicio con proveedores, incluyendo el soporte, de tal manera que se cumplan con los requerimientos específicos del proyecto.
 
             .row(numero="4" titulo="Protección de datos")
               .col-md-8.mb-4.mb-md-0

@@ -75,7 +75,7 @@
          .row.align-items-center.justify-content-center
             .col-lg-5.col-10
                 h4 Tarjeta de conexión a la red<br>
-                p Es un dispositivo que le permite a todo computador conectarse a la red informática ya sea para conexión cableada o inalámbrica. Cuando se trata de una conexión alámbrica, se habla de una tarjeta de red o NIC (Network Interface Card) por sus siglas en inglés, la cual puede ser insertada directamente en la placa madre por medio de un puerto PCI. Dicha tarjeta trae consigo un conector para cable de red. Por otro lado, las tarjetas de red inalámbricas también pueden ser conectadas a la tarjeta madre por medio del puerto PCI o de manera externa por medio de un puerto USB.
+                p Es un dispositivo que le permite a todo computador conectarse a la red informática ya sea para conexión cableada o inalámbrica. Cuando se trata de una conexión alámbrica, se habla de una tarjeta de red o NIC (#[em Network Interface Card]) por sus siglas en inglés, la cual puede ser insertada directamente en la placa madre por medio de un puerto PCI. Dicha tarjeta trae consigo un conector para cable de red. Por otro lado, las tarjetas de red inalámbricas también pueden ser conectadas a la tarjeta madre por medio del puerto PCI o de manera externa por medio de un puerto USB.
             .col-lg-6.col-10
                 img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img3.png', alt='')
         .py-4.py-md-5(titulo="Repetidores" :icono="require('@/assets/curso/temas/tema2/img04.svg')")
@@ -86,18 +86,18 @@
             .col-lg-6.col-10
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img4.png', alt='')
         
-        .py-4.py-md-5(titulo="Routers" :icono="require('@/assets/curso/temas/tema2/img05.svg')")
+        .py-4.py-md-5(titulo="<i>Routers</i>" :icono="require('@/assets/curso/temas/tema2/img05.svg')")
           .row.align-items-center.justify-content-center
             .col-lg-5.col-10
-                h4 Routers<br>
+                h4 #[em routers]<br>
                 p Es un dispositivo de red encargado de indicar la ruta más adecuada para transmitir el mensaje que ha enviado el transmisor hacia un destino determinado dentro o fuera de la red a la cual pertenecen, utilizando los protocolos adecuados.
             .col-lg-6.col-10
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img5.png', alt='')
         
-        .py-4.py-md-5(titulo="Switch" :icono="require('@/assets/curso/temas/tema2/img06.svg')")
+        .py-4.py-md-5(titulo="<i>Switch</i>" :icono="require('@/assets/curso/temas/tema2/img06.svg')")
           .row.align-items-center.justify-content-center
             .col-lg-5.col-10
-                h4 Switch<br>
+                h4 #[em Switch]<br>
                 p Es un dispositivo de red que se encarga de interconectar varios segmentos de red, por medio de la dirección MAC de los dispositivos destino de las tramas de red.
             .col-lg-6.col-10
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img6.png', alt='')
@@ -114,10 +114,10 @@
           .row.align-items-center.justify-content-center
             .col-lg-10.col-10
                 h4 Protocolo<br>
-                p Es el elemento software de la red, encargado de establecer los parámetros de comunicación entre dispositivos, habilitar mecanismos de identificación de los equipos y usuarios en la red, definir el formato de la información que circula en la red. 
+                p Es el elemento #[em software] de la red, encargado de establecer los parámetros de comunicación entre dispositivos, habilitar mecanismos de identificación de los equipos y usuarios en la red, definir el formato de la información que circula en la red. 
             .col-lg-8.col-10
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b figura 1.] Protocolo.
+                p.mb-0 #[b figura 4.] Protocolo.
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img8.png', alt='')   
 
       Separador
@@ -196,7 +196,7 @@
             figure
               img(src="@/assets/curso/temas/tema2/2.4.svg", alt="alt").img75.m-auto
           .col
-            p.mb-0 Cuando se trata de la comunicación entre ordenadores primero se deben conocer cuáles son las normas que permiten esta comunicación, o lo que es lo mismo, qué protocolo de comunicación utilizan. Para Stallings, Tanenbaum y Stevens (2000), un protocolo de red es un grupo de reglas que establece la forma para identificarse, transmitir la información y cómo procesar los datos en la red.  Los protocolos pueden ser de tipo hardware (tarjetas de red), software (drivers), o combinación de ambos.
+            p.mb-0 Cuando se trata de la comunicación entre ordenadores primero se deben conocer cuáles son las normas que permiten esta comunicación, o lo que es lo mismo, qué protocolo de comunicación utilizan. Para Stallings, Tanenbaum y Stevens (2000), un protocolo de red es un grupo de reglas que establece la forma para identificarse, transmitir la información y cómo procesar los datos en la red.  Los protocolos pueden ser de tipo #[em hardware] (tarjetas de red), #[em software (drivers)], o combinación de ambos.
       
       .row.justify-content-center.mb-4(data-aos="zoom-in") 
         .col-lg-2.col-22
@@ -210,13 +210,13 @@
               li 
                 | Capa 1: CGI. MIME, IEEE
               li 
-                | Capa 2: Ethernet
+                | Capa 2: #[em Ethernet]
               li 
                 | Capa 3: Protocolo de internet IP
               li 
                 | Capa 4: Protocolo de control de Transmisión TCP, UDP
               li 
-                | Capa 5: Capa 5: NetBIOS
+                | Capa 5: Capa 5: #[em NetBIOS]
               li 
                 | Capa 6: ASN.1
               li 
@@ -239,25 +239,25 @@
                   ul.lista-ul--color 
                     li 
                       i.fas.fa-car-side.px-2
-                      | Red PAN o de área personal (Personal Area Network)
+                      | Red PAN o de área personal (#[em Personal Area Network])
                     li 
                       i.fas.fa-car-side.px-2
-                      | Red LAN o de área local (Local Area Network)
+                      | Red LAN o de área local (#[em Local Area Network])
                     li 
                       i.fas.fa-car-side.px-2
-                      | Red CAN o de área de campus (Campus Area Network)
+                      | Red CAN o de área de campus (#[em Campus Area Network])
                     li 
                       i.fas.fa-car-side.px-2
-                      | Red MAN o de área metropolitana (Metropolitan Área Network)
+                      | Red MAN o de área metropolitana (#[em Metropolitan Área Network])
                     li 
                       i.fas.fa-car-side.px-2
-                      | Red WAN o de área amplia (Wide Area Network)
+                      | Red WAN o de área amplia (#[em Wide Area Network])
                     li 
                       i.fas.fa-car-side.px-2
-                      | Red SAN o de área de almacenamiento (Storage Area Network)
+                      | Red SAN o de área de almacenamiento (#[em Storage Area Network])
                     li 
                       i.fas.fa-car-side.px-2
-                      | Red VLAN o de área local virtual (Virtual LAN)
+                      | Red VLAN o de área local virtual (#[em Virtual LAN])
                 
                 .col-md-5.col-3.py-2
                   img.m.auto(src="@/assets/curso/temas/tema2/acor01.png", alt="")
@@ -272,7 +272,7 @@
                 
                 .col-md-4.col-3.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
-                    p.mb-0 #[b Figura 2.] Red cableada
+                    p.mb-0 #[b Figura 5.] Red cableada
                   img.m.auto(src="@/assets/curso/temas/tema2/acor02.png", alt="")
               
             
@@ -286,7 +286,7 @@
                 
                 .col-md-4.col-3.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
-                    p.mb-0 #[b Figura 3.] Red inalambrica
+                    p.mb-0 #[b Figura 6.] Red inalambrica
                   img.m.auto(src="@/assets/curso/temas/tema2/acor03.png", alt="")
 
             div(titulo="Por relación funcional")
@@ -299,7 +299,7 @@
                     img.m.auto(src="@/assets/curso/temas/tema2/linea.svg", alt="").p-2
                     li 
                       i.fas.fa-car-side.px-2 
-                      | Peer-to-peer que consiste en la conformación de una red de datos en la que no hay componentes dominantes o que dirijan a los demás integrantes de la malla. Es decir, cada elemento de la red tiene los mismos privilegios y restricciones que cualquier otro.
+                      | #[em Peer-to-peer] que consiste en la conformación de una red de datos en la que no hay componentes dominantes o que dirijan a los demás integrantes de la malla. Es decir, cada elemento de la red tiene los mismos privilegios y restricciones que cualquier otro.
                 
                 .col-md-4.col-3.py-2
                   img.m.auto(src="@/assets/curso/temas/tema2/acor04.png", alt="")
@@ -310,11 +310,11 @@
                   ul.lista-ul--color 
                     li 
                       i.fas.fa-car-side.px-2 
-                      | Red Punto a Punto: es aquella donde se conectan parejas individuales de dispositivos terminales y que necesitan routers intermedios que establezcan rutas apropiadas para el envío de la información.
+                      | Red Punto a Punto: es aquella donde se conectan parejas individuales de dispositivos terminales y que necesitan #[em routers] intermedios que establezcan rutas apropiadas para el envío de la información.
                     img.m.auto(src="@/assets/curso/temas/tema2/linea.svg", alt="").p-2
                     li 
                       i.fas.fa-car-side.px-2 
-                      | Red Broadcast: es una red que transmite los datos por un solo canal de comunicación compartido por todos los dispositivos de la red, este mensaje o paquete se envía a todos los terminales  máquinas de la red, pero únicamente la destinataria puede procesarlo.
+                      | Red #[em Broadcast]: es una red que transmite los datos por un solo canal de comunicación compartido por todos los dispositivos de la red, este mensaje o paquete se envía a todos los terminales  máquinas de la red, pero únicamente la destinataria puede procesarlo.
                 
                 .col-md-4.col-3.py-2
                   img.m.auto(src="@/assets/curso/temas/tema2/acor05.png", alt="") 
@@ -337,7 +337,7 @@
                 
                 .col-md-4.col-3.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
-                    p.mb-0 #[b Figura 4.] Por la direccionalidad de los datos
+                    p.mb-0 #[b Figura 7.] Por la direccionalidad de los datos
                   img.m.auto(src="@/assets/curso/temas/tema2/acor06.svg", alt="")    
 
             div(titulo="Por tecnología")
@@ -367,7 +367,7 @@
             p.mb-lg-0.mb-3 Consiste en la conexión de todos los nodos de la red a un solo canal de comunicación lo que genera una serie de desventajas como degradación de la señal, sobre escalamiento entre otras.
           .col-lg-4.col-10
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b Figura 5.] Bus
+              p.mb-0 #[b Figura 8.] Bus
             img.mb-0(alt="" src="@/assets/curso/temas/tema2/sly1.svg")
 
         .row.justify-content-center.align-items-center.p-4
@@ -376,7 +376,7 @@
             p.mb-lg-0.mb-3 Cada terminal tiene conexión con la siguiente y la primera se conecta con la última, cerrando así la conexión razón por la cual se denomina anillo. 
           .col-lg-4.col-10
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b Figura 6.] Anillo
+              p.mb-0 #[b Figura 9.] Anillo
             img.mb-0(alt="" src="@/assets/curso/temas/tema2/sly2.svg")
 
         .row.justify-content-center.align-items-center.p-4
@@ -385,7 +385,7 @@
             p.mb-lg-0.mb-3 Todos los dispositivos de la red se conectan con un dispositivo central llamado nodo el cual se encarga de establecer las comunicaciones entre terminales o usuarios. 
           .col-lg-4.col-10
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b Figura 7.] Estrella
+              p.mb-0 #[b Figura 10.] Estrella
             img.mb-0(alt="" src="@/assets/curso/temas/tema2/sly3.svg")
       
       p.py-4 En cuanto a la topología lógica, está determinada por la forma cómo se accede a los datos y recursos de la red, para este caso tenemos:
@@ -394,14 +394,14 @@
         .col-lg-4.col-12.d-flex
           .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta2.p-3.clase1
             img.mb-5.m-auto(style="width: 75px" alt="" src="@/assets/curso/temas/tema2/01.svg")
-            h4.clr--prime.mb-4.text-center Transmisión de tokens
-            p.mb-0.text-center Se realiza la transmisión de tokens electrónicos en forma secuencial hacia cada terminal. Los dos tipos de redes que utilizan esta topología son TokenRing y FDDI.
+            h4.clr--prime.mb-4.text-center Transmisión de #[em tokens]
+            p.mb-0.text-center Se realiza la transmisión de #[em tokens] electrónicos en forma secuencial hacia cada terminal. Los dos tipos de redes que utilizan esta topología son #[em TokenRing] y FDDI.
         
         .col-lg-4.col-12.d-flex
           .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta2.p-3.clase1
             img.mb-5.m-auto(style="width: 75px" alt="" src="@/assets/curso/temas/tema2/02.svg")
-            h4.clr--prime.mb-4.text-center Broadcast
-            p.mb-0.text-center Aquí cada dispositivo envía un mensaje hacia todos los demás integrantes de la red. Las operaciones se realizan por orden de llegada como si fuese Ethernet.   
+            h4.clr--prime.mb-4.text-center #[em Broadcast]
+            p.mb-0.text-center Aquí cada dispositivo envía un mensaje hacia todos los demás integrantes de la red. Las operaciones se realizan por orden de llegada como si fuese #[em Ethernet].   
 
       Separador
       #t_2_4.titulo-segundo.color-acento-contenido
@@ -415,7 +415,7 @@
           .bloque-texto-d.color-secundario.p-4
             .bloque-texto-d__texto.mb-2
               i.fas.fa-quote-left
-              p.text-small Los protocolos IP (Protocolo de Internet) y TCP (Protocolo de Control de Transmisión) se originaron a principios de 1980 y fueron adoptados por la red ARPANET en 1983, integrada por cientos de computadoras de centros de investigación militar, universidades, y algunas empresas. El e-mail (electronic mail) se destacó como el servicio más utilizado, mientras que el sistema operativo más usado fue UNIX, en su versión BSD UNIX, desarrollada por la Universidad de California. A mediados de los ochenta se crea el protocolo TCP/IP con el propósito de tener un lenguaje común a todos los computadores conectados a Internet, con la unión de las redes ARPANET, CSNET y MILNET. El protocolo TCP/IP hace posible entonces, la conexión de dispositivos con marcas y tecnología diferentes por medio del establecimiento de normas y estándares. (p.4)
+              p.text-small Los protocolos IP (Protocolo de Internet) y TCP (Protocolo de Control de Transmisión) se originaron a principios de 1980 y fueron adoptados por la red ARPANET en 1983, integrada por cientos de computadoras de centros de investigación militar, universidades, y algunas empresas. El e-mail (#[em electronic mail]) se destacó como el servicio más utilizado, mientras que el sistema operativo más usado fue UNIX, en su versión BSD UNIX, desarrollada por la Universidad de California. A mediados de los ochenta se crea el protocolo TCP/IP con el propósito de tener un lenguaje común a todos los computadores conectados a Internet, con la unión de las redes ARPANET, CSNET y MILNET. El protocolo TCP/IP hace posible entonces, la conexión de dispositivos con marcas y tecnología diferentes por medio del establecimiento de normas y estándares. (p.4)
               i.fas.fa-quote-right
             .bloque-texto-d__autor 
               .h5.mb-0 Corona (2004)
@@ -424,19 +424,19 @@
           .row.justify-content-center(data-aos="fade-center").py-4
             .col-lg-7
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b Figura 8.]  Modelo TCP/IP y OSI
+                p.mb-0 #[b Figura 11.]  Modelo TCP/IP y OSI
               img(src='@/assets/curso/temas/tema2/figura8.svg', alt='imagen decorativa') 
             .col-lg-3.col-6
               img(src='@/assets/curso/temas/tema2/ima8.svg', alt='imagen decorativa') 
         
       
-      p Iniciando los años ochenta, la Organización Internacional para la Estandarización (ISO, International Standards Organization) desarrolla el modelo de referencia para interconectar sistemas abiertos (OSI, Open Systems Interconnect) para normalizar la manera de comunicarse entre dispositivos de la red. El modelo es importante por el gran paso hacia la interoperabilidad entre dispositivos de red.
+      p Iniciando los años ochenta, la Organización Internacional para la Estandarización (#[em ISO, International Standards Organization]) desarrolla el modelo de referencia para interconectar sistemas abiertos (#[em OSI, Open Systems Interconnect]) para normalizar la manera de comunicarse entre dispositivos de la red. El modelo es importante por el gran paso hacia la interoperabilidad entre dispositivos de red.
       p El modelo OSI enmarca las comunicaciones de red en siete diferentes capas así: 
       
       .row.justify-content-center(data-aos="fade-center").py-4
         .col-lg-5
           .titulo-sexto.color-acento-contenido.mb-3
-            p.mb-0 #[b Figura 9.] Comunicación de red
+            p.mb-0 #[b Figura 12.] Comunicación de red
           img(src='@/assets/curso/temas/tema2/comunicacion.svg', alt='imagen decorativa') 
 
       p El modelo OSI y el TCP/IP sirven como referencia para describir el proceso de comunicación de datos. El TCP/IP es usado para la suite de protocolos TCP/IP, y el OSI se utiliza para la comunicación estándar entre equipos y aplicaciones de diferentes proveedores. Ambos modelos realizan el mismo proceso, pero el modelo TCP/IP utiliza cuatro capas en lugar de siete.
@@ -445,18 +445,18 @@
       .row.justify-content-center(data-aos="fade-center").py-4
         .col-lg-8
           .titulo-sexto.color-acento-contenido.mb-3
-            p.mb-0 #[b Figura 10.] Comparación entre las capas de los dos modelos
+            p.mb-0 #[b Figura 13.] Comparación entre las capas de los dos modelos
           img(src='@/assets/curso/temas/tema2/comparacion.svg', alt='imagen decorativa') 
       Separador
        #t_2_4.titulo-segundo.color-acento-contenido
-        h2 2.8 Tecnología Ethernet
+        h2 2.8 Tecnología #[em Ethernet]
 
       .row.justify-content-center.align-items-center
         .col-lg-4.col-8
           figure
             img(src='@/assets/curso/temas/tema2/2.8.1.png', alt='imagen decorativa') 
         .col-lg-8.mb-3.mb-lg-0
-          p.p-2 Es una serie de estándares establecidos para la implementación de redes de área local o LAN. Para Forouzan (2002), se caracteriza por ser más estable, confiable y rápida en la transmisión de datos, ya que la interferencia con otros dispositivos de la misma red es mínima. Otra ventaja que presenta esta serie de estándares es la velocidad de transmisión pues puede ser del orden de los 100 Gbit/s. Para poder implementar una red tipo Ethernet es necesario contar con una serie de dispositivos que cumplen diferentes funciones. Algunos de ellos son: enrutadores, switches, cables UTP, bridges, entre otros.
+          p.p-2 Es una serie de estándares establecidos para la implementación de redes de área local o LAN. Para Forouzan (2002), se caracteriza por ser más estable, confiable y rápida en la transmisión de datos, ya que la interferencia con otros dispositivos de la misma red es mínima. Otra ventaja que presenta esta serie de estándares es la velocidad de transmisión pues puede ser del orden de los 100 Gbit/s. Para poder implementar una red tipo #[em Ethernet] es necesario contar con una serie de dispositivos que cumplen diferentes funciones. Algunos de ellos son: enrutadores, #[em switches], cables UTP, #[em bridges], entre otros.
       
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col 
@@ -467,7 +467,7 @@
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 166px; position: absolute" data-aos="fade-left")
       
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-        p Los principales objetivos de Ethernet son consistentes con los que se han convertido en los requerimientos básicos para el desarrollo y uso de redes LAN: 
+        p Los principales objetivos de #[em Ethernet] son consistentes con los que se han convertido en los requerimientos básicos para el desarrollo y uso de redes LAN: 
       
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right").p-4
         .col-lg-10.col-12.mb-4-lg-0.fondo3
@@ -514,19 +514,19 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .mb-4.d-flex
           .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
-            h3.col.px-4.mb-0.text-white(data-aos="fade-right") La trama de Ethernet
+            h3.col.px-4.mb-0.text-white(data-aos="fade-right") La trama de #[em Ethernet]
             img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 266px; position: absolute" data-aos="fade-left")
       
       .row.justify-content-center.align-items-center.mb-3(data-aos="fade-right")
         .col-lg-7.col-12  
-          p Los dispositivos de una red Ethernet intercambian información o datos llamados paquetes Ethernet, cuyo contenido incluye la trama Ethernet o trama de datos, y a la vez se divide en otros conjuntos de datos. Los registros de datos contienen un código binario con información importante, como direcciones, datos de uso, información de control, y sumas de comprobación.<br><br>Ethernet tiene los siguientes tipos: 
+          p Los dispositivos de una red #[em Ethernet] intercambian información o datos llamados paquetes #[em Ethernet], cuyo contenido incluye la trama #[em Ethernet] o trama de datos, y a la vez se divide en otros conjuntos de datos. Los registros de datos contienen un código binario con información importante, como direcciones, datos de uso, información de control, y sumas de comprobación.<br><br>#[em Ethernet] tiene los siguientes tipos: 
            .row.justify-content-center.align-items-center.mb-3(data-aos="fade-right").rosado-curvo.p-3
             .col-lg-2.col-4.p-2
               img(src='@/assets/curso/temas/tema2/2.8.4.svg', alt='imagen decorativa') 
             .col-lg-10
-              p Ethernet: 10 Base-T, velocidad 10 Mbps
-              p Fast Ethernet: 100 Base-T, velocidad 100 Mbps
-              p Gigabit Ethernet: 1000 Base-X velocidad 1000 Mbps ó 1 Gbps
+              p #[em Ethernet]: 10 Base-T, velocidad 10 Mbps
+              p #[em Fast Ethernet]: 100 Base-T, velocidad 100 Mbps
+              p #[em Gigabit Ethernet]: 1000 Base-X velocidad 1000 Mbps ó 1 Gbps
         .col-lg-5.col-9
           img.m-auto(src='@/assets/curso/temas/tema2/2.8.3.svg', alt='imagen decorativa') 
 

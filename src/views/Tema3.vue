@@ -25,7 +25,7 @@
             figure
               img(src="@/assets/curso/temas/tema3/icono3.1.svg", alt="alt").img75.m-auto
           .col-lg-11
-            p.mb-0.p-2 Se puede definir como un sistema de apoyo para compartir información y servicios entre usuarios, dispositivos, terminales y grupos de trabajo que pertenecen a redes comunes o independientes. A continuación, se abordan los conceptos básicos de Networking.
+            p.mb-0.p-2 Se puede definir como un sistema de apoyo para compartir información y servicios entre usuarios, dispositivos, terminales y grupos de trabajo que pertenecen a redes comunes o independientes. A continuación, se abordan los conceptos básicos de #[em Networking].
 
 
     .container.tarjeta--neutral.p-4.p-md-5
@@ -41,7 +41,7 @@
       .row.justify-content-center.align-items-center.mb-10(data-aos="fade-center")
         .col-12.col-md-10.col-lg-7
           .titulo-sexto.color-acento-contenido.mb-3
-            p.mb-0 #[b Figura 11.] Conexión a internet.
+            p.mb-0 #[b Figura 14.] Conexión a internet.
           img.mb-lg-5.mb-0(src="@/assets/curso/temas/tema3/internet.png")
         
 
@@ -69,7 +69,7 @@
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-04.col-22.mb-4-lg-0
-          p <br>Las direcciones binarias de 32 bits usadas para acceder a Internet se llaman direcciones de Protocolo Internet (IP) La dirección IP de un dispositivo se forma por una parte de red y una de host que representa a un dispositivo específico de una red en particular. Para que el dispositivo sepa cómo está dividida la dirección IP, se utiliza un segundo número de 32 bits llamado máscara de subred, que se conforma de números unos identifican la porción de red y por números ceros que indican el host en la red. Con la ayuda de la matemática de red al realizar una operación AND booleana entre la dirección IP 10.10.23.134 y la máscara de subred 255.0.0.0 se obtiene como resultado la dirección de red de este host.<br>
+          p <br>Las direcciones binarias de 32 bits usadas para acceder a Internet se llaman direcciones de Protocolo Internet (IP) La dirección IP de un dispositivo se forma por una parte de red y una de #[em host] que representa a un dispositivo específico de una red en particular. Para que el dispositivo sepa cómo está dividida la dirección IP, se utiliza un segundo número de 32 bits llamado máscara de subred, que se conforma de números unos identifican la porción de red y por números ceros que indican el #[em host] en la red. Con la ayuda de la matemática de red al realizar una operación AND booleana entre la dirección IP 10.10.23.134 y la máscara de subred 255.0.0.0 se obtiene como resultado la dirección de red de este #[em host].<br>
 
         .row.justify-content-center.align-items-center
           .col-lg-5.p-4
