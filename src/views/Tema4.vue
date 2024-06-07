@@ -21,7 +21,7 @@
         .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
           .col-lg-10.col-12.position-relative.resaltado-amarillo.p-4
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b Figura 15.] Arquitectura #[em cliente-servidor]
+              p.mb-0 #[b Figura 12.] Arquitectura #[em cliente-servidor]
             .row.justify-content-center
               .col-lg-5   
                 img(alt="" src="@/assets/curso/temas/tema4/figura12.png")

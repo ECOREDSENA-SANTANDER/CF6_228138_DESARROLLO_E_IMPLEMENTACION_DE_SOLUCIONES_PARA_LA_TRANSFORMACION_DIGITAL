@@ -117,7 +117,7 @@
                 p Es el elemento #[em software] de la red, encargado de establecer los parámetros de comunicación entre dispositivos, habilitar mecanismos de identificación de los equipos y usuarios en la red, definir el formato de la información que circula en la red. 
             .col-lg-8.col-10
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b figura 4.] Protocolo.
+                p.mb-0 #[b figura 1.] Protocolo.
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img8.png', alt='')   
 
       Separador
@@ -272,7 +272,7 @@
                 
                 .col-md-4.col-3.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
-                    p.mb-0 #[b Figura 5.] Red cableada
+                    p.mb-0 #[b Figura 2.] Red cableada
                   img.m.auto(src="@/assets/curso/temas/tema2/acor02.png", alt="")
               
             
@@ -286,7 +286,7 @@
                 
                 .col-md-4.col-3.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
-                    p.mb-0 #[b Figura 6.] Red inalambrica
+                    p.mb-0 #[b Figura 3.] Red inalambrica
                   img.m.auto(src="@/assets/curso/temas/tema2/acor03.png", alt="")
 
             div(titulo="Por relación funcional")
@@ -337,7 +337,7 @@
                 
                 .col-md-4.col-3.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
-                    p.mb-0 #[b Figura 7.] Por la direccionalidad de los datos
+                    p.mb-0 #[b Figura 4.] Por la direccionalidad de los datos
                   img.m.auto(src="@/assets/curso/temas/tema2/acor06.svg", alt="")    
 
             div(titulo="Por tecnología")
@@ -367,7 +367,7 @@
             p.mb-lg-0.mb-3 Consiste en la conexión de todos los nodos de la red a un solo canal de comunicación lo que genera una serie de desventajas como degradación de la señal, sobre escalamiento entre otras.
           .col-lg-4.col-10
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b Figura 8.] Bus
+              p.mb-0 #[b Figura 5.] Bus
             img.mb-0(alt="" src="@/assets/curso/temas/tema2/sly1.svg")
 
         .row.justify-content-center.align-items-center.p-4
@@ -376,7 +376,7 @@
             p.mb-lg-0.mb-3 Cada terminal tiene conexión con la siguiente y la primera se conecta con la última, cerrando así la conexión razón por la cual se denomina anillo. 
           .col-lg-4.col-10
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b Figura 9.] Anillo
+              p.mb-0 #[b Figura 6.] Anillo
             img.mb-0(alt="" src="@/assets/curso/temas/tema2/sly2.svg")
 
         .row.justify-content-center.align-items-center.p-4
@@ -385,7 +385,7 @@
             p.mb-lg-0.mb-3 Todos los dispositivos de la red se conectan con un dispositivo central llamado nodo el cual se encarga de establecer las comunicaciones entre terminales o usuarios. 
           .col-lg-4.col-10
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b Figura 10.] Estrella
+              p.mb-0 #[b Figura 7.] Estrella
             img.mb-0(alt="" src="@/assets/curso/temas/tema2/sly3.svg")
       
       p.py-4 En cuanto a la topología lógica, está determinada por la forma cómo se accede a los datos y recursos de la red, para este caso tenemos:
@@ -424,7 +424,7 @@
           .row.justify-content-center(data-aos="fade-center").py-4
             .col-lg-7
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b Figura 11.]  Modelo TCP/IP y OSI
+                p.mb-0 #[b Figura 8.]  Modelo TCP/IP y OSI
               img(src='@/assets/curso/temas/tema2/figura8.svg', alt='imagen decorativa') 
             .col-lg-3.col-6
               img(src='@/assets/curso/temas/tema2/ima8.svg', alt='imagen decorativa') 
@@ -436,7 +436,7 @@
       .row.justify-content-center(data-aos="fade-center").py-4
         .col-lg-5
           .titulo-sexto.color-acento-contenido.mb-3
-            p.mb-0 #[b Figura 12.] Comunicación de red
+            p.mb-0 #[b Figura 9.] Comunicación de red
           img(src='@/assets/curso/temas/tema2/comunicacion.svg', alt='imagen decorativa') 
 
       p El modelo OSI y el TCP/IP sirven como referencia para describir el proceso de comunicación de datos. El TCP/IP es usado para la suite de protocolos TCP/IP, y el OSI se utiliza para la comunicación estándar entre equipos y aplicaciones de diferentes proveedores. Ambos modelos realizan el mismo proceso, pero el modelo TCP/IP utiliza cuatro capas en lugar de siete.
@@ -445,7 +445,7 @@
       .row.justify-content-center(data-aos="fade-center").py-4
         .col-lg-8
           .titulo-sexto.color-acento-contenido.mb-3
-            p.mb-0 #[b Figura 13.] Comparación entre las capas de los dos modelos
+            p.mb-0 #[b Figura 10.] Comparación entre las capas de los dos modelos
           img(src='@/assets/curso/temas/tema2/comparacion.svg', alt='imagen decorativa') 
       Separador
        #t_2_4.titulo-segundo.color-acento-contenido
