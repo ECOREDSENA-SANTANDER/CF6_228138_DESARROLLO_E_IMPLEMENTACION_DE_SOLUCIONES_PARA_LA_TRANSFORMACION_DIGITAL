@@ -35,13 +35,13 @@
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 266px; position: absolute" data-aos="fade-left")
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-center")
         .col-lg-04.col-12.mb-4-lg-0
-          p <br>Dentro de los requisitos necesarios para la conexión a internet se tienen, conexión física utilizando una tarjeta adaptadora, tal como un módem o una NIC, desde un PC a una red, una conexión lógica que aplica estándares denominados protocolos, unas aplicaciones encargadas de interpretar datos y mostrar la información en un formato comprensible como los navegadores Web Google Chrome, Microsoft Edge, Firefox, entre otros.<br>
+          p <br>Dentro de los requisitos necesarios para la conexión a internet se tienen, conexión física utilizando una tarjeta adaptadora, tal como un módem o una NIC, desde un PC a una red, una conexión lógica que aplica estándares denominados protocolos, unas aplicaciones encargadas de interpretar datos y mostrar la información en un formato comprensible como los navegadores #[em Web Google Chrome, Microsoft Edge, Firefox], entre otros.<br>
 
       
       .row.justify-content-center.align-items-center.mb-10(data-aos="fade-center")
         .col-12.col-md-10.col-lg-7
           .titulo-sexto.color-acento-contenido.mb-3
-            p.mb-0 #[b Figura 11.] Conexión a internet.
+            p.mb-0 #[b Figura 14.] Conexión a internet.
           img.mb-lg-5.mb-0(src="@/assets/curso/temas/tema3/internet.png")
         
 

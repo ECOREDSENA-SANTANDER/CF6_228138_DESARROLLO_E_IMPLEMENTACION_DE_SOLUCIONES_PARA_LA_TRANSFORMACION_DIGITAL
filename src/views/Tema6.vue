@@ -14,7 +14,7 @@
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-10.col-12
           .titulo-sexto.color-acento-contenido.mb-3
-            p.mb-0 #[b Figura 14.] Aspectos contenidos en la administración de proyectos TI
+            p.mb-0 #[b Figura 17.] Aspectos contenidos en la administración de proyectos TI
           img.mb-lg-8.mb-8(alt="" src="@/assets/curso/temas/tema6/banner6.svg")
           
 

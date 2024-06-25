@@ -46,9 +46,17 @@
         .col-lg-2.col-22
         p Los dispositivos son aquellos elementos que se conectan a la red y están divididos en dos grandes grupos:
 
-      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-        .col-lg-10.col-22
-          img.mb-0(alt="" src="@/assets/curso/temas/tema2/2.2.png")
+      .row.justify-content-center.mb-5(data-aos="fade-right")
+        .col-lg-5.col-22
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 2.
+            span Grupos Globales
+          img.mb-0(alt="texto alternativo" src="@/assets/curso/temas/tema2/2.2.svg")
+        .col-lg-5.col-22
+          .titulo-sexto.color-acento-contenido
+            h5 Figura 3.
+            span Dispositivos terminales o de usuario final
+          img.mb-0(alt="texto alternativo" src="@/assets/curso/temas/tema2/2.2.1.png")
 
       .row.justify-content-center.mb-4(data-aos="zoom-in") 
         .col-lg-2.col-auto
@@ -89,7 +97,7 @@
         .py-4.py-md-5(titulo="<i>Routers</i>" :icono="require('@/assets/curso/temas/tema2/img05.svg')")
           .row.align-items-center.justify-content-center
             .col-lg-5.col-10
-                h4 #[em routers]<br>
+                h4 #[em Routers]<br>
                 p Es un dispositivo de red encargado de indicar la ruta más adecuada para transmitir el mensaje que ha enviado el transmisor hacia un destino determinado dentro o fuera de la red a la cual pertenecen, utilizando los protocolos adecuados.
             .col-lg-6.col-10
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img5.png', alt='')
@@ -117,7 +125,7 @@
                 p Es el elemento #[em software] de la red, encargado de establecer los parámetros de comunicación entre dispositivos, habilitar mecanismos de identificación de los equipos y usuarios en la red, definir el formato de la información que circula en la red. 
             .col-lg-8.col-10
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b figura 1.] Protocolo.
+                p.mb-0 #[b figura 4.] Protocolo.
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img8.png', alt='')   
 
       Separador
@@ -272,7 +280,7 @@
                 
                 .col-md-4.col-3.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
-                    p.mb-0 #[b Figura 2.] Red cableada
+                    p.mb-0 #[b Figura 5.] Red cableada
                   img.m.auto(src="@/assets/curso/temas/tema2/acor02.png", alt="")
               
             
@@ -286,7 +294,7 @@
                 
                 .col-md-4.col-3.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
-                    p.mb-0 #[b Figura 3.] Red inalambrica
+                    p.mb-0 #[b Figura 6.] Red inalambrica
                   img.m.auto(src="@/assets/curso/temas/tema2/acor03.png", alt="")
 
             div(titulo="Por relación funcional")
@@ -337,7 +345,7 @@
                 
                 .col-md-4.col-3.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
-                    p.mb-0 #[b Figura 4.] Por la direccionalidad de los datos
+                    p.mb-0 #[b Figura 7.] Por la direccionalidad de los datos
                   img.m.auto(src="@/assets/curso/temas/tema2/acor06.svg", alt="")    
 
             div(titulo="Por tecnología")
@@ -346,11 +354,11 @@
                   ul.lista-ul--color 
                     li 
                       i.fas.fa-car-side.px-2 
-                      | Intranet: red privada de usuarios que solo comparte sus recursos e información con los clientes internos, es de uso educativo, comercial entre otros.
+                      | #[em Intranet]: red privada de usuarios que solo comparte sus recursos e información con los clientes internos, es de uso educativo, comercial entre otros.
                     img.m.auto(src="@/assets/curso/temas/tema2/linea.svg", alt="").p-2
                     li 
                       i.fas.fa-car-side.px-2 
-                      | Internet: red de área amplia que interconecta gran cantidad de redes de comunicación heterogéneas funcionando como una red de alcance mundial y lógica única, basada en el protocolo TCP/IP.
+                      | #[em Intranet]: red de área amplia que interconecta gran cantidad de redes de comunicación heterogéneas funcionando como una red de alcance mundial y lógica única, basada en el protocolo TCP/IP.
                 
                 .col-md-4.col-3.py-2
                   img.m.auto(src="@/assets/curso/temas/tema2/acor07.png", alt="")                
@@ -367,7 +375,7 @@
             p.mb-lg-0.mb-3 Consiste en la conexión de todos los nodos de la red a un solo canal de comunicación lo que genera una serie de desventajas como degradación de la señal, sobre escalamiento entre otras.
           .col-lg-4.col-10
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b Figura 5.] Bus
+              p.mb-0 #[b Figura 8.] Bus
             img.mb-0(alt="" src="@/assets/curso/temas/tema2/sly1.svg")
 
         .row.justify-content-center.align-items-center.p-4
@@ -376,7 +384,7 @@
             p.mb-lg-0.mb-3 Cada terminal tiene conexión con la siguiente y la primera se conecta con la última, cerrando así la conexión razón por la cual se denomina anillo. 
           .col-lg-4.col-10
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b Figura 6.] Anillo
+              p.mb-0 #[b Figura 9.] Anillo
             img.mb-0(alt="" src="@/assets/curso/temas/tema2/sly2.svg")
 
         .row.justify-content-center.align-items-center.p-4
@@ -385,7 +393,7 @@
             p.mb-lg-0.mb-3 Todos los dispositivos de la red se conectan con un dispositivo central llamado nodo el cual se encarga de establecer las comunicaciones entre terminales o usuarios. 
           .col-lg-4.col-10
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b Figura 7.] Estrella
+              p.mb-0 #[b Figura 10.] Estrella
             img.mb-0(alt="" src="@/assets/curso/temas/tema2/sly3.svg")
       
       p.py-4 En cuanto a la topología lógica, está determinada por la forma cómo se accede a los datos y recursos de la red, para este caso tenemos:
@@ -415,7 +423,7 @@
           .bloque-texto-d.color-secundario.p-4
             .bloque-texto-d__texto.mb-2
               i.fas.fa-quote-left
-              p.text-small Los protocolos IP (Protocolo de Internet) y TCP (Protocolo de Control de Transmisión) se originaron a principios de 1980 y fueron adoptados por la red ARPANET en 1983, integrada por cientos de computadoras de centros de investigación militar, universidades, y algunas empresas. El e-mail (#[em electronic mail]) se destacó como el servicio más utilizado, mientras que el sistema operativo más usado fue UNIX, en su versión BSD UNIX, desarrollada por la Universidad de California. A mediados de los ochenta se crea el protocolo TCP/IP con el propósito de tener un lenguaje común a todos los computadores conectados a Internet, con la unión de las redes ARPANET, CSNET y MILNET. El protocolo TCP/IP hace posible entonces, la conexión de dispositivos con marcas y tecnología diferentes por medio del establecimiento de normas y estándares. (p.4)
+              p.text-small Los protocolos #[em IP (Protocolo de Internet)] y TCP #[em (Protocolo de Control de Transmisión)] se originaron a principios de 1980 y fueron adoptados por la red ARPANET en 1983, integrada por cientos de computadoras de centros de investigación militar, universidades, y algunas empresas. El e-mail (#[em electronic mail]) se destacó como el servicio más utilizado, mientras que el sistema operativo más usado fue UNIX, en su versión BSD UNIX, desarrollada por la Universidad de California. A mediados de los ochenta se crea el protocolo TCP/IP con el propósito de tener un lenguaje común a todos los computadores conectados a Internet, con la unión de las redes ARPANET, CSNET y MILNET. El protocolo TCP/IP hace posible entonces, la conexión de dispositivos con marcas y tecnología diferentes por medio del establecimiento de normas y estándares. (p.4)
               i.fas.fa-quote-right
             .bloque-texto-d__autor 
               .h5.mb-0 Corona (2004)
@@ -424,7 +432,7 @@
           .row.justify-content-center(data-aos="fade-center").py-4
             .col-lg-7
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b Figura 8.]  Modelo TCP/IP y OSI
+                p.mb-0 #[b Figura 11.]  Modelo TCP/IP y OSI
               img(src='@/assets/curso/temas/tema2/figura8.svg', alt='imagen decorativa') 
             .col-lg-3.col-6
               img(src='@/assets/curso/temas/tema2/ima8.svg', alt='imagen decorativa') 
@@ -436,7 +444,7 @@
       .row.justify-content-center(data-aos="fade-center").py-4
         .col-lg-5
           .titulo-sexto.color-acento-contenido.mb-3
-            p.mb-0 #[b Figura 9.] Comunicación de red
+            p.mb-0 #[b Figura 12.] Comunicación de red
           img(src='@/assets/curso/temas/tema2/comunicacion.svg', alt='imagen decorativa') 
 
       p El modelo OSI y el TCP/IP sirven como referencia para describir el proceso de comunicación de datos. El TCP/IP es usado para la suite de protocolos TCP/IP, y el OSI se utiliza para la comunicación estándar entre equipos y aplicaciones de diferentes proveedores. Ambos modelos realizan el mismo proceso, pero el modelo TCP/IP utiliza cuatro capas en lugar de siete.
@@ -445,7 +453,7 @@
       .row.justify-content-center(data-aos="fade-center").py-4
         .col-lg-8
           .titulo-sexto.color-acento-contenido.mb-3
-            p.mb-0 #[b Figura 10.] Comparación entre las capas de los dos modelos
+            p.mb-0 #[b Figura 13.] Comparación entre las capas de los dos modelos
           img(src='@/assets/curso/temas/tema2/comparacion.svg', alt='imagen decorativa') 
       Separador
        #t_2_4.titulo-segundo.color-acento-contenido

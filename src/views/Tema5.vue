@@ -25,7 +25,7 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-7.col-12
           .titulo-sexto.color-acento-contenido.mb-3
-            p.mb-0 #[b Figura 13.] Internet de las cosas red de redes
+            p.mb-0 #[b Figura 16.] Internet de las cosas red de redes
           img.mb-0.p-2(alt="" src="@/assets/curso/temas/tema5/tema5.png")
           figcaption <b>Nota:</b> Tomado de Cisco IBSG (2011).
           Separador

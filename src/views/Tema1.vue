@@ -55,7 +55,7 @@
             div(titulo="Periféricos de entrada")
               .row(data-aos="fade-rigth") 
                 .col-md-9
-                  p.mb-0 Captan y digitalizan los datos introducidos por el usuario o por otro dispositivo y los envían al ordenador para ser procesados. Los más conocidos son el teclado, el mouse, el escáner, la cámara web, etc.
+                  p.mb-0 Captan y digitalizan los datos introducidos por el usuario o por otro dispositivo y los envían al ordenador para ser procesados. Los más conocidos son el teclado, el #[em mouse], el escáner, la cámara web, etc.
                 .col-md-2.col-3.py-2
                   img.m.auto(src="@/assets/curso/temas/tema1/3.svg", alt="")
 
@@ -168,7 +168,7 @@
 
           .row.justify-content-center.p-4
             .col-lg-5.col-10
-              h5 #[em software]por tipo de alojamiento. 
+              h5 #[em software] por tipo de alojamiento. 
               p.mb-lg-0.mb-3 Cuando se va a seleccionar qué tipo de #[em software] es el más conveniente para la organización o modelo de negocio, es posible también apreciar el tipo de tecnología sobre la que puede apoyarse como, por ejemplo, on premise y en la nube.
             .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img06.png")
@@ -223,7 +223,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/icono1.3.svg", alt="alt").img75.m-auto
           .col-lg-11
-              p.mb-0 Las licencias de #[em software] son un contrato entre el autor de un #[em software]informático y los usuarios que lo utilizan. En ellas se instauran las cláusulas y condiciones por cumplir para poder usar ese programa. Cada usuario que lo opera y descarga, instala, copia o lo utiliza, debe admitir esas condiciones.
+              p.mb-0 Las licencias de #[em software] son un contrato entre el autor de un #[em software] informático y los usuarios que lo utilizan. En ellas se instauran las cláusulas y condiciones por cumplir para poder usar ese programa. Cada usuario que lo opera y descarga, instala, copia o lo utiliza, debe admitir esas condiciones.
       
       .row.justify-content-center.align-items-center(data-aos="fade-rigth")
         .col-lg-12.col-8
@@ -234,8 +234,11 @@
           .col-lg-8.col-12.position-relative
             ImagenInfografica.color-acento-botones.mb-5
               template(v-slot:imagen)
+                .titulo-sexto.color-acento-contenido
+                  h5 Figura 1.
+                  span Aspectos de las licencias 
                 figure
-                  img(alt="" src="@/assets/curso/temas/tema1/Licenciamiento1.3.svg")
+                  img(alt="En la siguiente imagen se definen las características de cuatro variables que pueden presentar las licencias con las cuales se establece su valor" src="@/assets/curso/temas/tema1/Licenciamiento1.3.svg")
 
           .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
         .col-lg-17.col-22
