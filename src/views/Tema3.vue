@@ -15,7 +15,7 @@
         figcaption Video. Tecnologías y conceptos básicos de <i>networking</i>
 
       Separador
-      #t_1_2.titulo-segundo.color-acento-contenido
+      #t_3_1.titulo-segundo.color-acento-contenido
         h2 3.1  Conceptos básicos <i>Networking</i>
 
      
@@ -54,11 +54,11 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-7.col-12
           p <br>Los datos enviados por una red de computadoras, son divididos en bloques pequeños llamados paquetes, cada cual contiene información de la dirección de origen y destino, este paquete, junto con la información de dirección física, se denomina trama, también posee información que describe cómo volver a unir los paquetes en el destino. El ancho de banda determina la cantidad de paquetes que pueden transmitirse en un lapso de tiempo fijo. La unidad de medida del ancho de banda es el bit por segundo y generalmente, se indica con las siguientes unidades:
-        .col-lg-5.col-8.resaltado-rosado
-          .row
-            .col-lg-6.p-4
+        .col-lg-5.col-8.col-md-10.resaltado-rosado
+          .row.justify-content-center.align-items-center
+            .col-lg-6.p-4.col-6.col-md-5
               img.mb-0(alt="" src="@/assets/curso/temas/tema3/icono.png")
-            .col-lg-6.p-4
+            .col-lg-6.p-4.col-md-5
               p #[b Bits por segundo:]b/s.<br>#[b Kilobits por segundo:] Kb/s.<br>#[b Megabits por segundo:] Mb/s.<br> #[b Gigabits por segundo:] Gb/s
   
     .container.tarjeta--neutral.p-4.p-md-5

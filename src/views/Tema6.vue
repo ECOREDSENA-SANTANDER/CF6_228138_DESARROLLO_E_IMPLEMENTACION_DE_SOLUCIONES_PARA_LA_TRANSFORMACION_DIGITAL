@@ -34,7 +34,7 @@
             .col-lg-6.col
               h5 Planear
               p Es la primera fase o etapa donde se aborda el problema a resolver y se plantean los objetivos y alcances para solucionarlo. Asimismo, se designan las actividades para lograr los objetivos. Es esta fase también se deben considerar los recursos necesarios, humanos, económicos, tecnológicos y de información.
-            .col-lg-4.col-22
+            .col-lg-4.col-6
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema6/bannericono01.svg', alt='')
       
         .py-4.py-md-5(titulo="Hacer" :icono="require('@/assets/curso/temas/tema6/icono02.svg')")
@@ -42,7 +42,7 @@
             .col-lg-6.col
               h5 Hacer
               p En esta fase se deben poner en marcha o ejecución las actividades de gestión y técnicas que se planearon por realizar. En los proyectos de TI, son aquellas actividades de instalación, implementación y/o apropiación de tecnologías #[em hardware] y #[em software]. También, pueden involucrar la adquisición de nuevos servicios de TI, como los servicios en la nube o aplicaciones de terceros.
-            .col-lg-4.col-22
+            .col-lg-4.col-6
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema6/bannericono02.svg', alt='')
       
         .py-4.py-md-5(titulo="Verificar" :icono="require('@/assets/curso/temas/tema6/icono03.svg')")
@@ -50,7 +50,7 @@
             .col-lg-6.col
               h5 Verificar
               p En esta fase se deben poner en marcha o ejecución las actividades de gestión y técnicas que se planearon por realizar. En los proyectos de TI, son aquellas actividades de instalación, implementación y/o apropiación de tecnologías #[em hardware] y #[em software]. También, pueden involucrar la adquisición de nuevos servicios de TI, como los servicios en la nube o aplicaciones de terceros.
-            .col-lg-4.col-22
+            .col-lg-4.col-6
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema6/bannericono03.svg', alt='')
       
         .py-4.py-md-5(titulo="Actuar" :icono="require('@/assets/curso/temas/tema6/icono04.svg')")
@@ -58,7 +58,7 @@
             .col-lg-6.col
               h5 Actuar
               p En esta última fase se toman las acciones de mejora, con base en los resultados de verificación o evaluación, con el fin de demarcar las acciones correctivas para la mejora.
-            .col-lg-4.col-22
+            .col-lg-4.col-6
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema6/bannericono04.svg', alt='')
     
       .row.justify-content-center.align-items-center(data-aos="fade-left")
@@ -67,7 +67,7 @@
             span.resaltado-amarillo #[b se debe realizar un cronograma de actividades a ejecutar en cada fase,] 
             | dicho cronograma debe ser realizado en la fase de planeación. Un ejemplo de este cronograma puede ser:
         
-        .col-lg-8.col-22.p-4
+        .col-lg-10.col-22.p-4
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Tabla 1.]  Cronograma de actividades de proyectos de TI.
           .tabla-a
@@ -193,13 +193,13 @@
         .col-lg-6.col-12.mb-4-lg-0.py-2
           .tarjeta.resaltado-azul.p-4
             img.recurso(src='@/assets/curso/temas/tema6/recurso.svg' alt='AvatarTop')
-            h5.py-3.text-white Recursos disponibles
+            h4.py-3.text-white Recursos disponibles
             p.text-white Se debe tener en cuenta los recursos que se disponen (Humanos, económicos, tecnológicos, e información), de esta manera se pueden planear la realización de las actividades de manera objetiva.
   
         .col-lg-6.col-12.mb-4-lg-0
           .tarjeta.resaltado-azul.p-4
             img.recurso(src='@/assets/curso/temas/tema6/tiempo.svg' alt='AvatarTop')
-            h5.py-3.text-white Tiempo estimado de realización
+            h4.py-3.text-white Tiempo estimado de realización
             p.text-white Establecer con base a los recursos disponibles, especialmente los humanos, el conocimiento y el esfuerzo que se requiere para realizar la actividad el periodo de tiempo que tomaría realizar cada actividad del proyecto.
           
 
@@ -263,19 +263,19 @@
         .col-lg-7.col-12.mb-4-lg-0
           LineaTiempoD.color-acento-botones
             .row(numero="1" titulo="Contexto jurídico")
-              .col-md-8.mb-4.mb-md-0
+              .col-md-12.mb-4.mb-md-0
                 p.text-small <br>El contexto jurídico, según la constitución política, corresponde con las leyes, decretos, entre otros lineamientos estatales del gobierno nacional y gobiernos locales, los cuales pueden ser prohibitivos o permisivos.
                       
             .row(numero="2" titulo="Validez legal")
-              .col-md-8.mb-4.mb-md-0
+              .col-md-12.mb-4.mb-md-0
                 p.text-small <br>La validez legal, refiere al cómo se realiza el procedimiento legal, y se lleva a su realización. 
                       
             .row(numero="3" titulo="Contratación de servicios")
-              .col-md-8.mb-4.mb-md-0
+              .col-md-12.mb-4.mb-md-0
                 p.text-small <br>En la contratación de servicios, se deben revisar las condiciones y acuerdos de nivel de servicio con proveedores, incluyendo el soporte, de tal manera que se cumplan con los requerimientos específicos del proyecto.
 
             .row(numero="4" titulo="Protección de datos")
-              .col-md-8.mb-4.mb-md-0
+              .col-md-12.mb-4.mb-md-0
                 p.text-small <br>Protección de datos personales, es de vital importancia que los prestadores de servicios cuenten con las regulaciones de protección de datos personales y que el procesamiento y almacenamiento de datos e información se de en países que cuentes con leyes o regulaciones sobre la protección de datos personales.
         
         .col-lg-4.col-7 

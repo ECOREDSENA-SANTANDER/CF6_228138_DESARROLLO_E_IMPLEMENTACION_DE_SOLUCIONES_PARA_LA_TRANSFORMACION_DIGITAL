@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 La infraestructura y los servicios tecnológicos
-        p.mb-4 #[b Fortalecer conceptos y generalidades para la construcción de infraestructura y servicios tecnológicos, con base en los contenidos de este componente formativo.] 
+        p.mb-4 Fortalecer conceptos y generalidades para la construcción de infraestructura y servicios tecnológicos, con base en los contenidos de este componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

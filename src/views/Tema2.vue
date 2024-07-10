@@ -11,7 +11,7 @@
         .col-lg-12
           .bg--piel.p-4.br_01.mb-4
             .row.justify-content-center.align-items-center
-              .col-lg-3.col-9
+              .col-lg-3.col-8
                 figure
                   img(src='@/assets/curso/temas/tema2/redesdedatos.png', alt='imagen decorativa') 
               .col-lg-9.mb-3.mb-lg-0
@@ -52,6 +52,7 @@
             h5 Figura 2.
             span Grupos Globales
           img.mb-0(alt="texto alternativo" src="@/assets/curso/temas/tema2/2.2.svg")
+        .py-2
         .col-lg-5.col-22
           .titulo-sexto.color-acento-contenido
             h5 Figura 3.
@@ -62,7 +63,7 @@
         .col-lg-2.col-auto
         p El medio es la conexión que permite a dispositivos relacionarse entre sí. A su vez se define la información como la unidad que se intercambia entre dispositivos de gestión, acceso, comunicación y de usuario final como es el texto, imágenes, música, hipertexto, video, entre otros. Por otra parte, los recursos hacen referencia a todo aquello que un dispositivo pide a la red, se identifica y accede directamente. Estos recursos pueden ser archivos compartidos en otros dispositivos de la red, un documento a imprimir en una impresora compartida, un servicio a consumir, información, espacio en disco duro, tiempo de procesamiento, etc.<br><br>A continuación se definen los dispositivos y elementos más importantes en las redes de datos:
        
-      TabsB.color-acento-botoness.mb-5(data-aos="fade-right")
+      TabsB.fondoamarillopollito.mb-5(data-aos="fade-right")
         .py-4.py-md-5(titulo="Servidor" :icono="require('@/assets/curso/temas/tema2/img01.svg')")
           .row.align-items-center.justify-content-center
             .col-lg-5.col-10
@@ -211,9 +212,9 @@
         p Existen diferentes protocolos, cada uno de ellos está identificado por la capa del modelo OSI en la que va a trabajar. Por nombrar algunos: 
 
       .row.justify-content-center(data-aos="zoom-in")
-        .col-lg-8
+        .col-lg-8.col-md-8
           .row.justify-content-center
-            .col-lg-7.resaltado-rosado.p-4 
+            .col-lg-8.col-9.col-md-8.resaltado-rosado.p-4 
               ol.lista-ol
               li 
                 | Capa 1: CGI. MIME, IEEE
@@ -229,7 +230,7 @@
                 | Capa 6: ASN.1
               li 
                 | Capa 7: TELNET, FTP, SNMP
-            .col-lg-5.col-3.resaltado-rojo.p-4
+            .col-lg-4.col-9.col-md-8.resaltado-rojo.p-4
               img.mb-3(src="@/assets/curso/temas/tema2/prueba2.png", alt="alt")
     
 
@@ -242,7 +243,7 @@
         .col-lg-12.col-12
           acordionA.mb-3(tipo="b" clase-tarjeta="tarjeta tarjeta-gris")
             div(titulo="Por alcance")
-              .row(data-aos="fade-rigth")
+              .row.justify-content-center.align-items-center(data-aos="fade-rigth")
                 .col-md-7
                   ul.lista-ul--color 
                     li 
@@ -267,18 +268,18 @@
                       i.fas.fa-car-side.px-2
                       | Red VLAN o de área local virtual (#[em Virtual LAN])
                 
-                .col-md-5.col-3.py-2
+                .col-md-5.col-10.py-2
                   img.m.auto(src="@/assets/curso/temas/tema2/acor01.png", alt="")
             
             div(titulo="Por tipo de conexión")
-              .row(data-aos="fade-rigth")
+              .row.justify-content-center.align-items-center(data-aos="fade-rigth")
                 .col-md-7
                   ul.lista-ul--color 
                     li 
-                      i.fas.fa-car-side.px-2 
-                      | Red cableada. es aquella red en la que se conectan mediante cable computadores y otros periféricos, se intercambian archivos, y se envían datos a otros dispositivos. La siguiente figura ilustra un ejemplo de red cableada:
+                      i.fas.fa-car-side.px-2
+                      p #[b Red cableada:] es aquella red en la que se conectan mediante cable computadores y otros periféricos, se intercambian archivos, y se envían datos a otros dispositivos. La siguiente figura ilustra un ejemplo de red cableada:
                 
-                .col-md-4.col-3.py-2
+                .col-md-5.col-10.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
                     p.mb-0 #[b Figura 5.] Red cableada
                   img.m.auto(src="@/assets/curso/temas/tema2/acor02.png", alt="")
@@ -292,13 +293,13 @@
                       i.fas.fa-car-side.px-2 
                       | Red inalámbrica: aquella red en la cual dos o más dispositivos como computadores portátiles, agendas electrónicas, entre otros se comunican sin necesidad de una conexión por cable, con este tipo de red, los usuarios pueden estar conectados cuando se desplazan dentro de una determinada área geográfica. En la siguiente figura se observa una red de tipo inalámbrica:
                 
-                .col-md-4.col-3.py-2
+                .col-md-5.col-10.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
                     p.mb-0 #[b Figura 6.] Red inalambrica
                   img.m.auto(src="@/assets/curso/temas/tema2/acor03.png", alt="")
 
             div(titulo="Por relación funcional")
-              .row(data-aos="fade-rigth")
+              .row.justify-content-center.align-items-center(data-aos="fade-rigth")
                 .col-md-7
                   ul.lista-ul--color 
                     li 
@@ -309,11 +310,11 @@
                       i.fas.fa-car-side.px-2 
                       | #[em Peer-to-peer] que consiste en la conformación de una red de datos en la que no hay componentes dominantes o que dirijan a los demás integrantes de la malla. Es decir, cada elemento de la red tiene los mismos privilegios y restricciones que cualquier otro.
                 
-                .col-md-4.col-3.py-2
+                .col-md-5.col-10.py-2
                   img.m.auto(src="@/assets/curso/temas/tema2/acor04.png", alt="")
             
             div(titulo="Por tecnología")
-              .row(data-aos="fade-rigth")
+              .row.justify-content-center.align-items-center(data-aos="fade-rigth")
                 .col-md-7
                   ul.lista-ul--color 
                     li 
@@ -324,11 +325,11 @@
                       i.fas.fa-car-side.px-2 
                       | Red #[em Broadcast]: es una red que transmite los datos por un solo canal de comunicación compartido por todos los dispositivos de la red, este mensaje o paquete se envía a todos los terminales  máquinas de la red, pero únicamente la destinataria puede procesarlo.
                 
-                .col-md-4.col-3.py-2
+                .col-md-5.col-10.py-2
                   img.m.auto(src="@/assets/curso/temas/tema2/acor05.png", alt="") 
             
             div(titulo="Por la direccionalidad de los datos")
-              .row(data-aos="fade-rigth")
+              .row.justify-content-center.align-items-center(data-aos="fade-rigth")
                 .col-md-7
                   ul.lista-ul--color 
                     li 
@@ -343,13 +344,13 @@
                       i.fas.fa-car-side.px-2 
                       | Full-Dúplex: la transmisión es en ambos sentidos y al mismo tiempo una misma información. Un ejemplo de este tipo de transmisión son los teléfonos móviles o celulares.
                 
-                .col-md-4.col-3.py-2
+                .col-md-5.col-10.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
                     p.mb-0 #[b Figura 7.] Por la direccionalidad de los datos
                   img.m.auto(src="@/assets/curso/temas/tema2/acor06.svg", alt="")    
 
             div(titulo="Por tecnología")
-              .row(data-aos="fade-rigth")
+              .row.justify-content-center.align-items-center(data-aos="fade-rigth")
                 .col-md-7
                   ul.lista-ul--color 
                     li 
@@ -360,10 +361,10 @@
                       i.fas.fa-car-side.px-2 
                       | #[em Intranet]: red de área amplia que interconecta gran cantidad de redes de comunicación heterogéneas funcionando como una red de alcance mundial y lógica única, basada en el protocolo TCP/IP.
                 
-                .col-md-4.col-3.py-2
+                .col-md-5.col-10.py-2
                   img.m.auto(src="@/assets/curso/temas/tema2/acor07.png", alt="")                
       Separador
-      #t_2_4.titulo-segundo.color-acento-contenido
+      #t_2_6.titulo-segundo.color-acento-contenido
         h2 2.6 Topologías de redes
         
       p Para la topología física, se consideran tres formas básicas para el montaje de una red:
@@ -399,20 +400,20 @@
       p.py-4 En cuanto a la topología lógica, está determinada por la forma cómo se accede a los datos y recursos de la red, para este caso tenemos:
       
       .row.justify-content-center(data-aos="fade-center")
-        .col-lg-4.col-12.d-flex
+        .col-lg-4.col-12.col-md-6.d-flex
           .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta2.p-3.clase1
             img.mb-5.m-auto(style="width: 75px" alt="" src="@/assets/curso/temas/tema2/01.svg")
             h4.clr--prime.mb-4.text-center Transmisión de #[em tokens]
             p.mb-0.text-center Se realiza la transmisión de #[em tokens] electrónicos en forma secuencial hacia cada terminal. Los dos tipos de redes que utilizan esta topología son #[em TokenRing] y FDDI.
         
-        .col-lg-4.col-12.d-flex
+        .col-lg-4.col-12.col-md-6.d-flex
           .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta2.p-3.clase1
             img.mb-5.m-auto(style="width: 75px" alt="" src="@/assets/curso/temas/tema2/02.svg")
             h4.clr--prime.mb-4.text-center #[em Broadcast]
             p.mb-0.text-center Aquí cada dispositivo envía un mensaje hacia todos los demás integrantes de la red. Las operaciones se realizan por orden de llegada como si fuese #[em Ethernet].   
 
       Separador
-      #t_2_4.titulo-segundo.color-acento-contenido
+      #t_2_7.titulo-segundo.color-acento-contenido
         h2 2.7 Modelo TCP/IP y OSI 
   
       .row.mb-5
@@ -455,12 +456,13 @@
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Figura 13.] Comparación entre las capas de los dos modelos
           img(src='@/assets/curso/temas/tema2/comparacion.svg', alt='imagen decorativa') 
+      
       Separador
-       #t_2_4.titulo-segundo.color-acento-contenido
+      #t_2_8.titulo-segundo.color-acento-contenido
         h2 2.8 Tecnología #[em Ethernet]
-
+  
       .row.justify-content-center.align-items-center
-        .col-lg-4.col-8
+        .col-lg-4.col-6
           figure
             img(src='@/assets/curso/temas/tema2/2.8.1.png', alt='imagen decorativa') 
         .col-lg-8.mb-3.mb-lg-0
@@ -480,9 +482,9 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right").p-4
         .col-lg-10.col-12.mb-4-lg-0.fondo3
           .row.justify-content-center.align-items-center
-            .col-lg-4
+            .col-lg-4.col-6
               img(src='@/assets/curso/temas/tema2/candado.svg', alt='imagen decorativa')
-            .col-lg-3
+            .col-lg-4
               ul.lista-ul--color 
                 li 
                   i.fas.fa-car-side.px-2
@@ -529,14 +531,14 @@
         .col-lg-7.col-12  
           p Los dispositivos de una red #[em Ethernet] intercambian información o datos llamados paquetes #[em Ethernet], cuyo contenido incluye la trama #[em Ethernet] o trama de datos, y a la vez se divide en otros conjuntos de datos. Los registros de datos contienen un código binario con información importante, como direcciones, datos de uso, información de control, y sumas de comprobación.<br><br>#[em Ethernet] tiene los siguientes tipos: 
            .row.justify-content-center.align-items-center.mb-3(data-aos="fade-right").rosado-curvo.p-3
-            .col-lg-2.col-4.p-2
+            .col-lg-2.col-3.p-2
               img(src='@/assets/curso/temas/tema2/2.8.4.svg', alt='imagen decorativa') 
             .col-lg-10
               p #[em Ethernet]: 10 Base-T, velocidad 10 Mbps
               p #[em Fast Ethernet]: 100 Base-T, velocidad 100 Mbps
               p #[em Gigabit Ethernet]: 1000 Base-X velocidad 1000 Mbps ó 1 Gbps
-        .col-lg-5.col-9
-          img.m-auto(src='@/assets/curso/temas/tema2/2.8.3.svg', alt='imagen decorativa') 
+        .col-lg-4.col-6
+          img(src='@/assets/curso/temas/tema2/2.8.3.svg', alt='imagen decorativa') 
 
 
 </template>
