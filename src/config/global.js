@@ -338,11 +338,11 @@ export default {
       referencia:
         'Claranet.es (2021). 6 enfoques para afrontar la migración a la nube. ',
       link:
-        '. https://www.claranet.es/blog/6-enfoques-para-afrontar-la-migracion-a-la-nube',
+        'https://www.claranet.es/blog/6-enfoques-para-afrontar-la-migracion-a-la-nube',
     },
     {
       referencia: 'Corona, A. E. (2004). Protocolos tcp/ip de internet.',
-      link: 'https://basicamente18.wixsite.com/todored/historia',
+      link: '',
     },
     {
       referencia: 'La red y todo sobre ella. ',
@@ -365,7 +365,7 @@ export default {
     {
       referencia: 'SANTOS GARCÍA (2012).  Comunicación oral y escrita',
       link:
-        'http://190.57.147.202:90/jspui/bitstream/123456789/650/1/Comunicacion_oral_y_escrita.pdf',
+        'https://www.aliat.click/BibliotecasDigitales/Axiologicas/Comunicacion_oral_y_escrita.pdf',
     },
     {
       referencia:
