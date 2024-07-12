@@ -26,7 +26,7 @@
         .col-lg-7.col-12
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Figura 16.] Internet de las cosas red de redes
-          img.mb-0.p-2(alt="" src="@/assets/curso/temas/tema5/tema5.png")
+          img.mb-0.p-2(alt="La imagen representa un diagrama del Internet de las Cosas (IoT) centrado en una empresa. La empresa se conecta a varias redes individuales y áreas, incluyendo transporte, energía, educación, página de inicio, ecológico y otros. Estas áreas están interconectadas, creando una red de redes que facilita la administración, seguridad y análisis de datos dentro del entorno empresarial. El diagrama subraya la importancia de integrar diferentes sectores y sistemas dentro del IoT para mejorar la eficiencia y la gestión empresarial. " src="@/assets/curso/temas/tema5/tema5.svg")
           figcaption <b>Nota:</b> Tomado de Cisco IBSG (2011).
           Separador
       #t_5_1.titulo-segundo.color-acento-contenido

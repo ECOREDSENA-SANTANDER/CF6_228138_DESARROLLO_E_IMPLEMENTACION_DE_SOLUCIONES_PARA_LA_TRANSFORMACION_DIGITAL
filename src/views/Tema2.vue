@@ -25,8 +25,8 @@
 
         figure(data-aos="fade-right")
         .video.mb-1
-          iframe(width="1280" height="720" src="https://youtube.com/embed/Zx2p6cloSws" title="Infraestructura y servicios tecnológicos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. Infraestructura y servicios tecnológicos
+          iframe(width="1280" height="720" src="https://youtube.com/embed/U-lDW6XLIrQ?si=YaCIsIBtEEWyo-Oo" title="Infraestructura y servicios tecnológicos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Historia de las redes de datos
 
       .row.justify-content-center.mb-4(data-aos="zoom-in")
         .col-lg-10
@@ -47,17 +47,16 @@
         p Los dispositivos son aquellos elementos que se conectan a la red y están divididos en dos grandes grupos:
 
       .row.justify-content-center.mb-5(data-aos="fade-right")
-        .col-lg-5.col-22
+        .col-lg-5.col-12
           .titulo-sexto.color-acento-contenido
             h5 Figura 2.
             span Grupos Globales
-          img.mb-0(alt="texto alternativo" src="@/assets/curso/temas/tema2/2.2.svg")
-        .py-2
-        .col-lg-5.col-22
+          img.mb-0(alt="Se detalla una agrupación de dispositivos de red, titulada “Grupos Globales”. Incluye cinco tipos de dispositivos representados por íconos: un módem, un router, un switch, un punto de acceso (access point) y un puente (bridge). Cada ícono está etiquetado con su respectivo nombre, y están organizados en una línea horizontal bajo la categoría de “Grupos globales”. " src="@/assets/curso/temas/tema2/2.2.svg")
+        .col-lg-5.col-12
           .titulo-sexto.color-acento-contenido
             h5 Figura 3.
             span Dispositivos terminales o de usuario final
-          img.mb-0(alt="texto alternativo" src="@/assets/curso/temas/tema2/2.2.1.png")
+          img.mb-0(alt="La figura 3 presenta una agrupación de dispositivos conocidos como “Dispositivos terminales o de usuario final”. Esta figura incluye ocho tipos de dispositivos representados por íconos: una consola de videojuegos, una computadora, una tablet, un teléfono celular, una notebook, una impresora, una cámara y un televisor inteligente (smart TV). Cada ícono está etiquetado con su nombre correspondiente, y los dispositivos están organizados en una cuadrícula de dos filas y cuatro columnas. " src="@/assets/curso/temas/tema2/2.2.1.svg")
 
       .row.justify-content-center.mb-4(data-aos="zoom-in") 
         .col-lg-2.col-auto
@@ -127,7 +126,7 @@
             .col-lg-8.col-10
               .titulo-sexto.color-acento-contenido.mb-3
                 p.mb-0 #[b figura 4.] Protocolo.
-              img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img8.png', alt='')   
+              img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img8.png', alt='La imagen describe  una tabla de capas de red y sus protocolos correspondientes. Las capas son Aplicación (HTTP), Transporte (TCP), Red (IP), Acceso al medio (Ethernet) y Física (CGI, MIME, IEEE), ilustradas junto a dispositivos como un servidor web y una computadora portátil para simbolizar la comunicación en la red. ')   
 
       Separador
       #t_2_3.titulo-segundo.color-acento-contenido
@@ -282,7 +281,7 @@
                 .col-md-5.col-10.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
                     p.mb-0 #[b Figura 5.] Red cableada
-                  img.m.auto(src="@/assets/curso/temas/tema2/acor02.png", alt="")
+                  img.m.auto(src="@/assets/curso/temas/tema2/acor02.png", alt="La imagen describe una red cableada representada por un router central al que están conectadas varias computadoras portátiles mediante cables. Esta configuración ilustra cómo los dispositivos se comunican directamente a través de conexiones físicas, lo que puede ofrecer mayor estabilidad y velocidad en la transmisión de datos en comparación con las redes inalámbricas.")
               
             
                 img.m.auto(src="@/assets/curso/temas/tema2/linea.svg", alt="").p-4
@@ -296,7 +295,7 @@
                 .col-md-5.col-10.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
                     p.mb-0 #[b Figura 6.] Red inalambrica
-                  img.m.auto(src="@/assets/curso/temas/tema2/acor03.png", alt="")
+                  img.m.auto(src="@/assets/curso/temas/tema2/acor03.png", alt="La imagen expone una red inalámbrica, representada por un router que emite señales Wi-Fi, permitiendo la conexión de dispositivos como computadoras y teléfonos móviles a través de un punto de acceso (Access point). Esta configuración ilustra cómo los dispositivos pueden conectarse a la red sin necesidad de cables físicos, proporcionando mayor flexibilidad y conveniencia en la conectividad, aunque puede estar sujeta a interferencias y limitaciones de alcance en comparación con las redes cableadas. ")
 
             div(titulo="Por relación funcional")
               .row.justify-content-center.align-items-center(data-aos="fade-rigth")
@@ -347,7 +346,7 @@
                 .col-md-5.col-10.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
                     p.mb-0 #[b Figura 7.] Por la direccionalidad de los datos
-                  img.m.auto(src="@/assets/curso/temas/tema2/acor06.svg", alt="")    
+                  img.m.auto(src="@/assets/curso/temas/tema2/acor06.svg", alt="La imagen ilustra diferentes tipos de direccionalidad de los datos. En la primera sección, se muestra una comunicación unidireccional donde los datos fluyen de una computadora a un monitor. En la segunda sección, se representa la comunicación bidireccional alternante, donde dos estaciones intercambian datos en diferentes instantes. La tercera sección presenta una comunicación bidireccional simultánea, donde dos dispositivos celulares pueden enviar y recibir datos al mismo tiempo, destacando la capacidad de transmisión de datos en ambas direcciones simultáneamente.")    
 
             div(titulo="Por tecnología")
               .row.justify-content-center.align-items-center(data-aos="fade-rigth")
@@ -377,7 +376,7 @@
           .col-lg-4.col-10
             .titulo-sexto.color-acento-contenido.mb-3
               p.mb-0 #[b Figura 8.] Bus
-            img.mb-0(alt="" src="@/assets/curso/temas/tema2/sly1.svg")
+            img.mb-0(alt="La imagen expone una topología de red en bus, donde varios dispositivos, como laptops y una impresora, están conectados a un único cable central (bus). En esta configuración, todos los dispositivos comparten el mismo medio de transmisión y los datos enviados por un dispositivo son accesibles para todos los demás. Esta topología es simple y económica de implementar, pero puede ser menos eficiente y más susceptible a colisiones de datos cuando se aumenta el número de dispositivos conectados. " src="@/assets/curso/temas/tema2/sly1.svg")
 
         .row.justify-content-center.align-items-center.p-4
           .col-lg-6.col-10
@@ -386,7 +385,7 @@
           .col-lg-4.col-10
             .titulo-sexto.color-acento-contenido.mb-3
               p.mb-0 #[b Figura 9.] Anillo
-            img.mb-0(alt="" src="@/assets/curso/temas/tema2/sly2.svg")
+            img.mb-0(alt="La imagen expone una topología de red en anillo, donde varios dispositivos, como laptops, una impresora, un servidor y un router, están conectados en un bucle cerrado. En esta configuración, los datos circulan en una dirección alrededor del anillo, y cada dispositivo tiene un enlace directo con sus dos dispositivos vecinos. Esta topología permite una transmisión de datos eficiente y puede manejar un alto volumen de tráfico, pero si ocurre una falla en cualquier parte del anillo, puede afectar a toda la red. " src="@/assets/curso/temas/tema2/sly2.svg")
 
         .row.justify-content-center.align-items-center.p-4
           .col-lg-6.col-10
@@ -395,7 +394,7 @@
           .col-lg-4.col-10
             .titulo-sexto.color-acento-contenido.mb-3
               p.mb-0 #[b Figura 10.] Estrella
-            img.mb-0(alt="" src="@/assets/curso/temas/tema2/sly3.svg")
+            img.mb-0(alt="La imagen expone una topología de red en estrella, donde varios dispositivos, como laptops, computadoras de escritorio y una impresora, están conectados a un dispositivo central, que puede ser un switch o un router. En esta configuración, cada dispositivo tiene una conexión individual con el dispositivo central, lo que facilita la gestión de la red y el aislamiento de fallas. Si un dispositivo falla, no afecta a los demás, pero si el dispositivo central falla, toda la red queda inoperativa. Esta topología es común en redes domésticas y de pequeñas oficinas debido a su simplicidad y eficacia." src="@/assets/curso/temas/tema2/sly3.svg")
       
       p.py-4 En cuanto a la topología lógica, está determinada por la forma cómo se accede a los datos y recursos de la red, para este caso tenemos:
       
@@ -434,7 +433,7 @@
             .col-lg-7
               .titulo-sexto.color-acento-contenido.mb-3
                 p.mb-0 #[b Figura 11.]  Modelo TCP/IP y OSI
-              img(src='@/assets/curso/temas/tema2/figura8.svg', alt='imagen decorativa') 
+              img(src='@/assets/curso/temas/tema2/figura8.svg', alt='La imagen expone  una representación del modelo TCP/IP y su relación con el modelo OSI. En el nivel de Aplicación, los datos se procesan y se entregan en su formato específico, como HTML. En el nivel de Transporte, los datos se dividen en segmentos TCP, que incluyen etiquetas con los procesos necesarios para su reensamblaje. En el nivel de Internet, estos segmentos TCP se encapsulan en paquetes IP, a los cuales se les asigna un encabezado con la dirección IP de cada host. Finalmente, en el nivel de Acceso a la red, los paquetes IP se encapsulan en tramas que contienen la información de la dirección física o dirección MAC. Esta estructura ilustra cómo los datos se transfieren y se procesan a través de diferentes capas de red para asegurar la entrega correcta de la información.') 
             .col-lg-3.col-6
               img(src='@/assets/curso/temas/tema2/ima8.svg', alt='imagen decorativa') 
         
@@ -446,7 +445,7 @@
         .col-lg-5
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Figura 12.] Comunicación de red
-          img(src='@/assets/curso/temas/tema2/comunicacion.svg', alt='imagen decorativa') 
+          img(src='@/assets/curso/temas/tema2/comunicacion.svg', alt='La imagen detalla el modelo OSI, que consta de siete capas esenciales para la comunicación en red: la capa Física maneja la señalización y transmisión binaria; la capa de Enlace de datos se encarga del direccionamiento físico y detección de errores; la capa de Red se ocupa del direccionamiento lógico y la determinación de rutas; la capa de Transporte proporciona conexión de extremo a extremo y garantiza la fiabilidad; la capa de Sesión gestiona la comunicación entre dispositivos; la capa de Presentación asegura la correcta representación y encriptación de los datos; y la capa de Aplicación ofrece servicios de red a las aplicaciones.') 
 
       p El modelo OSI y el TCP/IP sirven como referencia para describir el proceso de comunicación de datos. El TCP/IP es usado para la suite de protocolos TCP/IP, y el OSI se utiliza para la comunicación estándar entre equipos y aplicaciones de diferentes proveedores. Ambos modelos realizan el mismo proceso, pero el modelo TCP/IP utiliza cuatro capas en lugar de siete.
       p En la figura siguiente se muestra una comparación entre las capas de los dos modelos.
@@ -455,7 +454,7 @@
         .col-lg-8
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Figura 13.] Comparación entre las capas de los dos modelos
-          img(src='@/assets/curso/temas/tema2/comparacion.svg', alt='imagen decorativa') 
+          img(src='@/assets/curso/temas/tema2/comparacion.svg', alt='La imagen compara las capas de los modelos OSI y TCP/IP. El modelo OSI consta de siete capas: Física, Enlace de datos, Red, Transporte, Sesión, Presentación y Aplicación. En contraste, el modelo TCP/IP tiene cuatro capas: Física, Internet, Transporte y Aplicación. Aunque las capas no coinciden exactamente, ambos modelos comparten funciones similares en sus respectivas capas, con el modelo TCP/IP combinando las funciones de algunas capas del modelo OSI, especialmente en la capa de Aplicación y en las capas inferiores. ') 
       
       Separador
       #t_2_8.titulo-segundo.color-acento-contenido
@@ -520,17 +519,15 @@
                   i.fas.fa-car-side.px-2
                   | Arquitectura en capas.
      
+      .mb-4.d-flex
+        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
+          h3.col.px-4.mb-0.text-white(data-aos="fade-right") La trama de #[em Ethernet]
+          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 266px; position: absolute" data-aos="fade-left")
       
-      .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
-        .mb-4.d-flex
-          .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
-            h3.col.px-4.mb-0.text-white(data-aos="fade-right") La trama de #[em Ethernet]
-            img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 266px; position: absolute" data-aos="fade-left")
-      
-      .row.justify-content-center.align-items-center.mb-3(data-aos="fade-right")
-        .col-lg-7.col-12  
+      .row.justify-content-center.align-items-center(data-aos="fade-right")
+        .col-lg-8.col-12  
           p Los dispositivos de una red #[em Ethernet] intercambian información o datos llamados paquetes #[em Ethernet], cuyo contenido incluye la trama #[em Ethernet] o trama de datos, y a la vez se divide en otros conjuntos de datos. Los registros de datos contienen un código binario con información importante, como direcciones, datos de uso, información de control, y sumas de comprobación.<br><br>#[em Ethernet] tiene los siguientes tipos: 
-           .row.justify-content-center.align-items-center.mb-3(data-aos="fade-right").rosado-curvo.p-3
+          .row.justify-content-center.align-items-center.mb-4(data-aos="fade-right").rosado-curvo.p-1
             .col-lg-2.col-3.p-2
               img(src='@/assets/curso/temas/tema2/2.8.4.svg', alt='imagen decorativa') 
             .col-lg-10

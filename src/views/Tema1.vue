@@ -118,11 +118,11 @@
         h2 1.1 Tipos de #[em software]
 
       p Los tipos de #[em software] son establecidos en virtud de la funcionalidad de los mismos y se pueden clasificar en tres grupos: 
-        span.resaltado-rosado #[b <i>softwares de aplicación</i>]
+        span #[b <i>softwares de aplicación</i>]
         |(dentro del cual se encuentran los #[em softwares] de gestión),
-        span.resaltado-rosado #[b <i>softwares</i> de programación]
+        span #[b <i>softwares</i> de programación]
         | y, como tercer grupo,
-        span.resaltado-rosado #[b <i>softwares</i> de sistema]
+        span #[b <i>softwares</i> de sistema]
 
       p A continuación, se pueden conocer en detalle los aspectos más importantes de cada grupo y apropiar los elementos que los constituyen. Se debe procurar llevar registro, de lo más destacado, en una libreta. personal de apuntes:
       
@@ -236,7 +236,7 @@
                   h5 Figura 1.
                   span Aspectos de las licencias 
                 figure
-                  img(alt="En la siguiente imagen se definen las características de cuatro variables que pueden presentar las licencias con las cuales se establece su valor" src="@/assets/curso/temas/tema1/Licenciamiento1.3.svg")
+                  img(alt="La imagen ilustra diferentes tipos de licencias de software: “Freeware” (totalmente gratuito), “Shareware” (gratuito con restricciones), “Free/libre” (permite transformación y redistribución), “Owner/propietario” (puede ser abierto o cerrado), y “Proveedores de software” (licencias de compra o alquiler con funcionalidades adicionales). La centralidad de un monitor y una nube simboliza la relación entre estos tipos de licencias y el uso del software." src="@/assets/curso/temas/tema1/Licenciamiento1.3.svg")
 
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
         .col-lg-12.col-12
@@ -245,8 +245,8 @@
 
       figure(data-aos="fade-right")
         .video.mb-1
-          iframe(width="1280" height="720" src="https://youtube.com/embed/XiXnR4mssBY" title="Licenciamiento de #[em software]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video.
+          iframe(width="1280" height="720" src="https://youtube.com/embed/jXzp2KkcUus?si=ESnyznfvcuxH77se" title="Licenciamiento de #[em software]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Licencias de software
       
       Separador
       #t_1_4.titulo-segundo.color-acento-contenido
@@ -262,17 +262,15 @@
                 img.mb-0(alt="" src="@/assets/curso/temas/tema1/computer.png")
               .col-lg-10
                 h5.p-2 Los proyectos deberán tener una relación directa con el portafolio, planes y programas definidos en la entidad y el sector.
-      p Dentro de los componentes de la ingeniería del #[em software], el ciclo de vida del #[em software] examina las fases necesarias para validar el desarrollo del mismo y así garantizar que este desempeñe los requerimientos para la aplicación y verificación de los procedimientos de desarrollo.
-      p Estos son algunos aspectos clave sobre los ciclos de vida del #[em software] y las buenas prácticas de #[em software], que se debe conocer:
-      
-      .row.justify-content-center.align-items-center.mb-5
+          p Dentro de los componentes de la ingeniería del #[em software], el ciclo de vida del #[em software] examina las fases necesarias para validar el desarrollo del mismo y así garantizar que este desempeñe los requerimientos para la aplicación y verificación de los procedimientos de desarrollo.
+          p Estos son algunos aspectos clave sobre los ciclos de vida del #[em software] y las buenas prácticas de #[em software], que se debe conocer:
         .col-lg-6.col-8
           img.mb-0(alt="" src="@/assets/curso/temas/tema1/marco1.4.png")
           P.p-2       
           figure(data-aos="fade-right")
         .video.mb-1 
-          iframe(width="1280" height="720" src="https://youtube.com/embed/XiXnR4mssBY" title="Licenciamiento de #[em software]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video.
+          iframe(width="1280" height="720" src="https://youtube.com/embed/9JSsvb7zq04?si=WBSwZ_WQ4C0KUlAr" title="Licenciamiento de #[em software]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. #[em Software] y su ciclo de vida
 </template>
 
 <script>

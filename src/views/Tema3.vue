@@ -11,8 +11,8 @@
         .col-lg-17.col-22
       figure(data-aos="fade-right")
         .video.mb-1
-          iframe(width="1280" height="720" src="https://youtube.com/embed/0mbw-CgmkEA" title="Tecnologías y conceptos básicos de <i>networking</i>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. Tecnologías y conceptos básicos de <i>networking</i>
+          iframe(width="1280" height="720" src="https://youtube.com/embed/YmBs1wBM9_g?si=4DtNpVLj6XJzwCuT" title="Tecnologías y conceptos básicos de <i>networking</i>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        figcaption Video. Tecnologías y conceptos básicos de #[em Networking]
 
       Separador
       #t_3_1.titulo-segundo.color-acento-contenido
@@ -42,7 +42,7 @@
         .col-12.col-md-10.col-lg-7
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Figura 14.] Conexión a internet.
-          img.mb-lg-5.mb-0(src="@/assets/curso/temas/tema3/internet.png")
+          img.mb-lg-5.mb-0(src="@/assets/curso/temas/tema3/internet.png", alt= 'La imagen ilustra un esquema de conexión a Internet en una red local. Los dispositivos, como portátiles y PCs, están conectados a un switch/hub que centraliza la comunicación dentro de la red. Este switch/hub está conectado a un router ADSL, que proporciona acceso a Internet. Además, el esquema incluye un punto de acceso inalámbrico que permite la conexión de dispositivos móviles de manera inalámbrica, y una impresora de red que puede ser utilizada por cualquier dispositivo conectado. Este diseño muestra cómo los diferentes componentes de una red local se interconectan para facilitar el acceso a Internet y la comunicación interna entre dispositivos.')
         
 
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5

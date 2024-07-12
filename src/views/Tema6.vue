@@ -64,12 +64,12 @@
       .row.justify-content-center.align-items-center(data-aos="fade-left")
         .col-lg-04.col-12.mb-4-lg-0
           p <br>Para una adecuada planeación del proyecto, 
-            span.resaltado-amarillo #[b se debe realizar un cronograma de actividades a ejecutar en cada fase,] 
+            span #[b se debe realizar un cronograma de actividades a ejecutar en cada fase,] 
             | dicho cronograma debe ser realizado en la fase de planeación. Un ejemplo de este cronograma puede ser:
         
         .col-lg-10.col-22.p-4
           .titulo-sexto.color-acento-contenido.mb-3
-            p.mb-0 #[b Tabla 1.]  Cronograma de actividades de proyectos de TI.
+            p.mb-0(alt='La tabla detalla un cronograma de actividades para proyectos de TI, organizado según el ciclo PDCA (Planear, Hacer, Verificar, Actuar). En la fase de Planear, se enumeran dos actividades con fechas de inicio y fin del 01/11/2021 al 18/11/2021. La fase de Hacer incluye dos actividades que se desarrollan del 25/11/2021 al 15/12/2021. La fase de Verificar tiene dos actividades planificadas del 16/12/2021 al 23/12/2021. Finalmente, en la fase de Actuar, se listan dos actividades con fechas del 25/12/2021 al 31/12/2021. Este cronograma proporciona una estructura clara para la planificación y ejecución de actividades en proyectos de tecnología de la información.') #[b Tabla 1.]  Cronograma de actividades de proyectos de TI.
           .tabla-a
             table
               thead
@@ -152,7 +152,7 @@
          p Los recursos de un proyecto de TI. pueden estar agrupados en recursos humanos, económicos o financieros, tecnológicos, y de información.<br><br>En la gestión de proyectos de TI, y en especial en los proyectos de servicios en la nube, es importante la determinación de recursos necesarios, por lo que se deben considerar los siguientes criterios:<br>
         .col-lg-12.col-22
         .titulo-sexto.color-acento-contenido.mb-3
-            p.mb-0 #[b Tabla 2.]  Criterios en la gestión de proyectos TI
+            p.mb-0(alt='La tabla  presenta criterios para la gestión de proyectos de TI, dividida en varios recursos: humano, económico y financiero, tecnológico, de información y otros. Para el recurso humano, se destacan el conocimiento (profesionalidad y especialización) y la experiencia necesaria. En el recurso económico y financiero, se incluyen costos de administración y seguimiento, costos directos, costos concurrentes e imprevistos. Para el recurso tecnológico, se consideran aplicaciones, usuarios, procesamiento, memoria, almacenamiento y conectividad. En cuanto al recurso de información, se priorizan los datos necesarios para el correcto funcionamiento de las aplicaciones. Finalmente, en otros recursos, se toman en cuenta instalaciones y equipos necesarios para el proyecto. Esta tabla proporciona una guía integral para evaluar y gestionar los diferentes aspectos involucrados en proyectos de tecnología de la información. ') #[b Tabla 2.]  Criterios en la gestión de proyectos TI
         .tabla-b
           .tabla-b__header.resaltado-rosado
             th #[b Recurso]
@@ -278,7 +278,7 @@
               .col-md-12.mb-4.mb-md-0
                 p.text-small <br>Protección de datos personales, es de vital importancia que los prestadores de servicios cuenten con las regulaciones de protección de datos personales y que el procesamiento y almacenamiento de datos e información se de en países que cuentes con leyes o regulaciones sobre la protección de datos personales.
         
-        .col-lg-4.col-7 
+        .col-lg-5.col-7 
           img(alt="" src="@/assets/curso/temas/tema6/aspectoslegales.svg")
 
     .container.tarjeta--neutral.p-4.p-md-5
