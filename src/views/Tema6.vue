@@ -65,7 +65,7 @@
         .col-lg-04.col-12.mb-4-lg-0
           p <br>Para una adecuada planeación del proyecto, 
             span #[b se debe realizar un cronograma de actividades a ejecutar en cada fase,] 
-            | dicho cronograma debe ser realizado en la fase de planeación. Un ejemplo de este cronograma puede ser:
+              | dicho cronograma debe ser realizado en la fase de planeación. Un ejemplo de este cronograma puede ser:
         
         .col-lg-10.col-22.p-4
           .titulo-sexto.color-acento-contenido.mb-3
