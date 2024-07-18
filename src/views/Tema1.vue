@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-botones
         .titulo-principal__numero
           span 1
-        h1 Infraestructura de <i>hardware y software</i>
+        h1 Infraestructura de <i>hardware</i> y <i>software</i>
 
       .row.justify-content-center.align-items-center(data-aos="fade-left")
         .col-lg-10.col-12.mb-0
@@ -48,7 +48,7 @@
             div(titulo="Almacenamiento")
               .row(data-aos="fade-rigth")
                 .col-md-9
-                  p.mb-0 Se utiliza, principalmente, para almacenar datos. Todas las computadoras de escritorio, portátiles, tablets y teléfonos inteligentes tienen algún tipo de dispositivo de almacenamiento.
+                  p.mb-0 Se utiliza, principalmente, para almacenar datos. Todas las computadoras de escritorio, portátiles, #[em tablets] y teléfonos inteligentes tienen algún tipo de dispositivo de almacenamiento.
                 .col-md-2.col-3.py-2
                   img.m.auto(src="@/assets/curso/temas/tema1/2.svg", alt="")
 
@@ -117,14 +117,9 @@
       #t_1_1.titulo-segundo.color-acento-contenido
         h2 1.1 Tipos de #[em software]
 
-      p Los tipos de #[em software] son establecidos en virtud de la funcionalidad de los mismos y se pueden clasificar en tres grupos: 
-        span #[b <i>softwares de aplicación</i>]
-        |(dentro del cual se encuentran los #[em softwares] de gestión),
-        span #[b <i>softwares</i> de programación]
-        | y, como tercer grupo,
-        span #[b <i>softwares</i> de sistema]
+      p Los tipos de #[em software] son establecidos en virtud de la funcionalidad de los mismos y se pueden clasificar en tres grupos: #[b <i>softwares</i> de aplicación] (dentro del cual se encuentran los #[em softwares] de gestión), #[b <i>softwares</i> de programación] y, como tercer grupo, #[b <i>softwares</i> de sistema].
 
-      p A continuación, se pueden conocer en detalle los aspectos más importantes de cada grupo y apropiar los elementos que los constituyen. Se debe procurar llevar registro, de lo más destacado, en una libreta. personal de apuntes:
+      p A continuación, se pueden conocer en detalle los aspectos más importantes de cada grupo y apropiar los elementos que los constituyen. Se debe procurar llevar registro, de lo más destacado, en una libreta personal de apuntes:
       
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-4.col-12
@@ -132,7 +127,7 @@
         SlyderA(tipo="b").fondo-banner.p-4
           .row.justify-content-center.p-4
             .col-lg-5.col-10
-              h4 Grupo 1: #[em softwares] de Aplicación.
+              h4 Grupo 1: #[em software] de Aplicación.
               p.mb-lg-0.mb-3 Son muchos los tipos de herramientas de #[em software] que incluyen base de cálculo, programas empresariales o de diseño sugeridos; en este se construye el #[em software] dependiendo del modelo de negocio y los requerimientos que desee el cliente.
             .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img01.png")
@@ -140,28 +135,28 @@
 
           .row.justify-content-center.p-4
             .col-lg-5.col-10
-              h4 Grupo 1: #[em softwares] de gestión.
+              h4 Grupo 1: #[em software] de gestión.
               p.mb-lg-0.mb-3 Hacen parte del primer grupo. Son todos los relacionados con la gestión integral de la organización, como la facturación, la contabilidad o el departamento de tesorería y nómina de la entidad. Son de alta confiabilidad, agilidad y eficiencia, ahorran tiempo y evitan errores manuales y mejoran la productividad.
             .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img02.png") 
 
           .row.justify-content-center.p-4
             .col-lg-5.col-10
-              h4 #[em softwares] de programación
+              h4 #[em software] de programación
               p.mb-lg-0.mb-3 Su importancia radica en que hacen posible el desarrollo de aplicaciones, por lo que su función es clave para el desarrollo de la computación y los otros programas. Dentro de este grupo están, por ejemplo, los compiladores o editores de texto.
             .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img03.png")
 
           .row.justify-content-center.p-4
             .col-lg-5.col-10
-              h4 #[em softwares] de sistema.
+              h4 #[em software] de sistema.
               p.mb-lg-0.mb-3 En este grupo es importante que las características de #[em hardware] sean las mejores, para el óptimo funcionamiento. Ejemplo del mismo son los sistemas operativos de Windows, Linux o MAC ya que, cuando se instalan y configuran, se establece una conexión entre maquina u ordenador, realizando las tareas requeridas.
             .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img04.png")
 
           .row.justify-content-center.p-4
             .col-lg-5.col-10
-              h4 #[em softwares] por tipo de licencia.
+              h4 #[em software] por tipo de licencia.
               p.mb-lg-0.mb-3 Las licencias de #[em software] son un elemento clave, puesto que establecen los términos que admiten el uso correcto del mismo. Es usual hallar dos tipos de #[em software] por licencia (#[em software] libre y #[em software] de propietario). Las cláusulas de uso de #[em software] permanecen almacenadas en el mismo, por lo que, previamente a su instalación o descarga, se deben admitir las condiciones.
             .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img05.png")
@@ -169,14 +164,14 @@
           .row.justify-content-center.p-4
             .col-lg-5.col-10
               h4 #[em software] por tipo de alojamiento. 
-              p.mb-lg-0.mb-3 Cuando se va a seleccionar qué tipo de #[em software] es el más conveniente para la organización o modelo de negocio, es posible también apreciar el tipo de tecnología sobre la que puede apoyarse como, por ejemplo, on premise y en la nube.
+              p.mb-lg-0.mb-3 Cuando se va a seleccionar qué tipo de #[em software] es el más conveniente para la organización o modelo de negocio, es posible también apreciar el tipo de tecnología sobre la que puede apoyarse como, por ejemplo, #[em on premise] y en la nube.
             .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img06.png")
 
           .row.justify-content-center.p-4
             .col-lg-5.col-10
-              h4  #[em software on premese] y #[em software] en la nube.
-              p.mb-lg-0.mb-3 On premise, se baja en la instalación y configuración dentro de la misma organización, trabajando dentro de la misma estructura interna de la entidad. El #[em software] en la nube, trabaja con la información alojada en la misma nube, donde su principal característica es el control y la seguridad de los datos, siendo uno de los más extendidos en los últimos años.
+              h4  #[em software on premise] y #[em software] en la nube.
+              p.mb-lg-0.mb-3 #[em On premise], se baja en la instalación y configuración dentro de la misma organización, trabajando dentro de la misma estructura interna de la entidad. El #[em software] en la nube, trabaja con la información alojada en la misma nube, donde su principal característica es el control y la seguridad de los datos, siendo uno de los más extendidos en los últimos años.
             .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img07.png")
 
@@ -184,12 +179,12 @@
       #t_1_2.titulo-segundo.color-acento-contenido
         h2.p-2 1.2 Escalabilidad
       
-      p Se concibe por escalabilidad en el #[em hardware], a la capacidad de ajuste y contestación de un sistema con relación al rendimiento del mismo, a medida que se acrecientan de forma significativa el número de usuarios del mismo.
+      p Se concibe por escalabilidad en el #[em hardware], a la capacidad de ajuste y contestación de un sistema con relación a su rendimiento, a medida que se acrecientan de forma significativa el número de usuarios del mismo.
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-7.col-12
           p Escalar hacia lo alto en un sistema, representa una migración de todo el sistema a un nuevo #[em hardware] que sea más potente y eficaz que el presente. Una vez se ha configurado el sistema futuro, se realizan unas validaciones y se realizan las copias de seguridad, poniéndose en funcionamiento.
           p.fondo-amarillo2.p-4 Las aplicaciones que estén trabajando bajo la arquitectura de #[em hardware] antigua, no sufren con la migración (el impacto en el código es mínimo).<br>
-          p En relación con la escalabilidad, es importante tener en cuenta que:        
+          p En relación con la escalabilidad, es importante tener en cuenta lo siguiente:        
         .col-lg-5.col-12
           img.mb-0(alt="" src="@/assets/curso/temas/tema1/1.2Escalabilidad.svg")
 
@@ -209,7 +204,7 @@
         .col-lg-4.col-12.col-md-6.d-flex
           .px-lg-4.py-lg-5.px-3.mb-lg-0.mb-3.w-100.tarjeta2.p-3.clase1
             img.mb-5.m-auto(style="width: 75px" alt="" src="@/assets/curso/temas/tema1/1.2img03.svg")
-            h4.mb-4.text-center ¿#[em hardware] adicional o actualización?
+            h4.mb-4.text-center ¿#[em Hardware] adicional o actualización?
               p.mb-0 <br>Para poder escalar un sistema de almacenamiento de información, siempre se debe agregar #[em hardware] adicional o actualizar el hardware existente, sin transformar mucho la aplicación.
 
      
@@ -246,14 +241,14 @@
       figure(data-aos="fade-right")
         .video.mb-1
           iframe(width="1280" height="720" src="https://youtube.com/embed/jXzp2KkcUus?si=ESnyznfvcuxH77se" title="Licenciamiento de #[em software]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-        figcaption Video. Licencias de software
+        figcaption Video. Licencias de #[em software]
       
       Separador
       #t_1_4.titulo-segundo.color-acento-contenido
         h2.p-2 1.4 Marcos de referencia y buenas prácticas
 
       p Dentro de los marcos de referencias en el #[em software], están los componentes de la arquitectura de diseño y operabilidad que maneja el mismo.<br><br>En todos los proyectos de TI, se debe evaluar, direccionar y monitorear áreas como: alcance, costos, tiempo, equipo humano, compras, calidad, comunicación, manejo de los interesados, integración, entre otros.
-  
+      
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-6.col-12.col-md-11
           .fondorosa
@@ -266,7 +261,8 @@
           p Estos son algunos aspectos clave sobre los ciclos de vida del #[em software] y las buenas prácticas de #[em software], que se debe conocer:
         .col-lg-6.col-8
           img.mb-0(alt="" src="@/assets/curso/temas/tema1/marco1.4.png")
-          P.p-2       
+          P.p-2  
+           
           figure(data-aos="fade-right")
         .video.mb-1 
           iframe(width="1280" height="720" src="https://youtube.com/embed/9JSsvb7zq04?si=WBSwZ_WQ4C0KUlAr" title="Licenciamiento de #[em software]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

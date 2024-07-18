@@ -22,7 +22,8 @@
         Separador
         #t_2_1.titulo-segundo.color-acento-contenido
          h2 2.1 Historia  
-
+      
+        p El siguiente video, presenta un resumen de la historia de las redes de datos:  
         figure(data-aos="fade-right")
         .video.mb-1
           iframe(width="1280" height="720" src="https://youtube.com/embed/U-lDW6XLIrQ?si=YaCIsIBtEEWyo-Oo" title="Infraestructura y servicios tecnológicos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -51,7 +52,7 @@
           .titulo-sexto.color-acento-contenido
             h5 Figura 2.
             span Grupos Globales
-          img.mb-0(alt="Se detalla una agrupación de dispositivos de red, titulada “Grupos Globales”. Incluye cinco tipos de dispositivos representados por íconos: un módem, un router, un switch, un punto de acceso (access point) y un puente (bridge). Cada ícono está etiquetado con su respectivo nombre, y están organizados en una línea horizontal bajo la categoría de “Grupos globales”. " src="@/assets/curso/temas/tema2/2.2.svg")
+          img.mb-0(alt="Se detalla una agrupación de dispositivos de red, titulada Grupos Globales. Incluye cinco tipos de dispositivos representados por íconos: un módem, un router, un switch, un punto de acceso (access point) y un puente (bridge). Cada ícono está etiquetado con su respectivo nombre, y están organizados en una línea horizontal." src="@/assets/curso/temas/tema2/2.2.svg")
         .col-lg-5.col-12
           .titulo-sexto.color-acento-contenido
             h5 Figura 3.
@@ -60,7 +61,7 @@
 
       .row.justify-content-center.mb-4(data-aos="zoom-in") 
         .col-lg-2.col-auto
-        p El medio es la conexión que permite a dispositivos relacionarse entre sí. A su vez se define la información como la unidad que se intercambia entre dispositivos de gestión, acceso, comunicación y de usuario final como es el texto, imágenes, música, hipertexto, video, entre otros. Por otra parte, los recursos hacen referencia a todo aquello que un dispositivo pide a la red, se identifica y accede directamente. Estos recursos pueden ser archivos compartidos en otros dispositivos de la red, un documento a imprimir en una impresora compartida, un servicio a consumir, información, espacio en disco duro, tiempo de procesamiento, etc.<br><br>A continuación se definen los dispositivos y elementos más importantes en las redes de datos:
+        p El medio es la conexión que permite a dispositivos relacionarse entre sí. A su vez se define la información como la unidad que se intercambia entre dispositivos de gestión, acceso, comunicación y de usuario final como es el texto, imágenes, música, hipertexto, video, entre otros. Por otra parte, los recursos hacen referencia a todo aquello que un dispositivo pide a la red, se identifica y accede directamente. Estos recursos pueden ser archivos compartidos en otros dispositivos de la red, un documento a imprimir en una impresora compartida, un servicio a consumir, información, espacio en disco duro, tiempo de procesamiento, etc.<br><br>A continuación, se definen los dispositivos y elementos más importantes en las redes de datos:
        
       TabsB.fondoamarillopollito.mb-5(data-aos="fade-right")
         .py-4.py-md-5(titulo="Servidor" :icono="require('@/assets/curso/temas/tema2/img01.svg')")
@@ -90,7 +91,7 @@
           .row.align-items-center.justify-content-center
             .col-lg-5.col-10
                 h4 Repetidores<br>
-                p Se trata de un dispositivo electrónico capaz de transmitir una señal recibida de bajo nivel y re transmitirla a más alto nivel, permitiendo con esto cubrir distancias largas sin que haya degradación considerable de la señal. En los inicios de la telegrafía se utilizó para regenerar las señales telegráficas.
+                p Se trata de un dispositivo electrónico capaz de transmitir una señal recibida de bajo nivel y retransmitirla a más alto nivel, permitiendo con esto cubrir distancias largas sin que haya degradación considerable de la señal. En los inicios de la telegrafía se utilizó para regenerar las señales telegráficas.
             .col-lg-6.col-10
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img4.png', alt='')
         
@@ -125,7 +126,7 @@
                 p Es el elemento #[em software] de la red, encargado de establecer los parámetros de comunicación entre dispositivos, habilitar mecanismos de identificación de los equipos y usuarios en la red, definir el formato de la información que circula en la red. 
             .col-lg-8.col-10
               .titulo-sexto.color-acento-contenido.mb-3
-                p.mb-0 #[b figura 4.] Protocolo.
+                p.mb-0 #[b Figura 4.] Protocolo.
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img8.png', alt='La imagen describe  una tabla de capas de red y sus protocolos correspondientes. Las capas son Aplicación (HTTP), Transporte (TCP), Red (IP), Acceso al medio (Ethernet) y Física (CGI, MIME, IEEE), ilustradas junto a dispositivos como un servidor web y una computadora portátil para simbolizar la comunicación en la red. ')   
 
       Separador
@@ -224,7 +225,7 @@
               li 
                 | Capa 4: Protocolo de control de Transmisión TCP, UDP
               li 
-                | Capa 5: Capa 5: #[em NetBIOS]
+                | Capa 5: #[em NetBIOS]
               li 
                 | Capa 6: ASN.1
               li 
@@ -276,7 +277,7 @@
                   ul.lista-ul--color 
                     li 
                       i.fas.fa-car-side.px-2
-                      p #[b Red cableada:] es aquella red en la que se conectan mediante cable computadores y otros periféricos, se intercambian archivos, y se envían datos a otros dispositivos. La siguiente figura ilustra un ejemplo de red cableada:
+                      | #[b Red cableada:] es aquella red en la que se conectan mediante cable computadores y otros periféricos, se intercambian archivos, y se envían datos a otros dispositivos. La siguiente figura presenta un ejemplo de red cableada:
                 
                 .col-md-5.col-10.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
@@ -290,11 +291,11 @@
                   ul.lista-ul--color  
                     li 
                       i.fas.fa-car-side.px-2 
-                      | Red inalámbrica: aquella red en la cual dos o más dispositivos como computadores portátiles, agendas electrónicas, entre otros se comunican sin necesidad de una conexión por cable, con este tipo de red, los usuarios pueden estar conectados cuando se desplazan dentro de una determinada área geográfica. En la siguiente figura se observa una red de tipo inalámbrica:
+                      | #[b Red inalámbrica:] aquella red en la cual dos o más dispositivos como computadores portátiles, agendas electrónicas, entre otros se comunican sin necesidad de una conexión por cable, con este tipo de red, los usuarios pueden estar conectados cuando se desplazan dentro de una determinada área geográfica. En la siguiente figura se presenta una red de tipo inalámbrica:
                 
                 .col-md-5.col-10.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
-                    p.mb-0 #[b Figura 6.] Red inalambrica
+                    p.mb-0 #[b Figura 6.] Red inalámbrica
                   img.m.auto(src="@/assets/curso/temas/tema2/acor03.png", alt="La imagen expone una red inalámbrica, representada por un router que emite señales Wi-Fi, permitiendo la conexión de dispositivos como computadoras y teléfonos móviles a través de un punto de acceso (Access point). Esta configuración ilustra cómo los dispositivos pueden conectarse a la red sin necesidad de cables físicos, proporcionando mayor flexibilidad y conveniencia en la conectividad, aunque puede estar sujeta a interferencias y limitaciones de alcance en comparación con las redes cableadas. ")
 
             div(titulo="Por relación funcional")
@@ -341,7 +342,7 @@
                     img.m.auto(src="@/assets/curso/temas/tema2/linea.svg", alt="").p-2
                     li 
                       i.fas.fa-car-side.px-2 
-                      | Full-Dúplex: la transmisión es en ambos sentidos y al mismo tiempo una misma información. Un ejemplo de este tipo de transmisión son los teléfonos móviles o celulares.
+                      | Full-Duplex: la transmisión es en ambos sentidos y al mismo tiempo una misma información. Un ejemplo de este tipo de transmisión son los teléfonos móviles o celulares.
                 
                 .col-md-5.col-10.py-2
                   .titulo-sexto.color-acento-contenido.mb-3
@@ -423,7 +424,7 @@
           .bloque-texto-d.color-secundario.p-4
             .bloque-texto-d__texto.mb-2
               i.fas.fa-quote-left
-              p.text-small Los protocolos #[em IP (Protocolo de Internet)] y TCP #[em (Protocolo de Control de Transmisión)] se originaron a principios de 1980 y fueron adoptados por la red ARPANET en 1983, integrada por cientos de computadoras de centros de investigación militar, universidades, y algunas empresas. El e-mail (#[em electronic mail]) se destacó como el servicio más utilizado, mientras que el sistema operativo más usado fue UNIX, en su versión BSD UNIX, desarrollada por la Universidad de California. A mediados de los ochenta se crea el protocolo TCP/IP con el propósito de tener un lenguaje común a todos los computadores conectados a Internet, con la unión de las redes ARPANET, CSNET y MILNET. El protocolo TCP/IP hace posible entonces, la conexión de dispositivos con marcas y tecnología diferentes por medio del establecimiento de normas y estándares. (p.4)
+              p.text-small Los protocolos IP (Protocolo de Internet) y TCP (Protocolo de Control de Transmisión) se originaron a principios de 1980 y fueron adoptados por la red ARPANET en 1983, integrada por cientos de computadoras de centros de investigación militar, universidades, y algunas empresas. El e-mail (#[em electronic mail]) se destacó como el servicio más utilizado, mientras que el sistema operativo más usado fue UNIX, en su versión BSD UNIX, desarrollada por la Universidad de California. A mediados de los ochenta se crea el protocolo TCP/IP con el propósito de tener un lenguaje común a todos los computadores conectados a Internet, con la unión de las redes ARPANET, CSNET y MILNET. El protocolo TCP/IP hace posible entonces, la conexión de dispositivos con marcas y tecnología diferentes por medio del establecimiento de normas y estándares. (p.4)
               i.fas.fa-quote-right
             .bloque-texto-d__autor 
               .h5.mb-0 Corona (2004)

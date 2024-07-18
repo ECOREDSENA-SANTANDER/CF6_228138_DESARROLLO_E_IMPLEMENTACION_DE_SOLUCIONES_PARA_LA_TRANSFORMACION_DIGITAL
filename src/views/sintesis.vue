@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 Si ha llegado a este punto, se ha finalizado con el estudio de los contenidos de este componente formativo. Aquí, se puede realizar un análisis de la estructura que se muestra a continuación. Registrar esta síntesis en una libreta personal de apuntes y repasar los temas que se consideren más importantes. #[b ¡Adelante!]
+    p.mb-5 Si ha llegado a este punto, se ha finalizado con el estudio de los contenidos de este componente formativo. Aquí, se puede realizar un análisis de la estructura que se presenta a continuación. Registrar esta síntesis en una libreta personal de apuntes y repasar los temas que se consideren más importantes. #[b ¡Adelante!]
 
     .row.justify-content-center
       .col-lg-12.mb-5

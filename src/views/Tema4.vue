@@ -12,7 +12,7 @@
           .bloque-texto-b__texto
             .row.justify-content-center.d-flex
               .col-lg-10.col-10
-                p Cuando se habla de arquitectura #[em cliente-servidor], se está haciendo referencia a un modelo de diseño de #[em software] en el que los trabajos se reparten entre los proveedores de recursos o servicios; estos son llamados servidores, y los demandantes, son llamados clientes. <br><br>
+                p Cuando se habla de arquitectura cliente-servidor, se está haciendo referencia a un modelo de diseño de #[em software] en el que los trabajos se reparten entre los proveedores de recursos o servicios; estos son llamados servidores, y los demandantes, son llamados clientes. <br><br>
                 p Un cliente realiza una o varias peticiones a otro u otros programas; el servidor es quien le da respuesta y almacena los datos que navegan en la red.<br><br>Se puede identificar y analizar, en el siguiente esquema, la arquitectura cliente servidor:
               .col-lg-2.col-md-2.col-3
                 img.mb-0(alt="" src="@/assets/curso/temas/tema4/subir.svg")
@@ -21,7 +21,7 @@
         .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
           .col-lg-12.col-12.position-relative.resaltado-amarillo.p-4
             .titulo-sexto.color-acento-contenido.mb-3
-              p.mb-0 #[b Figura 15.] Arquitectura #[em cliente-servidor]
+              p.mb-0 #[b Figura 15.] Arquitectura cliente-servidor
             .row.justify-content-center.align-items-center
               .col-lg-6  
                 img(alt="La imagen expone una arquitectura cliente-servidor en la que varios PC clientes están conectados a Internet y se comunican con un servidor central. Este servidor aloja bases de datos y contenido web, permitiendo a los clientes realizar consultas y transferir datos. Los PC clientes envían solicitudes a través de Internet al servidor, que responde proporcionando la información solicitada. Esta infraestructura es común en empresas para gestionar y distribuir datos de manera eficiente." src="@/assets/curso/temas/tema4/figura12.png")

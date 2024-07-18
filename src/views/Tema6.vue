@@ -15,7 +15,7 @@
         .col-lg-10.col-12
           .titulo-sexto.color-acento-contenido.mb-3
             p.mb-0 #[b Figura 17.] Aspectos contenidos en la administración de proyectos TI
-          img.mb-lg-8.mb-8(alt="" src="@/assets/curso/temas/tema6/banner6.svg")
+          img.mb-lg-8.mb-8(alt="La figura presenta los aspectos necesarios a considerar para la administración de proyectos de TI: Fases (planeación, ejecución, verificación y mejora), criterios para la determinación de recursos, criterios para la planeación de actividades, aspectos legales, riesgos. " src="@/assets/curso/temas/tema6/banner6.svg")
           
 
       .row(data-aos="fade-right").p-4
@@ -162,10 +162,10 @@
               th Humano
               td Conocimiento: Profesión y especialidad que se requiere según el proyecto de TI. (Especialista, Profesional, Tecnólogo, Técnico, etc.)<br><br>Experiencia: La experiencia que se requiere para tener mayor seguridad y confianza para la ejecución de las actividades del proyecto.
             tr.rosado-clarito
-              th.rosado-clarito Económico y finaciero
+              th.rosado-clarito Económico y financiero
               td.rosado-clarito Costos de Administración y Seguimiento: Se deben considerar los costos de personal, viáticos, maquinaria y equipo, vehículos, transporte, estudios y auditorias, materiales y suministros.<br><br>Costos Directos: Considerar Salarios, viáticos, mano de obra, materiales y suministros, transferencias, Estudios y auditorias, Consultorías, capacitación y divulgación.<br><br>Costos concurrentes: Considerar Salarios, viáticos, servicios generales, insumos y materiales, mantenimiento, capacitación y concientización.<br><br>Imprevistos: Rubros para afrontar posibles sucesos adversos.
             tr
-              th Tecnólogico
+              th Tecnológico
               td Aplicaciones: Se deben considerar los requisitos de aplicaciones y/o #[em software]. <br><br>
                 |Usuarios: Según la cantidad de usuarios actual y provista se deben asignar recursos tecnológicos.<br><br>
                 |Procesamiento: Considerar la capacidad de procesamiento requerida para aplicaciones, según el uso y cantidad de usuarios concurrentes.<br><br>
@@ -231,7 +231,7 @@
               .row.justify-content-center.mb-3
                 .col-6
                   img(src='@/assets/curso/temas/tema6/4.svg' alt='AvatarTop')
-              p.text-center Objetivo especifico relacionado
+              p.text-center Objetivo específico relacionado
             
             .tarjeta.resaltado-blanco.p-4
               .row.justify-content-center.mb-3

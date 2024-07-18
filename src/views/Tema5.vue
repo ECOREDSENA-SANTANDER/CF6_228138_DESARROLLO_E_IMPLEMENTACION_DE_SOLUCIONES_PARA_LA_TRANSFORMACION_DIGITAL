@@ -85,7 +85,7 @@
       #t_5_2.titulo-segundo.color-acento-contenido
         h2 5.2  Desarrollos
 
-      p En la actualidad existen muchos desarrollos que incorporan IoT en sus diferentes áreas de aplicación. <br><b>A continuación se nombran unos de los más novedosos y curiosos.</b>
+      p En la actualidad existen muchos desarrollos que incorporan IoT en sus diferentes áreas de aplicación. #[b A continuación, se nombran unos de los más novedosos y curiosos].
       
       TabsC.color-acento-contenido(data-aos="fade-left")
         .py-3.py-md-4(titulo="<i>Hidrate Spark</i>").tarjeta--neutral
@@ -122,7 +122,7 @@
             .col-lg-7.col-12
               br
               h4.px-3 #[em Google Glass]
-              p.px-3 Son unas gafas desarrolladas por Google para realidad aumentada, su función principal es poder manejar aplicaciones sin utilizar las manos, solo con comandos de voz, estas gafas incorporan un miniproyector que muestra una imagen virtual al ojo. Estas gafas son usadas en diferentes áreas como la educación, la industria, la medicina, etc.
+              p.px-3 Son unas gafas desarrolladas por Google para realidad aumentada, su función principal es poder manejar aplicaciones sin utilizar las manos, solo con comandos de voz, estas gafas incorporan un mini proyector que muestra una imagen virtual al ojo. Estas gafas son usadas en diferentes áreas como la educación, la industria, la medicina, etc.
               
 </template>
 

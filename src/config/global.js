@@ -249,16 +249,16 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Adaptador de red:',
+      termino: 'Adaptador de red',
       significado: 'dispositivo que añade funcionalidad de red a su equipo.',
     },
     {
-      termino: 'Ancho de banda:',
+      termino: 'Ancho de banda',
       significado:
         'capacidad de transmisión de un dispositivo o red determinado',
     },
     {
-      termino: 'Bit (dígito binario):',
+      termino: 'Bit (dígito binario)',
       significado: 'unidad más pequeña de información de una máquina.',
     },
     {
@@ -308,7 +308,7 @@ export default {
     {
       termino: 'Migración',
       significado:
-        'en tecnología, consiste en el desplazamiento del software, aplicaciones o sistemas de información de una infraestructura tecnológica a otra, por ejemplo, la migración de una aplicación de un servidor local a un servidor en la nube.',
+        'en tecnología, consiste en el desplazamiento del <i>software</i>, aplicaciones o sistemas de información de una infraestructura tecnológica a otra, por ejemplo, la migración de una aplicación de un servidor local a un servidor en la nube.',
     },
     {
       termino: 'Proveedor',
@@ -320,7 +320,7 @@ export default {
         'serie de equipos o dispositivos conectados con el fin de compartir datos, almacenamiento y la transmisión entre usuarios.',
     },
     {
-      termino: 'TCP (Transport Control Protocol):',
+      termino: 'TCP (Transport Control Protocol)',
       significado:
         'protocolo de red para la transmisión de datos que requiere la confirmación del destinatario de los datos enviados.',
     },
@@ -380,7 +380,22 @@ export default {
   ],
   creditos: [
     {
-      titulo: 'AUTORES',
+      titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
+      autores: [
+        {
+          nombre: 'Milady Tatiana Villamil Castellanos ',
+          cargo: 'Responsable del Ecosistema',
+          centro: 'Dirección General',
+        },
+        {
+          nombre: 'Claudia Johanna Gómez Pérez',
+          cargo: 'Responsable de línea de producción',
+          centro: 'Regional Santander - Centro Agroturístico',
+        },
+      ],
+    },
+    {
+      titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
           nombre: 'Cesar Antonio Villamizar Núñez',
@@ -401,11 +416,6 @@ export default {
             'Regional Santander. Centro Industrial del Diseño y la Manufactura',
           fecha: 'Septiembre,2022',
         },
-      ],
-    },
-    {
-      titulo: 'CONTENIDO INSTRUCCIONAL',
-      autores: [
         {
           nombre: 'Giovanna Andrea Escobar Ospina',
           cargo: 'Diseñador Instruccional',
