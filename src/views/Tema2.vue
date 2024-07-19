@@ -142,28 +142,31 @@
           SlyderE(indicadores="derecha") 
             .row
               .col-md-5.mb-3.mb-md-0
-                h5 <br>Medios de transmisión guiados
-                p <br>Están formados por cables que se encargan de guiar las señales de un extremo a otro. Dentro de las características de estos medios están: el tipo de conductor, velocidad máxima de transmisión, distancia máxima ofrecida entre repetidores, inmunidad ante interferencias electromagnéticas, facilidad de instalación y la compatibilidad con varias tecnologías de capa de enlace. Los medios guiados más usados para interconexión en el campo de las telecomunicaciones son: cable de par trenzado, cable coaxial y la fibra óptica
+                h4.py-2 Medios de transmisión guiados
+                h5 Cable par trenzado
+                p El cable par trenzado, un tipo de cable utilizado en telecomunicaciones y redes informáticas. Este cable está compuesto por dos conductores aislados que están entrelazados o trenzados entre sí. La trenza de los conductores ayuda a reducir la interferencia electromagnética de fuentes externas, mejorando así la calidad de la señal transmitida. Los cables par trenzado son comúnmente utilizados para conexiones de red Ethernet y para el cableado de telefonía.
               .col-md-7
                 figure
                   img(src='@/assets/curso/temas/tema2/2.3.1.png', alt='Cable par trenzado')
-                  h4.py-3 Cable par trenzado
+                  
             .row
               .col-md-5.mb-3.mb-md-0
-                h5 <br>Medios de transmisión guiados
-                p <br>Están formados por cables que se encargan de guiar las señales de un extremo a otro. Dentro de las características de estos medios están: el tipo de conductor, velocidad máxima de transmisión, distancia máxima ofrecida entre repetidores, inmunidad ante interferencias electromagnéticas, facilidad de instalación y la compatibilidad con varias tecnologías de capa de enlace. Los medios guiados más usados para interconexión en el campo de las telecomunicaciones son: cable de par trenzado, cable coaxial y la fibra óptica
+                h4.py-2 Medios de transmisión guiados
+                h5 Cable fibra óptica
+                p Un cable de fibra óptica, es un tipo de cable utilizado para transmitir datos a alta velocidad mediante pulsos de luz. Cada cable está compuesto por fibras de vidrio o plástico muy delgadas que actúan como conductores de luz. En la imagen, los cables tienen conectores en sus extremos, que se utilizan para conectarlos a dispositivos de red. Los cables de fibra óptica son esenciales para telecomunicaciones y redes de datos, ya que ofrecen una gran capacidad de transmisión y resistencia a las interferencias electromagnéticas, permitiendo la transferencia de grandes volúmenes de datos a largas distancias con muy baja pérdida de señal.
               .col-md-7
                 figure
                   img(src='@/assets/curso/temas/tema2/2.3.2.png', alt='Cable par trenzado')
-                  h4.py-3 Cable coaxial
+                  
             .row
               .col-md-5.mb-3.mb-md-0
-                h5 <br>Medios de transmisión guiados
-                p <br>Están formados por cables que se encargan de guiar las señales de un extremo a otro. Dentro de las características de estos medios están: el tipo de conductor, velocidad máxima de transmisión, distancia máxima ofrecida entre repetidores, inmunidad ante interferencias electromagnéticas, facilidad de instalación y la compatibilidad con varias tecnologías de capa de enlace. Los medios guiados más usados para interconexión en el campo de las telecomunicaciones son: cable de par trenzado, cable coaxial y la fibra óptica
+                h4.py-2 Medios de transmisión guiados
+                h5 Cable coaxial
+                p El cable coaxial, es un tipo de cable utilizado principalmente para la transmisión de señales de televisión, internet y datos. El cable coaxial está compuesto por un conductor central (generalmente de cobre) rodeado por un aislamiento dieléctrico, una malla conductora (que actúa como pantalla contra interferencias) y una cubierta exterior protector. Este diseño permite que las señales viajen con menos pérdida y menor interferencia en comparación con otros tipos de cables. Los cables coaxiales son comunes en sistemas de televisión por cable, redes de banda ancha y otras aplicaciones de comunicación.
               .col-md-7
                 figure
                   img(src='@/assets/curso/temas/tema2/2.3.3.png', alt='Cable par trenzado')
-                  h4.py-3 Cable fibra óptica
+                  
 
 
       .container.tarjeta.LineaTiempoD2.p-4.p-md-5.mb-5
@@ -359,7 +362,7 @@
                     img.m.auto(src="@/assets/curso/temas/tema2/linea.svg", alt="").p-2
                     li 
                       i.fas.fa-car-side.px-2 
-                      | #[em Intranet]: red de área amplia que interconecta gran cantidad de redes de comunicación heterogéneas funcionando como una red de alcance mundial y lógica única, basada en el protocolo TCP/IP.
+                      | #[em Internet]: red de área amplia que interconecta gran cantidad de redes de comunicación heterogéneas funcionando como una red de alcance mundial y lógica única, basada en el protocolo TCP/IP.
                 
                 .col-md-5.col-10.py-2
                   img.m.auto(src="@/assets/curso/temas/tema2/acor07.png", alt="")                

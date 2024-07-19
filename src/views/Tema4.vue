@@ -56,13 +56,7 @@
               .tarjeta.gris-claro.p-4.tamano-tarjeta 
                 h4 Servidores de internet, alojados en la nube
                 p
-                | Conjunto de dispositivos, que permiten la conexión y comunicación, mediante protocolos de transmisión de información establecidos.
-
-            .col-lg-4.p-2
-              .tarjeta.gris-claro.p-4.tamano-tarjeta 
-                h4 Características del cliente
-                p
-                | Los servicios en la nube hacen referencia al uso de una gran red de servidores remotos que están conectados a internet, donde es posible administrar, almacenar y procesar datos, bases de datos, servidores y #[em softwares] .
+                | Los servicios en la nube hacen referencia al uso de una gran red de servidores remotos que están conectados a internet, donde es posible administrar, almacenar y procesar datos, bases de datos, servidores y #[em softwares].
 
             .col-lg-4.p-2
               .tarjeta.gris-claro.p-4.tamano-tarjeta 
@@ -70,9 +64,6 @@
                 p
                 | Las grandes ventajas de esta arquitectura #[em cliente-servidor], son: la fácil integración de nuevas tecnologías, el crecimiento computacional de la organización no se vería afectado, se pueden integrar equipos de diferentes características técnicas y trabajar simultáneamente.
 
-      .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
-        .col-lg-12.col-md-12.p-2
-          .row.justify-content-center.align-items-center
             .col-lg-4.p-2
               .tarjeta.gris-claro.p-4.tamano-tarjeta
                 h4 Desventajas

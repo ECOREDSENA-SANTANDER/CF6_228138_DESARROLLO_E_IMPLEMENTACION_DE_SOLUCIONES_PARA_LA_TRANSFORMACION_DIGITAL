@@ -200,51 +200,26 @@ export default {
         'https://iie.fing.edu.uy/ense/asign/ccu/material/docs/Cableado%20Estructurado.pdf',
     },
     {
-      tema: 'Conceptos básicos y componentes de una red',
-      referencia:
-        'Pérez, E. H. (2003). Tecnologías y redes de transmisión de datos. Editorial Limusa.',
-      tipo: 'E-Libro',
-      link:
-        'https://books.google.es/books?id=RmYvfnMKrsgC&printsec=frontcover#v=onepage&q&f=false',
+      tema: 'Arquitectura y equipos de cómputo, clientes y servidores ',
+      referencia: '<i>Public Cloud Services Comparison.</i> (2021). ',
+      tipo: 'Página <i>web</i> ',
+      link: 'https:www.comparecloud.in',
     },
     {
-      tema: 'Protocolos de comunicación',
+      tema: 'Contratación ',
       referencia:
-        'Redes Informáticas - Nociones fundamentales (7ª edición) - (Protocolos, Arquitecturas, Redes inalámbricas, Virtualización, Seguridad, IPv6...) Editorial ENI',
-      tipo: 'E-Libro',
+        'Agencia española de protección de datos. (2013). Guía para clientes que contraten servicios de <i>Computing</i>.',
+      tipo: 'Documento PDF',
       link:
-        'https://www.ediciones-eni.com/open/mediabook.aspx?idR=9a76703d59b0fd180004f0cd38f2c537',
-    },
-    {
-      tema: 'Arquitectura y equipos de cómputo, clientes y servidores',
-      referencia:
-        'Página relacionada con los proveedores de servicios en la nube. Accedida el 27 de diciembre de 2021 Public Cloud Services Comparison, comparecloud.in',
-      tipo: 'Página web',
-      link: 'https://comparecloud.in',
-    },
-    {
-      tema: 'Tipos de contratos',
-      referencia:
-        'Ministerio de Comercio, Industria y Turismo. (2013). Decreto Número 1317 del 27 de junio de 2013. https://www.mintic.gov.co/arquitecturati/630/articles-9011_documento.pdf',
-      tipo: 'PDF',
-      link:
-        'https://www.mintic.gov.co/arquitecturati/630/articles-9011_documento.pdf ',
+        'http://www.oas.org/es/sla/ddi/docs/Gu%C3%ADa%20para%20clientes%20que%20contraten%20servicios%20de%20Cloud%20Computing%20-%20AGPD.pdf  ',
     },
     {
       tema: 'Contratación',
       referencia:
-        'República de Colombia, Ministerio de tecnologías de la información y las comunicaciones.  (2012). Ley 1581 de 2012. https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=49981',
-      tipo: 'PDF',
+        'Ley 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales. Diario Oficial 48587 de octubre 18 de 2012. ',
+      tipo: 'Documento PDF',
       link:
-        'http://www.oas.org/es/sla/ddi/docs/Gu%C3%ADa%20para%20clientes%20que%20contraten%20servicios%20de%20Cloud%20Computing%20-%20AGPD.pdf',
-    },
-    {
-      tema: 'Contratación',
-      referencia:
-        'República de Colombia, Ministerio de tecnologías de la información y las comunicaciones.  (2012). Ley 1581 de 2012. https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=49981',
-      tipo: 'PDF',
-      link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=49981',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=49981 ',
     },
   ],
   glosario: [

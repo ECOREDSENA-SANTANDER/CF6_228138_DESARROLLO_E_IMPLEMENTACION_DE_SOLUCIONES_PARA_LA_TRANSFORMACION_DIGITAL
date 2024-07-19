@@ -8,7 +8,8 @@
         h1 Tecnologías y conceptos básicos de <i>networking</i>
 
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
-        .col-lg-17.col-22
+      p Las tecnologías y conceptos básicos de networking incluyen protocolos de red como TCP/IP (que facilita la comunicación fiable y direccionamiento de datos), HTTP/HTTPS (para la transferencia segura de datos web) y DNS (que traduce nombres de dominio a direcciones IP). Los dispositivos clave son routers (encaminan paquetes entre redes), switches (conectan dispositivos dentro de una red usando direcciones MAC) y firewalls (protegen la red controlando el tráfico basado en reglas de seguridad). Además, existen diferentes tipos de redes, como LAN (Red de Área Local) que cubre áreas geográficas limitadas como oficinas o edificios.
+        .col-lg-12.col-22
       figure(data-aos="fade-right")
         .video.mb-1
           iframe(width="1280" height="720" src="https://youtube.com/embed/YmBs1wBM9_g?si=4DtNpVLj6XJzwCuT" title="Tecnologías y conceptos básicos de <i>networking</i>" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)

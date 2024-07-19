@@ -55,7 +55,7 @@
           .row.justify-content-center
             .col-lg-6.col-10.p-4
               h3.p-2 Transporte y logística.
-              p.p-2 Consiste en monitorizar medios de transporte y el proceso de envío de productos, validar estados de conservación, ubicación, evitando robos o pérdidas, logrando realizar análisis de mejores rutas o administración de tráfico. Unos ejemplos donde son utilizados son en las empresas de envíos o en las plataformas de servicios de carros o como se puede ver en la figura 13 gestión de tiempos de traslados, gestión y control de vehículos.
+              p.p-2 Consiste en monitorizar medios de transporte y el proceso de envío de productos, validar estados de conservación, ubicación, evitando robos o pérdidas, logrando realizar análisis de mejores rutas o administración de tráfico. Unos ejemplos donde son utilizados son en las empresas de envíos o en las plataformas de servicios de carros, en gestión de tiempos de traslados, gestión y control de vehículos.
             .col-lg-5.col-8
               img.mb-0(alt="" src="@/assets/curso/temas/tema5/5.1img03.png")
 
