@@ -217,9 +217,9 @@ export default {
       tema: 'Contratación',
       referencia:
         'Ley 1581 de 2012. Por la cual se dictan disposiciones generales para la protección de datos personales. Diario Oficial 48587 de octubre 18 de 2012. ',
-      tipo: 'Documento PDF',
+      tipo: 'Documento PDFdd',
       link:
-        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=49981 ',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma_pdf.php?i=49981',
     },
   ],
   glosario: [
