@@ -135,14 +135,14 @@
        
       p Son los caminos por los cuales viaja la información o los datos. Estos medios según como como conducen las señales se clasifican en dos tipos:           
 
-        
+      h4 Medios de transmisión guiados
+      p Están formados por cables que se encargan de guiar las señales de un extremo a otro. Dentro de las características de estos medios están: el tipo de conductor, velocidad máxima de transmisión, distancia máxima ofrecida entre repetidores, inmunidad ante interferencias electromagnéticas, facilidad de instalación y la compatibilidad con varias tecnologías de capa de enlace. Los medios guiados más usados para interconexión en el campo de las telecomunicaciones son: cable de par trenzado, cable coaxial y la fibra óptica.
       .container.tarjeta.LineaTiempoD.p-4.p-md-5.mb-5
         .row 
           .col-lg-10
           SlyderE(indicadores="derecha") 
             .row
               .col-md-5.mb-3.mb-md-0
-                h4.py-2 Medios de transmisión guiados
                 h5 Cable par trenzado
                 p El cable par trenzado, un tipo de cable utilizado en telecomunicaciones y redes informáticas. Este cable está compuesto por dos conductores aislados que están entrelazados o trenzados entre sí. La trenza de los conductores ayuda a reducir la interferencia electromagnética de fuentes externas, mejorando así la calidad de la señal transmitida. Los cables par trenzado son comúnmente utilizados para conexiones de red Ethernet y para el cableado de telefonía.
               .col-md-7
@@ -151,7 +151,6 @@
                   
             .row
               .col-md-5.mb-3.mb-md-0
-                h4.py-2 Medios de transmisión guiados
                 h5 Cable fibra óptica
                 p Un cable de fibra óptica, es un tipo de cable utilizado para transmitir datos a alta velocidad mediante pulsos de luz. Cada cable está compuesto por fibras de vidrio o plástico muy delgadas que actúan como conductores de luz. En la imagen, los cables tienen conectores en sus extremos, que se utilizan para conectarlos a dispositivos de red. Los cables de fibra óptica son esenciales para telecomunicaciones y redes de datos, ya que ofrecen una gran capacidad de transmisión y resistencia a las interferencias electromagnéticas, permitiendo la transferencia de grandes volúmenes de datos a largas distancias con muy baja pérdida de señal.
               .col-md-7
@@ -160,14 +159,14 @@
                   
             .row
               .col-md-5.mb-3.mb-md-0
-                h4.py-2 Medios de transmisión guiados
                 h5 Cable coaxial
                 p El cable coaxial, es un tipo de cable utilizado principalmente para la transmisión de señales de televisión, internet y datos. El cable coaxial está compuesto por un conductor central (generalmente de cobre) rodeado por un aislamiento dieléctrico, una malla conductora (que actúa como pantalla contra interferencias) y una cubierta exterior protector. Este diseño permite que las señales viajen con menos pérdida y menor interferencia en comparación con otros tipos de cables. Los cables coaxiales son comunes en sistemas de televisión por cable, redes de banda ancha y otras aplicaciones de comunicación.
               .col-md-7
                 figure
                   img(src='@/assets/curso/temas/tema2/2.3.3.png', alt='Cable par trenzado')
                   
-
+      h4 Medios de transmisión no guiados
+      p Son aquellos que permiten la comunicación sin uso de cables o conductor físico, las señales electromagnéticas son radiadas a través del espacio libre y se encuentran disponibles para cualquier usuario con un dispositivo inalámbrico. Para estos medios es necesario el uso de antenas tanto para transmitir como para recibir las señales. Los medios no guiados más usados son: ondas de radio, microondas e infrarrojo.
 
       .container.tarjeta.LineaTiempoD2.p-4.p-md-5.mb-5
         .row 
@@ -175,28 +174,36 @@
           SlyderE(indicadores="derecha") 
             .row
               .col-md-5.mb-3.mb-md-0
-                h5 <br>Medios de transmisión no guiados
-                p <br>Son aquellos que permiten la comunicación sin uso de cables o conductor físico, las señales electromagnéticas son radiadas a través del espacio libre y se encuentran disponibles para cualquier usuario con un dispositivo inalámbrico. Para estos medios es necesario el uso de antenas tanto para transmitir como para recibir las señales. Los medios no guiados más usados son: ondas de radio, microondas e infrarrojo.
+                h4.py-3 Ondas de radio
+                p Las ondas de radio y sus aplicaciones en la comunicación global.  
+                p Las ondas de radio son fundamentales en la comunicación global, permitiendo la transmisión y recepción de datos a través de diversas tecnologías. Se utilizan en el almacenamiento en la nube, la conectividad a internet, la verificación de datos, la infraestructura de servidores, la radiodifusión y la comunicación inalámbrica, destacando su impacto y alcance a nivel mundial.
+
               .col-md-7
                 figure
                   img(src='@/assets/curso/temas/tema2/3.1.png', alt='Cable par trenzado')
-                  h4.py-3 Ondas de radio
+                  
             .row
               .col-md-5.mb-3.mb-md-0
-                h5 <br>Medios de transmisión no guiados
-                p <br>Son aquellos que permiten la comunicación sin uso de cables o conductor físico, las señales electromagnéticas son radiadas a través del espacio libre y se encuentran disponibles para cualquier usuario con un dispositivo inalámbrico. Para estos medios es necesario el uso de antenas tanto para transmitir como para recibir las señales. Los medios no guiados más usados son: ondas de radio, microondas e infrarrojo.
-              .col-md-7
-                figure
-                  img(src='@/assets/curso/temas/tema2/3.1.2.png', alt='Cable par trenzado')
-                  h4.py-3 Microondas
-            .row
-              .col-md-5.mb-3.mb-md-0
-                h5 <br>Medios de transmisión no guiados
-                p <br>Son aquellos que permiten la comunicación sin uso de cables o conductor físico, las señales electromagnéticas son radiadas a través del espacio libre y se encuentran disponibles para cualquier usuario con un dispositivo inalámbrico. Para estos medios es necesario el uso de antenas tanto para transmitir como para recibir las señales. Los medios no guiados más usados son: ondas de radio, microondas e infrarrojo.
+                h4.py-3 Infrarrojos
+                p Tipos de emisiones de infrarrojos y sus aplicaciones en la comunicación entre dispositivos, como dos computadoras portátiles. Se detallan tres tipos de emisiones:
+                p Punto a punto: Requiere una vista directa para dirigir el haz de luz, lo que significa que los dispositivos deben estar alineados sin obstrucciones para comunicarse.
+                p Casi difuso: Emite la señal de forma radial en todas las direcciones, lo que permite una mayor flexibilidad en la alineación de los dispositivos, aunque la señal puede ser más débil.
+                p Difuso: Implica emisiones múltiples que abarcan todo el lugar, lo que facilita la comunicación en un área amplia sin necesidad de una alineación directa entre los dispositivos.
+
               .col-md-7
                 figure
                   img(src='@/assets/curso/temas/tema2/3.1.3.png', alt='Cable par trenzado')
-                  h4.py-3 Infrarrojos
+              .col-md-12
+                p Estos métodos de transmisión infrarroja permiten diferentes niveles de flexibilidad y cobertura en la comunicación inalámbrica entre dispositivos electrónicos.
+   
+            .row
+              .col-md-5.mb-3.mb-md-0
+                h4.py-3 Microondas
+                p El proceso de comunicación mediante microondas entre una estación emisora y una estación receptora a través de un satélite. La señal es enviada desde la estación emisora, captada por el satélite y luego retransmitida a la estación receptora. Este método es fundamental para la transmisión de datos a largas distancias, permitiendo la comunicación eficiente y rápida entre puntos distantes en la Tierra.
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/temas/tema2/3.1.2.png', alt='Cable par trenzado')
+                  
       
       Separador
       #t_2_4.titulo-segundo.color-acento-contenido
