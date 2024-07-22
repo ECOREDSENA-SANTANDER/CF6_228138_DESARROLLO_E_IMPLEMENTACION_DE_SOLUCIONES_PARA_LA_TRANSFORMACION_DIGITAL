@@ -26,7 +26,7 @@
               .col-lg-6  
                 img(alt="La imagen expone una arquitectura cliente-servidor en la que varios PC clientes están conectados a Internet y se comunican con un servidor central. Este servidor aloja bases de datos y contenido web, permitiendo a los clientes realizar consultas y transferir datos. Los PC clientes envían solicitudes a través de Internet al servidor, que responde proporcionando la información solicitada. Esta infraestructura es común en empresas para gestionar y distribuir datos de manera eficiente." src="@/assets/curso/temas/tema4/figura12.png")
               .col-lg-4.p-4
-                p En el diagrama anterior, la infraestructura #[em cliente-servidor] muestra a varios computadores de la empresa conectados a la internet, con el fin de realizar consultas o intercambios de datos en la web. Todo contenido de información de página web está en una base de datos dentro de un servidor.
+                p En el diagrama anterior, la infraestructura cliente-servidor muestra a varios computadores de la empresa conectados a la internet, con el fin de realizar consultas o intercambios de datos en la web. Todo contenido de información de página web está en una base de datos dentro de un servidor.
     
       p.py-4 Este tipo de arquitecturas cuenta con dos componentes: por un lado, está el servidor y por otra parte el cliente o grupo de clientes; el servidor es una computadora que capaz de atender los requerimientos solicitados y devolverles la respuesta en concordancia.<br><br>Además, se debe contar con otros componentes adicionales, como:
 
@@ -43,7 +43,7 @@
               .tarjeta.gris-claro.p-4.tamano-tarjeta
                 h4 Cliente
                 p
-                | Puede ser un ordenador, computador personal, o una aplicación, la cual requiere información, que se trasmite en una la red para poder funcionar.
+                | Puede ser un ordenador, computador personal, o una aplicación, la cual requiere información, que se trasmite en una red para poder funcionar.
            
             .col-lg-4.p-2
               .tarjeta.gris-claro.p-4.tamano-tarjeta 
@@ -62,7 +62,7 @@
               .tarjeta.gris-claro.p-4.tamano-tarjeta 
                 h4 Ventajas
                 p
-                | Las grandes ventajas de esta arquitectura #[em cliente-servidor], son: la fácil integración de nuevas tecnologías, el crecimiento computacional de la organización no se vería afectado, se pueden integrar equipos de diferentes características técnicas y trabajar simultáneamente.
+                | Las grandes ventajas de esta arquitectura cliente-servidor, son: la fácil integración de nuevas tecnologías, el crecimiento computacional de la organización no se vería afectado, se pueden integrar equipos de diferentes características técnicas y trabajar simultáneamente.
 
             .col-lg-4.p-2
               .tarjeta.gris-claro.p-4.tamano-tarjeta

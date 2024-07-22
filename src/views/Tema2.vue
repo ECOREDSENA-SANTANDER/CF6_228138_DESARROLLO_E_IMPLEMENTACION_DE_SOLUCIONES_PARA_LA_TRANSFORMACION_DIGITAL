@@ -316,7 +316,7 @@
                 .col-md-5.col-10.py-2
                   img.m.auto(src="@/assets/curso/temas/tema2/acor04.png", alt="")
             
-            div(titulo="Por tecnología")
+            div(titulo="Por red")
               .row.justify-content-center.align-items-center(data-aos="fade-rigth")
                 .col-md-7
                   ul.lista-ul--color 

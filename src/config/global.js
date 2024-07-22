@@ -203,7 +203,7 @@ export default {
       tema: 'Arquitectura y equipos de cómputo, clientes y servidores ',
       referencia: '<i>Public Cloud Services Comparison.</i> (2021). ',
       tipo: 'Página <i>web</i> ',
-      link: 'https:www.comparecloud.in',
+      link: 'https://comparecloud.in/',
     },
     {
       tema: 'Contratación ',
@@ -266,7 +266,7 @@ export default {
       significado: 'son monedas digitales que se intercambian online.',
     },
     {
-      termino: 'DHCP (Protocolo de configuración dinámica de host):',
+      termino: 'DHCP (Protocolo de configuración dinámica de host)',
       significado:
         'protocolo que permite a un dispositivo de una red, conocido como servidor DHCP, asigna direcciones IP temporales a otros dispositivos de red y normalmente equipos.',
     },
@@ -404,6 +404,12 @@ export default {
             'Regional Norte de Santander. Centro de la Industria, la Empresa y los Servicios',
           fecha: 'Septiembre,2022',
         },
+        {
+          nombre: 'Sandra Paola Morales Páez',
+          cargo: 'Validadora Instruccional',
+          centro: 'Regional Santander - Centro Agroturístico',
+          fecha: 'Septiembre,2022',
+        },
       ],
     },
     {
@@ -416,7 +422,7 @@ export default {
         },
         {
           nombre: 'Leonardo Castellanos Rodriguez',
-          cargo: 'Ingeniero desarrollador <i>Full Stack</i>',
+          cargo: 'Desarrollador <i>Full Stack</i>',
           centro: 'Regional Santander - Centro Agroturístico',
         },
         {
@@ -426,7 +432,7 @@ export default {
         },
         {
           nombre: 'Lucenith Pinilla Moreno',
-          cargo: 'Actividad Didáctica',
+          cargo: 'Desarrollador <i>Full Stack</i> Junior',
           centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
