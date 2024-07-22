@@ -406,7 +406,7 @@ export default {
         },
         {
           nombre: 'Sandra Paola Morales Páez',
-          cargo: 'Validadora Instruccional',
+          cargo: 'Evaluadora Instruccional',
           centro: 'Regional Santander - Centro Agroturístico',
           fecha: 'Septiembre,2022',
         },
