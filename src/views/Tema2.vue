@@ -477,7 +477,7 @@
       .mb-4.d-flex
         .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Objetivos
-          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 166px; position: absolute" data-aos="fade-left")
+          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 180px; position: absolute" data-aos="fade-left")
       
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         p Los principales objetivos de #[em Ethernet] son consistentes con los que se han convertido en los requerimientos básicos para el desarrollo y uso de redes LAN: 
@@ -526,7 +526,7 @@
       .mb-4.d-flex
         .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") La trama de #[em Ethernet]
-          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 266px; position: absolute" data-aos="fade-left")
+          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 286px; position: absolute" data-aos="fade-left")
       
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-8.col-12  
