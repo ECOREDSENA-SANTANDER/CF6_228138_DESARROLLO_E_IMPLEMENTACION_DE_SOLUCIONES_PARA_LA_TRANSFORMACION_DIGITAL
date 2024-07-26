@@ -74,7 +74,7 @@
 
       .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
         .d-flex.flex-wrap.align-items-center.pe-4
-          h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 460px;').bg-img-blue Direccionamiento de equipos de red
+          h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 480px;').bg-img-blue Direccionamiento de equipos de red
           img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/img01.svg').icon-blue 
 
 
