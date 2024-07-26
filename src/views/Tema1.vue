@@ -62,14 +62,14 @@
             div(titulo="Periféricos de salida")
               .row(data-aos="fade-rigth") 
                 .col-md-9
-                  p.mb-0 Muestran o proyectan información hacia el exterior del ordenador. Generalmente informan, alertan, comunican, proyectan o dan al usuario alguna información.
+                  p.mb-0 Muestran o proyectan información hacia el exterior del ordenador. Generalmente, informan, alertan, comunican, proyectan o dan al usuario alguna información.
                 .col-md-2.col-3.py-2
                   img.m.auto(src="@/assets/curso/temas/tema1/4.svg", alt="")
             
             div(titulo="Periféricos de entrada y salida")
              .row(data-aos="fade-rigth") 
               .col-md-9
-                p.mb-0 Mandan y reciben información. Su función es almacenar permanente o virtualmente, todo aquello que se ejecute en el ordenador, para que se pueda utilizar por los mismos usuarios o por otros sistemas.
+                p.mb-0 Mandan y reciben información. Su función es almacenar, permanente o virtualmente, todo aquello que se ejecute en el ordenador, para que se pueda utilizar por los mismos usuarios o por otros sistemas.
               .col-md-2.col-3.py-2
                 img.m.auto(src="@/assets/curso/temas/tema1/5.svg", alt="")
   
@@ -117,7 +117,7 @@
       #t_1_1.titulo-segundo.color-acento-contenido
         h2 1.1 Tipos de #[em software]
 
-      p Los tipos de #[em software] son establecidos en virtud de la funcionalidad de los mismos y se pueden clasificar en tres grupos: #[b <i>softwares</i> de aplicación] (dentro del cual se encuentran los #[em softwares] de gestión), #[b <i>softwares</i> de programación] y, como tercer grupo, #[b <i>softwares</i> de sistema].
+      p Los tipos de #[em software] son establecidos en virtud de la funcionalidad de los mismos y se pueden clasificar en tres grupos: #[b <i>software</i> de aplicación] (dentro del cual se encuentran los #[em software] de gestión), #[b <i>software</i> de programación] y, como tercer grupo, #[b <i>software</i> de sistema].
 
       p A continuación, se pueden conocer en detalle los aspectos más importantes de cada grupo y apropiar los elementos que los constituyen. Se debe procurar llevar registro, de lo más destacado, en una libreta personal de apuntes:
       
@@ -142,35 +142,35 @@
 
           .row.justify-content-center.p-4
             .col-lg-5.col-10
-              h4 #[em software] de programación
+              h4 Grupo 2: #[em software] de programación
               p.mb-lg-0.mb-3 Su importancia radica en que hacen posible el desarrollo de aplicaciones, por lo que su función es clave para el desarrollo de la computación y los otros programas. Dentro de este grupo están, por ejemplo, los compiladores o editores de texto.
             .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img03.png")
 
           .row.justify-content-center.p-4
             .col-lg-5.col-10
-              h4 #[em software] de sistema.
-              p.mb-lg-0.mb-3 En este grupo es importante que las características de #[em hardware] sean las mejores, para el óptimo funcionamiento. Ejemplo del mismo son los sistemas operativos de Windows, Linux o MAC ya que, cuando se instalan y configuran, se establece una conexión entre maquina u ordenador, realizando las tareas requeridas.
+              h4 Grupo 3: #[em software] de sistema.
+              p.mb-lg-0.mb-3 En este grupo es importante que las características de #[em hardware] sean las mejores, para el óptimo funcionamiento. Ejemplo del mismo son los sistemas operativos de Windows, Linux o MAC, ya que, cuando se instalan y configuran, se establece una conexión entre máquina u ordenador, realizando las tareas requeridas.
             .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img04.png")
 
           .row.justify-content-center.p-4
             .col-lg-5.col-10
-              h4 #[em software] por tipo de licencia.
+              h4 Grupo 3: #[em software] por tipo de licencia.
               p.mb-lg-0.mb-3 Las licencias de #[em software] son un elemento clave, puesto que establecen los términos que admiten el uso correcto del mismo. Es usual hallar dos tipos de #[em software] por licencia (#[em software] libre y #[em software] de propietario). Las cláusulas de uso de #[em software] permanecen almacenadas en el mismo, por lo que, previamente a su instalación o descarga, se deben admitir las condiciones.
             .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img05.png")
 
           .row.justify-content-center.p-4
             .col-lg-5.col-10
-              h4 #[em software] por tipo de alojamiento. 
-              p.mb-lg-0.mb-3 Cuando se va a seleccionar qué tipo de #[em software] es el más conveniente para la organización o modelo de negocio, es posible también apreciar el tipo de tecnología sobre la que puede apoyarse como, por ejemplo, #[em on premise] y en la nube.
+              h4 Grupo 3: #[em software] por tipo de alojamiento. 
+              p.mb-lg-0.mb-3 Cuando se va a seleccionar qué tipo de #[em software] es el más conveniente para la organización o modelo de negocio, es posible también apreciar el tipo de tecnología sobre la que puede apoyarse, como, por ejemplo, #[em on premise] y en la nube.
             .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img06.png")
 
           .row.justify-content-center.p-4
             .col-lg-5.col-10
-              h4  #[em software on premise] y #[em software] en la nube.
+              h4  Grupo 3: #[em software on premise] y #[em software] en la nube.
               p.mb-lg-0.mb-3 #[em On premise], se baja en la instalación y configuración dentro de la misma organización, trabajando dentro de la misma estructura interna de la entidad. El #[em software] en la nube, trabaja con la información alojada en la misma nube, donde su principal característica es el control y la seguridad de los datos, siendo uno de los más extendidos en los últimos años.
             .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema1/Banner1.1img07.png")

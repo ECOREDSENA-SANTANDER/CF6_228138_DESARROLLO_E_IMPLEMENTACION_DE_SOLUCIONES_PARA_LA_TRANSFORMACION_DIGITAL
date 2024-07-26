@@ -62,7 +62,7 @@
           .row.justify-content-center
             .col-lg-6.col-10.p-4
               h3.p-2 Agricultura, ganadería y silvicultura.
-              p.p-2 Al igual que en las fábricas IoT es utilizado para la automatización de trabajos primordiales con lo relacionado del agro, como por ejemplo, sistema de riego, sistema de detector de temperatura para siembra, detección de enfermedades de los animales, etc.
+              p.p-2 Al igual que en las fábricas, IoT es utilizado para la automatización de trabajos primordiales con lo relacionado del agro, como por ejemplo, sistema de riego, sistema de detector de temperatura para siembra, detección de enfermedades de los animales, etc.
             .col-lg-5.col-8
               img.mb-0(alt="" src="@/assets/curso/temas/tema5/5.1img04.png")
 
@@ -76,7 +76,7 @@
           .row.justify-content-center
             .col-lg-6.col-10.p-4
               h3.p-2 Medicina. 
-              p.p-2 Sus objetivos son detectar de una persona sus signos vitales, así como las variaciones para suministro de medicinas. Aunque la orientación es más a los humanos es posible también monitorear el estado de salud de los animales domésticos. La incorporación de IoT en el sector de la salud transformará el cuidado médico, ya que los centros de atención serán mucho más eficientes, brindando al personal de la salud datos muy importantes de los pacientes en tiempos más cortos, para poder agilizar los procesos médicos.
+              p.p-2 Sus objetivos son detectar de una persona sus signos vitales, así como las variaciones para suministro de medicinas. Aunque la orientación es más a los humanos, es posible también monitorear el estado de salud de los animales domésticos. La incorporación de IoT en el sector de la salud transformará el cuidado médico, ya que los centros de atención serán mucho más eficientes, brindando al personal de la salud datos muy importantes de los pacientes en tiempos más cortos, para poder agilizar los procesos médicos.
             .col-lg-5.col-10
               img.mb-0(alt="" src="@/assets/curso/temas/tema5/5.1img06.png")
 
@@ -85,7 +85,8 @@
       #t_5_2.titulo-segundo.color-acento-contenido
         h2 5.2  Desarrollos
 
-      p En la actualidad existen muchos desarrollos que incorporan IoT en sus diferentes áreas de aplicación. #[b A continuación, se nombran unos de los más novedosos y curiosos].
+      p En la actualidad existen muchos desarrollos que incorporan IoT en sus diferentes áreas de aplicación. 
+      p #[b A continuación, se nombran unos de los más novedosos y curiosos].
       
       TabsC.color-acento-contenido(data-aos="fade-left")
         .py-3.py-md-4(titulo="<i>Hidrate Spark</i>").tarjeta--neutral

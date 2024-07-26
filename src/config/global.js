@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Infraestructura y servicios tecnológicos',
     descripcionCurso:
-      'Este componente formativo aborda el uso de tecnologías emergentes y la creación de productos y servicios, por parte de empresas u organizaciones, para el crecimiento de la sociedad. Con su estudio responsable, el aprendiz conocerá a profundidad, generalidades sobre tecnologías como IOT <i>blockchain, machine learning, deep learning</i> y los grandes desarrollos que traen: impresoras 3D, embriones artificiales, redes degenerativas, entre otras.',
+      'Este componente formativo aborda el uso de tecnologías emergentes y la creación de productos y servicios, por parte de empresas u organizaciones, para el crecimiento de la sociedad. Con su estudio responsable, el aprendiz conocerá, en profundidad, generalidades sobre tecnologías como IOT, <i>blockchain, machine learning, deep learning</i> y los grandes desarrollos que traen: impresoras 3D, embriones artificiales, redes degenerativas, entre otras.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
@@ -99,6 +99,11 @@ export default {
             titulo: 'Modelo TCP/IP y OSI',
             hash: 't_2_7',
           },
+          {
+            numero: '2.8',
+            titulo: 'Tecnología <i>Ethernet</i>',
+            hash: 't_2_8',
+          },
         ],
       },
       {
@@ -181,7 +186,7 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
-        download: 'downloads/material',
+        download: 'downloads/material.zip',
       },
       {
         icono: 'far fa-registered',
@@ -230,7 +235,7 @@ export default {
     {
       termino: 'Ancho de banda',
       significado:
-        'capacidad de transmisión de un dispositivo o red determinado',
+        'capacidad de transmisión de un dispositivo o red determinado.',
     },
     {
       termino: 'Bit (dígito binario)',
@@ -375,33 +380,35 @@ export default {
         {
           nombre: 'Cesar Antonio Villamizar Núñez',
           cargo: 'Experto Temático',
-          centro: 'Regional Norte de Santander - Centro CIES',
+          centro:
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
           fecha: 'Septiembre,2022',
         },
         {
           nombre: 'Silvia Milena Sequeda Cárdenas',
           cargo: 'Asesor metodológico y pedagógico',
-          centro: 'Regional Distrito Capital. Centro de Diseño y Metrología. ',
+          centro: 'Regional Distrito Capital - Centro de Diseño y Metrología. ',
           fecha: 'Septiembre,2022',
         },
         {
           nombre: 'Rafael Neftalí Lizcano Reyes',
           cargo: 'Responsable Equipo Desarrollo Curricular',
           centro:
-            'Regional Santander. Centro Industrial del Diseño y la Manufactura',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
           fecha: 'Septiembre,2022',
         },
         {
           nombre: 'Giovanna Andrea Escobar Ospina',
           cargo: 'Diseñador Instruccional',
-          centro: 'Regional Norte de Santander - Centro CIES',
+          centro:
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
           fecha: 'Septiembre,2022',
         },
         {
           nombre: 'Fabián Leonardo Correa Díaz',
           cargo: 'Diseñador Instruccional',
           centro:
-            'Regional Norte de Santander. Centro de la Industria, la Empresa y los Servicios',
+            'Regional Norte de Santander - Centro de la Industria, la Empresa y los Servicios',
           fecha: 'Septiembre,2022',
         },
         {

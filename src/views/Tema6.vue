@@ -75,13 +75,13 @@
               thead
                 tr.resaltado-rosado
                   th Fase
-                  th Fase
+                  th Objetivo
                   th Actividad
                   th Fecha inicio 
                   th Fecha fin
               tbody
                 tr
-                  td(rowspan='3' style='') PLANEAR
+                  td.text-center(rowspan='3' style='') PLANEAR
                   td.text-center(rowspan='3' style='') Objetivo 1
                   td.text-center Actividad 1
                   td.text-center 01/11/2021
@@ -96,7 +96,7 @@
                   td.text-center ...
                 
                 tr.rosado-clarito
-                  td(rowspan='3' style='') HACER
+                  td.text-center(rowspan='3' style='') HACER
                   td.text-center(rowspan='3' style='') Objetivo 1
                   td.text-center Actividad 1
                   td.text-center 25/11/2021
@@ -111,7 +111,7 @@
                   td.text-center ...
  
                 tr
-                  td(rowspan='3' style='') VERIFICAR
+                  td.text-center(rowspan='3' style='') VERIFICAR
                   td.text-center(rowspan='3' style='') Objetivo 1
                   td.text-center Actividad 1
                   td.text-center 16/12/2021
@@ -127,7 +127,7 @@
                 
 
                 tr.rosado-clarito
-                  td(rowspan='3' style='') ACTUAR
+                  td.text-center(rowspan='3' style='') ACTUAR
                   td.text-center(rowspan='3' style='') Objetivo 1
                   td.text-center Actividad 1
                   td.text-center 25/12/2021
@@ -200,7 +200,7 @@
           .tarjeta.resaltado-azul.p-4
             img.recurso(src='@/assets/curso/temas/tema6/tiempo.svg' alt='AvatarTop')
             h4.py-3.text-white Tiempo estimado de realización
-            p.text-white Establecer con base a los recursos disponibles, especialmente los humanos, el conocimiento y el esfuerzo que se requiere para realizar la actividad el periodo de tiempo que tomaría realizar cada actividad del proyecto.
+            p.text-white Establecer con base a los recursos disponibles, especialmente los humanos, el conocimiento y el esfuerzo que se requiere para realizar la actividad, el periodo de tiempo que tomaría realizar cada actividad del proyecto.
           
 
     
@@ -276,7 +276,7 @@
 
             .row(numero="4" titulo="Protección de datos")
               .col-md-12.mb-4.mb-md-0
-                p.text-small <br>Protección de datos personales, es de vital importancia que los prestadores de servicios cuenten con las regulaciones de protección de datos personales y que el procesamiento y almacenamiento de datos e información se de en países que cuentes con leyes o regulaciones sobre la protección de datos personales.
+                p.text-small <br>Protección de datos personales, es de vital importancia que los prestadores de servicios cuenten con las regulaciones de protección de datos personales y que el procesamiento y almacenamiento de datos e información se dé en países que cuentes con leyes o regulaciones sobre la protección de datos personales.
         
         .col-lg-5.col-7 
           img(alt="" src="@/assets/curso/temas/tema6/aspectoslegales.svg")

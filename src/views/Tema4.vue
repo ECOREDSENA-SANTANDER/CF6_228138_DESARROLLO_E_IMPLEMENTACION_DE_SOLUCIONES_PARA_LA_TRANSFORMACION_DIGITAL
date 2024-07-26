@@ -13,7 +13,7 @@
             .row.justify-content-center.d-flex
               .col-lg-10.col-10
                 p Cuando se habla de arquitectura cliente-servidor, se está haciendo referencia a un modelo de diseño de #[em software] en el que los trabajos se reparten entre los proveedores de recursos o servicios; estos son llamados servidores, y los demandantes, son llamados clientes. <br><br>
-                p Un cliente realiza una o varias peticiones a otro u otros programas; el servidor es quien le da respuesta y almacena los datos que navegan en la red.<br><br>Se puede identificar y analizar, en el siguiente esquema, la arquitectura cliente servidor:
+                p Un cliente realiza una o varias peticiones a otro u otros programas; el servidor es quien le da respuesta y almacena los datos que navegan en la red.<br><br>Se puede identificar y analizar, en el siguiente esquema, la arquitectura cliente-servidor:
               .col-lg-2.col-md-2.col-3
                 img.mb-0(alt="" src="@/assets/curso/temas/tema4/subir.svg")
     
@@ -28,7 +28,7 @@
               .col-lg-4.p-4
                 p En el diagrama anterior, la infraestructura cliente-servidor muestra a varios computadores de la empresa conectados a la internet, con el fin de realizar consultas o intercambios de datos en la web. Todo contenido de información de página web está en una base de datos dentro de un servidor.
     
-      p.py-4 Este tipo de arquitecturas cuenta con dos componentes: por un lado, está el servidor y por otra parte el cliente o grupo de clientes; el servidor es una computadora que capaz de atender los requerimientos solicitados y devolverles la respuesta en concordancia.<br><br>Además, se debe contar con otros componentes adicionales, como:
+      p.py-4 Este tipo de arquitecturas cuenta con dos componentes: por un lado, está el servidor y, por otra parte, el cliente o grupo de clientes; el servidor es una computadora que capaz de atender los requerimientos solicitados y devolverles la respuesta en concordancia.<br><br>Además, se debe contar con otros componentes adicionales, como:
 
       .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
         .col-lg-12.col-md-12.p-2
@@ -56,7 +56,7 @@
               .tarjeta.gris-claro.p-4.tamano-tarjeta 
                 h4 Servidores de internet, alojados en la nube
                 p
-                | Los servicios en la nube hacen referencia al uso de una gran red de servidores remotos que están conectados a internet, donde es posible administrar, almacenar y procesar datos, bases de datos, servidores y #[em softwares].
+                | Los servicios en la nube hacen referencia al uso de una gran red de servidores remotos que están conectados a internet, donde es posible administrar, almacenar y procesar datos, bases de datos, servidores y #[em software].
 
             .col-lg-4.p-2
               .tarjeta.gris-claro.p-4.tamano-tarjeta 

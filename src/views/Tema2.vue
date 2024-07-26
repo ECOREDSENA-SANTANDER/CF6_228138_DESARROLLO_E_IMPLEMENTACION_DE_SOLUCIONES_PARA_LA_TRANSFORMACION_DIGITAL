@@ -61,7 +61,7 @@
 
       .row.justify-content-center.mb-4(data-aos="zoom-in") 
         .col-lg-2.col-auto
-        p El medio es la conexión que permite a dispositivos relacionarse entre sí. A su vez se define la información como la unidad que se intercambia entre dispositivos de gestión, acceso, comunicación y de usuario final como es el texto, imágenes, música, hipertexto, video, entre otros. Por otra parte, los recursos hacen referencia a todo aquello que un dispositivo pide a la red, se identifica y accede directamente. Estos recursos pueden ser archivos compartidos en otros dispositivos de la red, un documento a imprimir en una impresora compartida, un servicio a consumir, información, espacio en disco duro, tiempo de procesamiento, etc.<br><br>A continuación, se definen los dispositivos y elementos más importantes en las redes de datos:
+        p El medio es la conexión que permite a dispositivos relacionarse entre sí. A su vez, se define la información como la unidad que se intercambia entre dispositivos de gestión, acceso, comunicación y de usuario final, como es el texto, imágenes, música, hipertexto, video, entre otros. Por otra parte, los recursos hacen referencia a todo aquello que un dispositivo pide a la red, se identifica y accede directamente. Estos recursos pueden ser archivos compartidos en otros dispositivos de la red, un documento a imprimir en una impresora compartida, un servicio a consumir, información, espacio en disco duro, tiempo de procesamiento, etc.<br><br>A continuación, se definen los dispositivos y elementos más importantes en las redes de datos:
        
       TabsB.fondoamarillopollito.mb-5(data-aos="fade-right")
         .py-4.py-md-5(titulo="Servidor" :icono="require('@/assets/curso/temas/tema2/img01.svg')")
@@ -76,7 +76,7 @@
          .row.align-items-center.justify-content-center
             .col-lg-5.col-10
                 h4 Estación de trabajo<br>
-                p Son los nodos finales de una red de computadoras. Normalmente, las estaciones de trabajo permiten a los usuarios ejecutar aplicaciones y almacenar diferentes tipos de información. Sin embargo, una impresora conectada a la red podría verse como un nodo final de ésta y verse como una estación de trabajo, pero con prestaciones diferentes y reducidas comparadas con la de un computador.
+                p Son los nodos finales de una red de computadoras. Normalmente, las estaciones de trabajo permiten a los usuarios ejecutar aplicaciones y almacenar diferentes tipos de información. Sin embargo, una impresora conectada a la red podría verse como un nodo final de esta y verse como una estación de trabajo, pero con prestaciones diferentes y reducidas comparadas con la de un computador.
             .col-lg-6.col-10
                img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img2.png', alt='')
       
@@ -84,7 +84,7 @@
          .row.align-items-center.justify-content-center
             .col-lg-5.col-10
                 h4 Tarjeta de conexión a la red<br>
-                p Es un dispositivo que le permite a todo computador conectarse a la red informática ya sea para conexión cableada o inalámbrica. Cuando se trata de una conexión alámbrica, se habla de una tarjeta de red o NIC (#[em Network Interface Card]) por sus siglas en inglés, la cual puede ser insertada directamente en la placa madre por medio de un puerto PCI. Dicha tarjeta trae consigo un conector para cable de red. Por otro lado, las tarjetas de red inalámbricas también pueden ser conectadas a la tarjeta madre por medio del puerto PCI o de manera externa por medio de un puerto USB.
+                p Es un dispositivo que le permite a todo computador conectarse a la red informática, ya sea para conexión cableada o inalámbrica. Cuando se trata de una conexión alámbrica, se habla de una tarjeta de red o NIC (#[em Network Interface Card]) por sus siglas en inglés, la cual puede ser insertada directamente en la placa madre por medio de un puerto PCI. Dicha tarjeta trae consigo un conector para cable de red. Por otro lado, las tarjetas de red inalámbricas también pueden ser conectadas a la tarjeta madre por medio del puerto PCI o de manera externa por medio de un puerto USB.
             .col-lg-6.col-10
                 img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img3.png', alt='')
         .py-4.py-md-5(titulo="Repetidores" :icono="require('@/assets/curso/temas/tema2/img04.svg')")
@@ -115,7 +115,7 @@
           .row.align-items-center.justify-content-center
             .col-lg-5.col-10
                 h4 Cableado<br>
-                p Se trata del medio físico utilizado para la conexión de los dispositivos hacia la red en la cual solicitarán los servicios dependiendo de los requerimientos de longitud, velocidad entre otros.
+                p Se trata del medio físico utilizado para la conexión de los dispositivos hacia la red en la cual solicitarán los servicios dependiendo de los requerimientos de longitud, velocidad, entre otros.
             .col-lg-6.col-10
               img.img-a.img-t.mb-4(src='@/assets/curso/temas/tema2/img7.png', alt='')
         
@@ -133,7 +133,7 @@
       #t_2_3.titulo-segundo.color-acento-contenido
         h2 2.3 Medios de transmisión
        
-      p Son los caminos por los cuales viaja la información o los datos. Estos medios según como como conducen las señales se clasifican en dos tipos:           
+      p Son los caminos por los cuales viaja la información o los datos. Estos medios según como conducen las señales se clasifican en dos tipos:           
 
       h4 Medios de transmisión guiados
       p Están formados por cables que se encargan de guiar las señales de un extremo a otro. Dentro de las características de estos medios están: el tipo de conductor, velocidad máxima de transmisión, distancia máxima ofrecida entre repetidores, inmunidad ante interferencias electromagnéticas, facilidad de instalación y la compatibilidad con varias tecnologías de capa de enlace. Los medios guiados más usados para interconexión en el campo de las telecomunicaciones son: cable de par trenzado, cable coaxial y la fibra óptica.
@@ -175,8 +175,7 @@
             .row
               .col-md-5.mb-3.mb-md-0
                 h4.py-3 Ondas de radio
-                p Las ondas de radio y sus aplicaciones en la comunicación global.  
-                p Las ondas de radio son fundamentales en la comunicación global, permitiendo la transmisión y recepción de datos a través de diversas tecnologías. Se utilizan en el almacenamiento en la nube, la conectividad a internet, la verificación de datos, la infraestructura de servidores, la radiodifusión y la comunicación inalámbrica, destacando su impacto y alcance a nivel mundial.
+                p Son fundamentales en la comunicación global, permitiendo la transmisión y recepción de datos a través de diversas tecnologías. Se utilizan en el almacenamiento en la nube, la conectividad a internet, la verificación de datos, la infraestructura de servidores, la radiodifusión y la comunicación inalámbrica, destacando su impacto y alcance a nivel mundial.
 
               .col-md-7
                 figure
@@ -184,25 +183,19 @@
                   
             .row
               .col-md-5.mb-3.mb-md-0
-                h4.py-3 Infrarrojos
-                p Tipos de emisiones de infrarrojos y sus aplicaciones en la comunicación entre dispositivos, como dos computadoras portátiles. Se detallan tres tipos de emisiones:
-                p Punto a punto: Requiere una vista directa para dirigir el haz de luz, lo que significa que los dispositivos deben estar alineados sin obstrucciones para comunicarse.
-                p Casi difuso: Emite la señal de forma radial en todas las direcciones, lo que permite una mayor flexibilidad en la alineación de los dispositivos, aunque la señal puede ser más débil.
-                p Difuso: Implica emisiones múltiples que abarcan todo el lugar, lo que facilita la comunicación en un área amplia sin necesidad de una alineación directa entre los dispositivos.
-
-              .col-md-7
-                figure
-                  img(src='@/assets/curso/temas/tema2/3.1.3.png', alt='Cable par trenzado')
-              .col-md-12
-                p Estos métodos de transmisión infrarroja permiten diferentes niveles de flexibilidad y cobertura en la comunicación inalámbrica entre dispositivos electrónicos.
-   
-            .row
-              .col-md-5.mb-3.mb-md-0
                 h4.py-3 Microondas
-                p El proceso de comunicación mediante microondas entre una estación emisora y una estación receptora a través de un satélite. La señal es enviada desde la estación emisora, captada por el satélite y luego retransmitida a la estación receptora. Este método es fundamental para la transmisión de datos a largas distancias, permitiendo la comunicación eficiente y rápida entre puntos distantes en la Tierra.
+                p Son un tipo de radiación electromagnética con longitudes de onda de aproximadamente un milímetro a un metro y frecuencias entre 300 MHz y 300 GHz. Son altamente direccionales y capaces de penetrar la atmósfera terrestre, lo que las hace ideales para la comunicación por satélite y sistemas de radar. Se utilizan en diversas aplicaciones como la transmisión de señales entre estaciones terrestres y satélites, la tecnología de radar para detección y medición de objetos. 
               .col-md-7
                 figure
                   img(src='@/assets/curso/temas/tema2/3.1.2.png', alt='Cable par trenzado')
+        
+            .row
+              .col-md-5.mb-3.mb-md-0
+                h4.py-3 Infrarrojos
+                p Estos métodos de transmisión infrarroja permiten diferentes niveles de flexibilidad y cobertura en la comunicación inalámbrica entre dispositivos electrónicos.
+              .col-md-7
+                figure
+                  img(src='@/assets/curso/temas/tema2/3.1.3.png', alt='Cable par trenzado')
                   
       
       Separador
@@ -215,7 +208,7 @@
             figure
               img(src="@/assets/curso/temas/tema2/2.4.svg", alt="alt").img75.m-auto
           .col
-            p.mb-0 Cuando se trata de la comunicación entre ordenadores primero se deben conocer cuáles son las normas que permiten esta comunicación, o lo que es lo mismo, qué protocolo de comunicación utilizan. Para Stallings, Tanenbaum y Stevens (2000), un protocolo de red es un grupo de reglas que establece la forma para identificarse, transmitir la información y cómo procesar los datos en la red.  Los protocolos pueden ser de tipo #[em hardware] (tarjetas de red), #[em software (drivers)], o combinación de ambos.
+            p.mb-0 Cuando se trata de la comunicación entre ordenadores, primero se deben conocer cuáles son las normas que permiten esta comunicación, o lo que es lo mismo, qué protocolo de comunicación utilizan. Para Stallings, Tanenbaum y Stevens (2000), un protocolo de red es un grupo de reglas que establece la forma para identificarse, transmitir la información y cómo procesar los datos en la red.  Los protocolos pueden ser de tipo #[em hardware] (tarjetas de red), #[em software (drivers)], o combinación de ambos.
       
       .row.justify-content-center.mb-4(data-aos="zoom-in") 
         .col-lg-2.col-22
@@ -314,7 +307,7 @@
                   ul.lista-ul--color 
                     li 
                       i.fas.fa-car-side.px-2 
-                      | Es una arquitectura o relación que consiste en realizar peticiones o solicitudes a un componente de la red informática llamado servidor y que puede estar alojado en la misma red del peticionario. Este componente a su vez puede o no responder satisfactoriamente la petición y si ésta es positiva entonces se dará lugar a un servicio.
+                      | Es una arquitectura o relación que consiste en realizar peticiones o solicitudes a un componente de la red informática llamado servidor y que puede estar alojado en la misma red del peticionario. Este componente a su vez puede o no responder satisfactoriamente la petición y si esta es positiva, entonces se dará lugar a un servicio.
                     img.m.auto(src="@/assets/curso/temas/tema2/linea.svg", alt="").p-2
                     li 
                       i.fas.fa-car-side.px-2 
@@ -365,11 +358,11 @@
                   ul.lista-ul--color 
                     li 
                       i.fas.fa-car-side.px-2 
-                      | #[em Intranet]: red privada de usuarios que solo comparte sus recursos e información con los clientes internos, es de uso educativo, comercial entre otros.
+                      | #[em Intranet]: red privada de usuarios que solo comparte sus recursos e información con los clientes internos, es de uso educativo, comercial, entre otros.
                     img.m.auto(src="@/assets/curso/temas/tema2/linea.svg", alt="").p-2
                     li 
                       i.fas.fa-car-side.px-2 
-                      | #[em Internet]: red de área amplia que interconecta gran cantidad de redes de comunicación heterogéneas funcionando como una red de alcance mundial y lógica única, basada en el protocolo TCP/IP.
+                      | #[em Internet]: red de área amplia que interconecta gran cantidad de redes de comunicación heterogéneas, funcionando como una red de alcance mundial y lógica única, basada en el protocolo TCP/IP.
                 
                 .col-md-5.col-10.py-2
                   img.m.auto(src="@/assets/curso/temas/tema2/acor07.png", alt="")                
@@ -383,7 +376,7 @@
         .row.justify-content-center.align-items-center.p-4
           .col-lg-6.col-10
             h5 BUS
-            p.mb-lg-0.mb-3 Consiste en la conexión de todos los nodos de la red a un solo canal de comunicación lo que genera una serie de desventajas como degradación de la señal, sobre escalamiento entre otras.
+            p.mb-lg-0.mb-3 Consiste en la conexión de todos los nodos de la red a un solo canal de comunicación, lo que genera una serie de desventajas como degradación de la señal, sobre escalamiento, entre otras.
           .col-lg-4.col-10
             .titulo-sexto.color-acento-contenido.mb-3
               p.mb-0 #[b Figura 8.] Bus
@@ -392,7 +385,7 @@
         .row.justify-content-center.align-items-center.p-4
           .col-lg-6.col-10
             h5 ANILLO
-            p.mb-lg-0.mb-3 Cada terminal tiene conexión con la siguiente y la primera se conecta con la última, cerrando así la conexión razón por la cual se denomina anillo. 
+            p.mb-lg-0.mb-3 Cada terminal tiene conexión con la siguiente y la primera se conecta con la última, cerrando así la conexión, razón por la cual se denomina anillo. 
           .col-lg-4.col-10
             .titulo-sexto.color-acento-contenido.mb-3
               p.mb-0 #[b Figura 9.] Anillo
@@ -401,7 +394,7 @@
         .row.justify-content-center.align-items-center.p-4
           .col-lg-6.col-10
             h5 ESTRELLA
-            p.mb-lg-0.mb-3 Todos los dispositivos de la red se conectan con un dispositivo central llamado nodo el cual se encarga de establecer las comunicaciones entre terminales o usuarios. 
+            p.mb-lg-0.mb-3 Todos los dispositivos de la red se conectan con un dispositivo central llamado nodo, el cual se encarga de establecer las comunicaciones entre terminales o usuarios. 
           .col-lg-4.col-10
             .titulo-sexto.color-acento-contenido.mb-3
               p.mb-0 #[b Figura 10.] Estrella
@@ -434,7 +427,7 @@
           .bloque-texto-d.color-secundario.p-4
             .bloque-texto-d__texto.mb-2
               i.fas.fa-quote-left
-              p.text-small Los protocolos IP (Protocolo de Internet) y TCP (Protocolo de Control de Transmisión) se originaron a principios de 1980 y fueron adoptados por la red ARPANET en 1983, integrada por cientos de computadoras de centros de investigación militar, universidades, y algunas empresas. El e-mail (#[em electronic mail]) se destacó como el servicio más utilizado, mientras que el sistema operativo más usado fue UNIX, en su versión BSD UNIX, desarrollada por la Universidad de California. A mediados de los ochenta se crea el protocolo TCP/IP con el propósito de tener un lenguaje común a todos los computadores conectados a Internet, con la unión de las redes ARPANET, CSNET y MILNET. El protocolo TCP/IP hace posible entonces, la conexión de dispositivos con marcas y tecnología diferentes por medio del establecimiento de normas y estándares. (p.4)
+              p.text-small Los protocolos IP (Protocolo de Internet) y TCP (Protocolo de Control de Transmisión) se originaron a principios de 1980 y fueron adoptados por la red ARPANET en 1983, integrada por cientos de computadoras de centros de investigación militar, universidades, y algunas empresas. El e-mail (#[em electronic mail]) se destacó como el servicio más utilizado, mientras que el sistema operativo más usado fue UNIX, en su versión BSD UNIX, desarrollada por la Universidad de California. A mediados de los ochenta se crea el protocolo TCP/IP con el propósito de tener un lenguaje común a todos los computadores conectados a Internet, con la unión de las redes ARPANET, CSNET y MILNET. El protocolo TCP/IP hace posible, entonces, la conexión de dispositivos con marcas y tecnología diferentes por medio del establecimiento de normas y estándares. (p.4)
               i.fas.fa-quote-right
             .bloque-texto-d__autor 
               .h5.mb-0 Corona (2004)
@@ -476,7 +469,7 @@
           figure
             img(src='@/assets/curso/temas/tema2/2.8.1.png', alt='imagen decorativa') 
         .col-lg-8.mb-3.mb-lg-0
-          p.p-2 Es una serie de estándares establecidos para la implementación de redes de área local o LAN. Para Forouzan (2002), se caracteriza por ser más estable, confiable y rápida en la transmisión de datos, ya que la interferencia con otros dispositivos de la misma red es mínima. Otra ventaja que presenta esta serie de estándares es la velocidad de transmisión pues puede ser del orden de los 100 Gbit/s. Para poder implementar una red tipo #[em Ethernet] es necesario contar con una serie de dispositivos que cumplen diferentes funciones. Algunos de ellos son: enrutadores, #[em switches], cables UTP, #[em bridges], entre otros.
+          p.p-2 Es una serie de estándares establecidos para la implementación de redes de área local o LAN. Para Forouzan (2002), se caracteriza por ser más estable, confiable y rápida en la transmisión de datos, ya que la interferencia con otros dispositivos de la misma red es mínima. Otra ventaja que presenta esta serie de estándares es la velocidad de transmisión, pues, puede ser del orden de los 100 Gbit/s. Para poder implementar una red tipo #[em Ethernet] es necesario contar con una serie de dispositivos que cumplen diferentes funciones. Algunos de ellos son: enrutadores, #[em switches], cables UTP, #[em bridges], entre otros.
       
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col 
@@ -485,6 +478,11 @@
         .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") Objetivos
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 180px; position: absolute" data-aos="fade-left")
+      
+      .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
+        .d-flex.flex-wrap.align-items-center.pe-4
+          h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 160px;').bg-img-blue Objetivos
+          img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/img01.svg').icon-blue 
       
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         p Los principales objetivos de #[em Ethernet] son consistentes con los que se han convertido en los requerimientos básicos para el desarrollo y uso de redes LAN: 
@@ -535,6 +533,11 @@
           h3.col.px-4.mb-0.text-white(data-aos="fade-right") La trama de #[em Ethernet]
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 286px; position: absolute" data-aos="fade-left")
       
+      .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
+        .d-flex.flex-wrap.align-items-center.pe-4
+          h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 260px;').bg-img-blue La trama de #[em Ethernet]
+          img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/img01.svg').icon-blue 
+
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-8.col-12  
           p Los dispositivos de una red #[em Ethernet] intercambian información o datos llamados paquetes #[em Ethernet], cuyo contenido incluye la trama #[em Ethernet] o trama de datos, y a la vez se divide en otros conjuntos de datos. Los registros de datos contienen un código binario con información importante, como direcciones, datos de uso, información de control, y sumas de comprobación.<br><br>#[em Ethernet] tiene los siguientes tipos: 
