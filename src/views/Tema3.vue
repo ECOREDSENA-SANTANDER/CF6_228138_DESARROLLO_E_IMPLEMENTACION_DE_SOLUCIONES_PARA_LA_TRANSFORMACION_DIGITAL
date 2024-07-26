@@ -30,10 +30,15 @@
 
 
     .container.tarjeta--neutral.p-4.p-md-5
-      .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
-          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Conexión a internet
-          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 266px; position: absolute" data-aos="fade-left")
+      
+      .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
+        .d-flex.flex-wrap.align-items-center.pe-4
+          h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 260px;').bg-img-blue Conexión a internet
+          img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/img01.svg').icon-blue 
+      
+      
+      
+      
       .row.justify-content-center.align-items-center.mb-4(data-aos="fade-center")
         .col-lg-04.col-12.mb-4-lg-0
           p <br>Dentro de los requisitos necesarios para la conexión a internet se tienen, conexión física utilizando una tarjeta adaptadora, tal como un módem o una NIC, desde un PC a una red, una conexión lógica que aplica estándares denominados protocolos, unas aplicaciones encargadas de interpretar datos y mostrar la información en un formato comprensible como los navegadores #[em Web Google Chrome, Microsoft Edge, Firefox], entre otros.<br>
@@ -46,11 +51,14 @@
           img.mb-lg-5.mb-0(src="@/assets/curso/temas/tema3/internet.png", alt= 'La imagen ilustra un esquema de conexión a Internet en una red local. Los dispositivos, como portátiles y PCs, están conectados a un switch/hub que centraliza la comunicación dentro de la red. Este switch/hub está conectado a un router ADSL, que proporciona acceso a Internet. Además, el esquema incluye un punto de acceso inalámbrico que permite la conexión de dispositivos móviles de manera inalámbrica, y una impresora de red que puede ser utilizada por cualquier dispositivo conectado. Este diseño muestra cómo los diferentes componentes de una red local se interconectan para facilitar el acceso a Internet y la comunicación interna entre dispositivos.')
         
 
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
-          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Ancho de banda
-          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 236px; position: absolute" data-aos="fade-left")
+
+      .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
+        .d-flex.flex-wrap.align-items-center.pe-4
+          h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 260px;').bg-img-blue Ancho de banda
+          img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/img01.svg').icon-blue 
+
+
+
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-7.col-12
@@ -63,10 +71,14 @@
               p #[b Bits por segundo:]b/s.<br>#[b Kilobits por segundo:] Kb/s.<br>#[b Megabits por segundo:] Mb/s.<br> #[b Gigabits por segundo:] Gb/s
   
     .container.tarjeta--neutral.p-4.p-md-5
-      .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
-          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Direccionamiento de equipos de red
-          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 416px; position: absolute" data-aos="fade-left")
+
+      .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
+        .d-flex.flex-wrap.align-items-center.pe-4
+          h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 460px;').bg-img-blue Direccionamiento de equipos de red
+          img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/img01.svg').icon-blue 
+
+
+
 
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col-lg-04.col-22.mb-4-lg-0

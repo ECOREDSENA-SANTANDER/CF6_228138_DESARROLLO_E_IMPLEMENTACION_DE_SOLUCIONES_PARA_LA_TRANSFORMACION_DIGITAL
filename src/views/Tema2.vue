@@ -474,11 +474,6 @@
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
         .col 
           p <br>
-      .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
-          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Objetivos
-          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 180px; position: absolute" data-aos="fade-left")
-      
       .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
         .d-flex.flex-wrap.align-items-center.pe-4
           h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 160px;').bg-img-blue Objetivos
@@ -528,14 +523,10 @@
                   i.fas.fa-car-side.px-2
                   | Arquitectura en capas.
      
-      .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
-          h3.col.px-4.mb-0.text-white(data-aos="fade-right") La trama de #[em Ethernet]
-          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 286px; position: absolute" data-aos="fade-left")
       
       .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
         .d-flex.flex-wrap.align-items-center.pe-4
-          h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 260px;').bg-img-blue La trama de #[em Ethernet]
+          h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 280px;').bg-img-blue La trama de #[em Ethernet]
           img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/img01.svg').icon-blue 
 
       .row.justify-content-center.align-items-center(data-aos="fade-right")

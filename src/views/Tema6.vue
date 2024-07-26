@@ -19,10 +19,14 @@
           
 
       .row(data-aos="fade-right").p-4
-      .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
-          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Fases (Planeación, Ejecución, Verificación y Mejora) 
-          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 560px; position: absolute" data-aos="fade-left")
+        .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
+          .d-flex.flex-wrap.align-items-center.pe-4
+            h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 580px;').bg-img-blue Fases (Planeación, Ejecución, Verificación y Mejora) 
+            img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/img01.svg').icon-blue 
+
+      
+      
+      
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-04.col-12.mb-4-lg-0
          p <br>Para la buena administración de los proyectos de TI, es importante que se realice una estructuración por fases, teniendo en cuenta la planeación, ejecución, verificación y mejora de actividades del proyecto. Las actividades del proyecto son las acciones que se deben realizar para lograr los objetivos del mismo, estas deben ser planificadas y asignadas a los responsables de ejecución.<br><br>En general, las fases de un proyecto se estructuran con base al ciclo #[em Deming] o PHVA, por sus siglas en español: Planificar, Hacer, Verificar y Actuar, pero no es camisa de fuerza.
@@ -142,11 +146,11 @@
                   td.text-center ...
          
       .row(data-aos="fade-right").p-4
-      .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
-          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Criterios para la determinación de recursos 
-          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 476px; position: absolute" data-aos="fade-left")
-      
+        .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
+          .d-flex.flex-wrap.align-items-center.pe-4
+            h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 480px;').bg-img-blue Criterios para la determinación de recursos 
+            img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/img01.svg').icon-blue    
+     
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-04.col-12.mb-4-lg-0
          p Los recursos de un proyecto de TI. pueden estar agrupados en recursos humanos, económicos o financieros, tecnológicos, y de información.<br><br>En la gestión de proyectos de TI, y en especial en los proyectos de servicios en la nube, es importante la determinación de recursos necesarios, por lo que se deben considerar los siguientes criterios:<br>
@@ -180,10 +184,10 @@
               td Instalaciones y equipos: Se debe considerar los recursos de instalaciones, maquinaria, dispositivos y equipos técnicos y tecnológicos que se requieren.
       
       .row(data-aos="fade-right").p-4
-      .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
-          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Criterios para la planeación de actividades 
-          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 476px; position: absolute" data-aos="fade-left")
+        .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
+          .d-flex.flex-wrap.align-items-center.pe-4
+            h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 480px;').bg-img-blue Criterios para la planeación de actividades  
+            img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/img01.svg').icon-blue    
       
       .row.justify-content-center.align-items-center(data-aos="fade-right")
         .col-lg-04.col-12.mb-4-lg-0
@@ -252,11 +256,10 @@
               p.text-center Porcentaje de avance
     
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-      .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
-          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Aspectos legales 
-          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 240px; position: absolute" data-aos="fade-left")
-      
+      .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
+        .d-flex.flex-wrap.align-items-center.pe-4
+          h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 280px;').bg-img-blue Aspectos legales  
+          img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/img01.svg').icon-blue  
       p.p-2 #[b En la gestión de proyectos de TI,] se deben tener en cuenta los aspectos legales según el contexto, para lo cual se recomienda tener claro una matriz de cumplimiento legal, en donde se pueda identificar dentro de cada proyecto que requisitos legales se deben cumplir, esto con el fin de evitar incumplimientos que puedan generar impactos adversos de tipo económico, operativo o reputacional.
       
       .row.justify-content-center.align-items-center(data-aos="fade-right")
@@ -282,10 +285,11 @@
           img(alt="" src="@/assets/curso/temas/tema6/aspectoslegales.svg")
 
     .container.tarjeta--neutral.p-4.p-md-5
-      .mb-4.d-flex
-        .d-flex.flex-wrap.align-items-center.pe-4.azul-borde
-          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Riesgos
-          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/temas/img01.svg' style="max-width: 70px; left: 166px; position: absolute" data-aos="fade-left")
+       
+      .mb-4.d-flex.bg-img-title(data-aos="zoom-in-left")
+        .d-flex.flex-wrap.align-items-center.pe-4
+          h3.col.px-4.mb-0.text-white.aos-init.aos-animate(style='width: 180px;').bg-img-blue Riesgos 
+          img.col-lg.d-flex.aos-init.aos-animate(src='@/assets/curso/temas/img01.svg').icon-blue  
       
       .row.justify-content-center.align-items-center.mb-5(data-aos="fade-right")
           .col-lg-7.col-12
