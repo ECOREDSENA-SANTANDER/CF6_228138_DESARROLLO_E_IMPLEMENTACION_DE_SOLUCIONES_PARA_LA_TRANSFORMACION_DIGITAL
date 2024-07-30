@@ -192,7 +192,7 @@
             .row
               .col-md-5.mb-3.mb-md-0
                 h4.py-3 Infrarrojos
-                p Estos métodos de transmisión infrarroja permiten diferentes niveles de flexibilidad y cobertura en la comunicación inalámbrica entre dispositivos electrónicos.
+                p El infrarrojo se puede clasificar en tres tipos de emisión: punto a punto, que requiere una vista directa para dirigir el haz de luz; casi difuso, que emite de manera radial en todas las direcciones; y difuso, que genera emisiones múltiples abarcando todo el lugar.
               .col-md-7
                 figure
                   img(src='@/assets/curso/temas/tema2/3.1.3.png', alt='Cable par trenzado')
