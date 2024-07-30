@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Infraestructura y servicios tecnológicos',
     descripcionCurso:
-      'Este componente formativo aborda el uso de tecnologías emergentes y la creación de productos y servicios, por parte de empresas u organizaciones, para el crecimiento de la sociedad. Con su estudio responsable, el aprendiz conocerá en profundidad, generalidades sobre tecnologías como IOT, <i>blockchain, machine learning, deep learning</i> y los grandes desarrollos que traen: impresoras 3D, embriones artificiales, redes degenerativas, entre otras.',
+      'Este componente formativo aborda el uso de tecnologías emergentes y la creación de productos y servicios, por parte de empresas u organizaciones, para el crecimiento de la sociedad. Con su estudio responsable, el aprendiz conocerá en profundidad, generalidades sobre tecnologías como IOT con <i>blockchain, machine learning, deep learning</i> y los grandes desarrollos que traen: impresoras 3D, embriones artificiales, redes degenerativas, entre otras.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.jpg'),
     imagenesDecorativasBanner: [
